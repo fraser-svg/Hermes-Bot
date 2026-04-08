@@ -1,0 +1,22 @@
+[
+  {
+    "business_name": "Unknown Business",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "Edinburgh",
+    "phone_number": "",
+    "services_offered": [
+      "Electrical repairs",
+      "Installations",
+      "Rewiring",
+      "Emergency callouts",
+      "Lighting",
+      "Fuse board upgrades"
+    ],
+    "google_reviews": [],
+    "rating": 4.5,
+    "review_count": 20,
+    "google_maps_url": "https://example.com",
+    "_source": "google_maps_prospector"
+  }
+]

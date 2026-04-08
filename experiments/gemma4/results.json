@@ -1,0 +1,17 @@
+[
+  {
+    "business": "Spark Brothers Electrical",
+    "model": "gemma4",
+    "error": "timed out"
+  },
+  {
+    "business": "Caledonia Family Dental",
+    "model": "gemma4",
+    "error": "timed out"
+  },
+  {
+    "business": "Morrison & Co Solicitors",
+    "model": "gemma4",
+    "error": "timed out"
+  }
+]

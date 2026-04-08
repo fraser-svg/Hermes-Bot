@@ -1,0 +1,165 @@
+[
+  {
+    "business_name": "Lumen Electrical",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "Argyle House, Lady Lawson St, Edinburgh EH3 9DR, UK",
+    "phone_number": "0131 460 9699",
+    "website_url": "http://lumen-electrical.com/",
+    "google_maps_url": "https://maps.google.com/?cid=12320063172983984377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 290,
+    "opportunity_score": 1421.0,
+    "website_audit_v2": {
+      "quality_score": 63,
+      "bucket": "average",
+      "confidence": 0.65,
+      "rubric": [
+        {
+          "id": "https",
+          "pillar": "technical",
+          "weight": 5,
+          "passed": false,
+          "evidence": "final_url=http://lumen-electrical.com/"
+        },
+        {
+          "id": "html_title",
+          "pillar": "technical",
+          "weight": 5,
+          "passed": false,
+          "evidence": "title="
+        },
+        {
+          "id": "h1_present",
+          "pillar": "technical",
+          "weight": 5,
+          "passed": false,
+          "evidence": "no <h1> found"
+        },
+        {
+          "id": "non_empty_content",
+          "pillar": "technical",
+          "weight": 5,
+          "passed": true,
+          "evidence": "visible_text_chars=10320"
+        },
+        {
+          "id": "viewport",
+          "pillar": "mobile_ux",
+          "weight": 10,
+          "passed": false,
+          "evidence": "missing viewport"
+        },
+        {
+          "id": "responsive_hint",
+          "pillar": "mobile_ux",
+          "weight": 5,
+          "passed": false,
+          "evidence": "no @media found"
+        },
+        {
+          "id": "nav_depth",
+          "pillar": "mobile_ux",
+          "weight": 5,
+          "passed": true,
+          "evidence": "nav_links=0"
+        },
+        {
+          "id": "cta_presence",
+          "pillar": "conversion",
+          "weight": 10,
+          "passed": true,
+          "evidence": "cta_term=contact us"
+        },
+        {
+          "id": "contact_path",
+          "pillar": "conversion",
+          "weight": 8,
+          "passed": true,
+          "evidence": "has_tel=True, has_form=False"
+        },
+        {
+          "id": "value_prop_clarity",
+          "pillar": "conversion",
+          "weight": 7,
+          "passed": false,
+          "evidence": "title=, location_signal=True"
+        },
+        {
+          "id": "trust_signals",
+          "pillar": "trust",
+          "weight": 10,
+          "passed": true,
+          "evidence": "trust_term=testimonials"
+        },
+        {
+          "id": "address_or_location",
+          "pillar": "trust",
+          "weight": 5,
+          "passed": true,
+          "evidence": "has_address=True, location_signal=True"
+        },
+        {
+          "id": "contact_identity",
+          "pillar": "trust",
+          "weight": 5,
+          "passed": true,
+          "evidence": "has_tel=True"
+        },
+        {
+          "id": "no_legacy_font",
+          "pillar": "visual_modernity",
+          "weight": 5,
+          "passed": true,
+          "evidence": "no <font> tags"
+        },
+        {
+          "id": "no_obsolete_tags",
+          "pillar": "visual_modernity",
+          "weight": 5,
+          "passed": true,
+          "evidence": "no marquee/blink"
+        },
+        {
+          "id": "no_table_layout_smell",
+          "pillar": "visual_modernity",
+          "weight": 5,
+          "passed": true,
+          "evidence": "no table-layout attributes"
+        }
+      ],
+      "issues": [
+        "https",
+        "html_title",
+        "h1_present",
+        "viewport",
+        "responsive_hint",
+        "value_prop_clarity"
+      ],
+      "wins": [
+        "non_empty_content",
+        "nav_depth",
+        "cta_presence",
+        "contact_path",
+        "trust_signals",
+        "address_or_location",
+        "contact_identity",
+        "no_legacy_font",
+        "no_obsolete_tags",
+        "no_table_layout_smell"
+      ],
+      "signals": {
+        "fetch_status": "ok",
+        "http_status": 200,
+        "content_type": "text/html+firecrawl",
+        "final_url": "http://lumen-electrical.com/",
+        "firecrawl_used": true,
+        "visible_text_chars": 10320,
+        "js_ratio": 0.0,
+        "nav_links": 0,
+        "title": ""
+      }
+    },
+    "_source": "google_maps_poor_website_audit_v2"
+  }
+]

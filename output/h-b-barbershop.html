@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H B Barbershop | Precision Barbering in Stirling</title>
+    <meta name="description" content="Precision grooming, skin fades, and hot towel shaves in Stirling. 4.8-star rated barbershop at Unit 2, Murray Pl. Walk-ins welcome.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --canvas: #FFFFFF;
+            --canvas-alt: #F9FAFB;
+            --border: #E5E7EB;
+            --ink: #111827;
+            --ink-muted: #6B7280;
+            --accent: #111827;
+            --accent-text: #FFFFFF;
+            --radius: 16px;
+            --radius-btn: 8px;
+            
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 2rem;
+            --space-lg: 4rem;
+            --space-xl: 6rem;
+            
+            --shadow-base: 0 1px 3px rgba(0,0,0,0.08), 0 8px 20px rgba(0,0,0,0.04);
+            --shadow-hover: 0 1px 3px rgba(0,0,0,0.1), 0 12px 32px rgba(0,0,0,0.08);
+            --shadow-float: 0 8px 30px rgba(0,0,0,0.12);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--canvas);
+            color: var(--ink);
+            line-height: 1.65;
+            font-size: 1rem;
+            overflow-x: hidden;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: var(--ink);
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 800;
+            letter-spacing: -0.05em;
+        }
+
+        h2 {
+            font-size: clamp(1.75rem, 4vw, 2.75rem);
+            font-weight: 700;
+            letter-spacing: -0.03em;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        p {
+            color: var(--ink-muted);
+            max-width: 650px;
+        }
+
+        .text-balance { text-wrap: balance; }
+        .text-center { text-align: center; }
+        
+        .label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--ink-muted);
+        }
+
+        /* Layout */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            padding: var(--space-xl) 0;
+        }
+
+        .bg-alt { background-color: var(--canvas-alt); }
+        
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            font-size: 1rem;
+            border-radius: var(--radius-btn);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 1px solid transparent;
+        }
+
+        .btn-primary {
+            background-color: var(--accent);
+            color: var(--accent-text);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(17, 24, 39, 0.2);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border-color: var(--border);
+            color: var(--ink);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--canvas-alt);
+            border-color: var(--ink);
+        }
+
+        .btn-large {
+            padding: 1rem 2rem;
+            font-size: 1.125rem;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+            height: 80px;
+            display: flex;
+            align-items: center;
+            transition: box-shadow 0.3s ease;
+        }
+
+        nav.scrolled {
+            box-shadow: var(--shadow-base);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            text-decoration: none;
+            color: var(--ink);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .nav-phone {
+            font-weight: 700;
+            color: var(--ink);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            background-color: var(--ink);
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1600&h=1000&fit=crop&auto=format&q=80');
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(17,24,39,0.6), rgba(17,24,39,0.85));
+            z-index: 2;
+        }
+
+        .hero-noise {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.03;
+            z-index: 3;
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            color: #FFFFFF;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.125rem;
+            margin-bottom: 2.5rem;
+            text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .hero .btn-primary {
+            background-color: #FFFFFF;
+            color: var(--ink);
+        }
+        
+        .hero .btn-primary:hover {
+            background-color: var(--canvas-alt);
+        }
+
+        .hero .btn-outline {
+            border-color: rgba(255,255,255,0.85);
+            color: #FFFFFF;
+            background-color: rgba(255,255,255,0.05);
+            backdrop-filter: blur(4px);
+        }
+
+        .hero .btn-outline:hover {
+            background-color: rgba(255,255,255,0.1);
+            border-color: #FFFFFF;
+        }
+
+        /* Trust Strip (Overlapping Element) */
+        .trust-strip-wrapper {
+            position: relative;
+            z-index: 20;
+            margin-top: -40px;
+            padding: 0 1.5rem;
+        }
+
+        .trust-strip {
+            background: var(--canvas);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: var(--shadow-float);
+            max-width: 1000px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        .trust-icon {
+            color: var(--accent);
+            display: flex;
+        }
+
+        /* Bento Grid */
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .bento-card {
+            background: var(--canvas);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            box-shadow: var(--shadow-base);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .bento-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .bento-span-2 {
+            grid-column: span 2;
+        }
+
+        .icon-box {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: rgba(17, 24, 39, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            color: var(--accent);
+        }
+
+        .bento-card h3 {
+            margin-bottom: 0.75rem;
+        }
+
+        .bento-card p {
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .card-link {
+            font-weight: 600;
+            color: var(--ink);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .card-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Accent Section */
+        .accent-section {
+            background-color: var(--ink);
+            color: #FFFFFF;
+            text-align: center;
+            padding: var(--space-xl) 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .accent-section h2 {
+            color: #FFFFFF;
+            margin-bottom: 3rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+            color: #FFFFFF;
+        }
+
+        .stat-label {
+            color: #9CA3AF;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.875rem;
+        }
+
+        /* Reviews */
+        .stars {
+            color: #FBBF24;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .review-text {
+            font-style: italic;
+            color: var(--ink);
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .review-author {
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: var(--ink-muted);
+            margin-top: auto;
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-base);
+        }
+
+        .checklist {
+            list-style: none;
+            margin: 2rem 0;
+        }
+
+        .checklist li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .checklist-icon {
+            color: var(--ink);
+            flex-shrink: 0;
+        }
+
+        /* Service Area */
+        .area-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .area-tag {
+            background: var(--canvas);
+            border: 1px solid var(--border);
+            padding: 0.5rem 1.25rem;
+            border-radius: 100px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 3rem;
+        }
+
+        .contact-form {
+            background: var(--canvas);
+            padding: 2.5rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-base);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--ink);
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 1rem;
+            background-color: var(--canvas-alt);
+            transition: all 0.2s;
+            color: var(--ink);
+        }
+
+        input::placeholder, textarea::placeholder {
+            color: #9CA3AF;
+            opacity: 1;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--ink);
+            background-color: var(--canvas);
+            box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.1);
+        }
+
+        .contact-info {
+            background: var(--canvas-alt);
+            padding: 2.5rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+        }
+
+        .info-item {
+            margin-bottom: 2rem;
+        }
+
+        .info-item h4 {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--ink-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .info-item p {
+            font-weight: 500;
+            color: var(--ink);
+        }
+
+        .info-item a {
+            color: var(--ink);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--ink);
+            color: rgba(255, 255, 255, 0.7);
+            padding: 4rem 0 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-brand {
+            color: #FFFFFF;
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.75rem;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #FFFFFF;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.875rem;
+        }
+
+        /* Mobile Sticky CTA */
+        .mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(to top, var(--canvas) 80%, transparent);
+            z-index: 999;
+        }
+
+        .mobile-cta .btn {
+            width: 100%;
+            box-shadow: var(--shadow-float);
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .bento-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .bento-span-2 {
+                grid-column: span 2;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 3rem;
+            }
+            .about-grid, .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --space-xl: 4rem;
+            }
+            .nav-phone {
+                display: none;
+            }
+            .hero {
+                min-height: 600px;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .hero-btns {
+                flex-direction: column;
+            }
+            .hero-btns .btn {
+                width: 100%;
+            }
+            .trust-strip {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .bento-grid {
+                grid-template-columns: 1fr;
+            }
+            .bento-span-2 {
+                grid-column: span 1;
+            }
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+            .mobile-cta {
+                display: block;
+            }
+            body {
+                padding-bottom: 80px;
+            }
+        }
+    </style>
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "H B Barbershop",
+      "image": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1200&h=800&fit=crop",
+      "@id": "",
+      "url": "",
+      "telephone": "07447 708985",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Unit 2, Murray Pl",
+        "addressLocality": "Stirling",
+        "postalCode": "FK8 1AX",
+        "addressCountry": "UK"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "31"
+      },
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- SVG Filters -->
+    <svg style="display: none;">
+        <filter id="noise">
+            <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
+        </filter>
+    </svg>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">H B Barbershop</a>
+            <div class="nav-actions">
+                <a href="tel:07447708985" class="nav-phone">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    07447 708985
+                </a>
+                <a href="#contact" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-noise" style="filter: url(#noise);"></div>
+        
+        <div class="container hero-content">
+            <h1>Precision barbering in Stirling. Walk-ins welcome.</h1>
+            <p>4.8-star rated grooming at Unit 2, Murray Pl. Skin fades, hot towel shaves, and classic cuts. No appointments necessary.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary btn-large">Get Directions</a>
+                <a href="tel:07447708985" class="btn btn-outline btn-large">Call 07447 708985</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trust Strip -->
+    <div class="trust-strip-wrapper">
+        <div class="trust-strip">
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                </div>
+                Experienced Barbers
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                4.8/5 Google Rating
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                Walk-ins Accepted
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"></path></svg>
+                </div>
+                Autism-Friendly
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-alt">
+        <div class="container">
+            <div class="text-center">
+                <span class="label">Our Services</span>
+                <h2 style="margin-top: 0.5rem;">Professional grooming in Stirling.</h2>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Card 1 (Large) -->
+                <div class="bento-card bento-span-2">
+                    <div class="icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+                    </div>
+                    <h3>Haircuts & Skin Fades</h3>
+                    <p>Zero-gap fades, classic cuts, and precision clipper work. We take the time to understand your style and execute it flawlessly. 30-minute slots ensure attention to detail.</p>
+                    <a href="#contact" class="card-link">Book a cut <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+
+                <!-- Card 2 (Small) -->
+                <div class="bento-card">
+                    <div class="icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <h3>Hot Towel Shaves</h3>
+                    <p>Traditional straight razor shaves with hot towel preparation for the closest, most comfortable finish.</p>
+                    <a href="#contact" class="card-link">Book a shave <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+
+                <!-- Card 3 (Small) -->
+                <div class="bento-card">
+                    <div class="icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <h3>Beard Trims</h3>
+                    <p>Line-ups, shaping, and conditioning for all beard lengths. Keep your facial hair sharp and well-maintained.</p>
+                    <a href="#contact" class="card-link">Book a trim <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+
+                <!-- Card 4 (Large) -->
+                <div class="bento-card bento-span-2">
+                    <div class="icon-box">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                    </div>
+                    <h3>Walk-ins Welcome</h3>
+                    <p>In the area and need a quick tidy-up? We accept walk-ins daily. Drop by Unit 2, Murray Pl and we'll get you in the chair as soon as possible.</p>
+                    <a href="#contact" class="card-link">Get directions <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accent Section (Stats) -->
+    <section class="accent-section">
+        <div class="container">
+            <h2>The standard for grooming in Stirling.</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">31+</span>
+                    <span class="stat-label">Google Reviews</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4.8</span>
+                    <span class="stat-label">Average Rating</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Satisfaction</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">Days a Week</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 3rem;">
+                <span class="label">Client Feedback</span>
+                <h2 style="margin-top: 0.5rem;">Don't just take our word for it.</h2>
+            </div>
+
+            <div class="bento-grid">
+                <div class="bento-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Really nice service and nice gentlemen, I have gotten a haircut, a beard trim and even had my beard shaved completely as well in my past visit and I have loved my experiences. I would absolutely recommend HB Barbershop."</p>
+                    <span class="review-author">- Google Reviewer</span>
+                </div>
+                <div class="bento-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"I would highly recommend this barbers. I take my nephew who had autism in here every month and they are absolutely fantastic with him. So patient and friendly. Always does his hair amazing."</p>
+                    <span class="review-author">- Google Reviewer</span>
+                </div>
+                <div class="bento-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"First time getting haircut here this afternoon, these guys are great. I was very impressed by the barbers attention to detail. Clearly very experienced. Great trim thanks guys looking and feeling very fresh."</p>
+                    <span class="review-author">- Google Reviewer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-alt">
+        <div class="container">
+            <div class="about-grid">
+                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&h=1000&fit=crop&auto=format&q=80" alt="Barber cutting hair" class="about-image" loading="lazy">
+                
+                <div class="about-content">
+                    <span class="label">Why Choose Us</span>
+                    <h2 style="margin-top: 0.5rem; margin-bottom: 1.5rem;">Precision. Patience. Professionalism.</h2>
+                    <p>Operating from Unit 2, Murray Pl, H B Barbershop delivers consistent, high-quality grooming for Stirling. We focus on technical execution, sharp results, and a straightforward client experience.</p>
+                    
+                    <ul class="checklist">
+                        <li>
+                            <svg class="checklist-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Experienced, detail-oriented barbers
+                        </li>
+                        <li>
+                            <svg class="checklist-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Patient, autism-friendly environment
+                        </li>
+                        <li>
+                            <svg class="checklist-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Walk-ins always welcome
+                        </li>
+                        <li>
+                            <svg class="checklist-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            Fair, upfront pricing
+                        </li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-primary">Visit the Shop</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area -->
+    <section>
+        <div class="container text-center">
+            <h2>Areas We Serve</h2>
+            <p style="margin: 1rem auto;">Proudly serving Stirling and surrounding communities.</p>
+            <div class="area-tags">
+                <span class="area-tag">Stirling</span>
+                <span class="area-tag">Bridge of Allan</span>
+                <span class="area-tag">Bannockburn</span>
+                <span class="area-tag">Dunblane</span>
+                <span class="area-tag">Cambusbarron</span>
+                <span class="area-tag">St Ninians</span>
+                <span class="area-tag">Causewayhead</span>
+                <span class="area-tag">Riverside</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-alt">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2 style="margin-bottom: 0.5rem;">Book Your Slot</h2>
+                    <p style="margin-bottom: 2rem;">Fill out the form below or drop in. We respond quickly.</p>
+                    
+                    <form action="#" method="POST" id="bookingForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="07447 708985" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service...</option>
+                                <option value="haircut">Haircut / Skin Fade</option>
+                                <option value="beard">Beard Trim</option>
+                                <option value="shave">Hot Towel Shave</option>
+                                <option value="combo">Haircut & Beard Combo</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Preferred Time / Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="I'd like to come in tomorrow afternoon..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Request Booking</button>
+                        <p style="text-align: center; font-size: 0.875rem; margin-top: 1rem;">🔒 Your information is safe. No spam.</p>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Location</h4>
+                        <p>Unit 2, Murray Pl<br>Stirling FK8 1AX, UK</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Phone</h4>
+                        <a href="tel:07447708985">07447 708985</a>
+                    </div>
+                    <div class="info-item">
+                        <h4>Hours</h4>
+                        <p>Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                        <p style="margin-top: 0.5rem; font-size: 0.875rem; color: var(--ink-muted);">Walk-ins welcome all day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <span class="footer-brand">H B Barbershop</span>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 0.875rem;">Precision grooming, skin fades, and hot towel shaves in Stirling. Walk-ins always welcome.</p>
+                </div>
+                <div>
+                    <h4 style="color: #FFFFFF; margin-bottom: 1rem;">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Haircuts</a></li>
+                        <li><a href="#services">Skin Fades</a></li>
+                        <li><a href="#services">Beard Trims</a></li>
+                        <li><a href="#services">Hot Towel Shaves</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #FFFFFF; margin-bottom: 1rem;">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2024 H B Barbershop. All rights reserved.</span>
+                <span>Unit 2, Murray Pl, Stirling FK8 1AX</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky CTA -->
+    <div class="mobile-cta">
+        <a href="tel:07447708985" class="btn btn-primary">Call 07447 708985</a>
+    </div>
+
+    <!-- Minimal JS -->
+    <script>
+        // Nav shadow on scroll
+        const nav = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission handling (prevent default for demo)
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            const originalText = btn.innerText;
+            btn.innerText = 'Request Sent!';
+            btn.style.backgroundColor = '#10B981'; // Success green
+            setTimeout(() => {
+                btn.innerText = originalText;
+                btn.style.backgroundColor = '';
+                this.reset();
+            }, 3000);
+        });
+    </script>
+</body>
+</html>

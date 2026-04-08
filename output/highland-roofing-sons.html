@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roofers in Inverness | Highland Roofing & Sons - Licensed & Insured</title>
+    <meta name="description" content="Highland Roofing & Sons provides professional roofing services in Inverness and surrounding areas. Licensed, insured, 4.8-star rated. Call 01463 555 123 for a free quote.">
+    <meta property="og:title" content="Expert Roofers in Inverness | Highland Roofing & Sons">
+    <meta property="og:description" content="Professional roofing services in Inverness. 28 years experience. Licensed & insured. Free quotes.">
+    <meta property="og:type" content="website">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Safety First Persona with Roofer Industry Override (Terracotta) */
+            --canvas: #F8FAFC;
+            --canvas-alt: #E2E8F0;
+            --circuit: #C53030;
+            --circuit-dark: #9B2C2C;
+            --warning: #E53E3E;
+            --ink: #1A202C;
+            --ink-muted: #475569; /* Darkened slightly from 64748B for guaranteed >4.5:1 contrast */
+            
+            /* Mix & Match: Technical / Industrial */
+            --radius: 0px;
+            --shadow-sm: 2px 2px 0 rgba(0,0,0,0.1);
+            --shadow-md: 4px 4px 0 rgba(0,0,0,0.1);
+            --shadow-lg: 8px 8px 0 rgba(0,0,0,0.15);
+            
+            /* Spacing Scale */
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 2rem;
+            --space-lg: 4rem;
+            --space-xl: 6rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--canvas);
+            color: var(--ink);
+            line-height: 1.6;
+            font-size: 1rem;
+            overflow-x: hidden;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: var(--ink);
+            line-height: 1.2;
+            margin-bottom: var(--space-sm);
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: clamp(1.75rem, 4vw, 2.75rem);
+            font-weight: 700;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1.35rem;
+            font-weight: 700;
+        }
+
+        p {
+            color: var(--ink-muted);
+            max-width: 650px;
+            margin-bottom: var(--space-sm);
+        }
+
+        .text-center { text-align: center; margin-left: auto; margin-right: auto; }
+        .text-white { color: #FFFFFF; }
+        .text-white p { color: rgba(255, 255, 255, 0.9); }
+        .text-white h2, .text-white h3 { color: #FFFFFF; }
+
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-sm);
+        }
+
+        section {
+            padding: var(--space-xl) 0;
+        }
+
+        .bg-alt { background-color: var(--canvas-alt); }
+        .bg-white { background-color: #FFFFFF; }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.875rem 2rem;
+            font-size: 1.05rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: var(--radius);
+            transition: all 0.2s ease;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+
+        .btn-primary {
+            background-color: var(--circuit);
+            color: #FFFFFF;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--circuit-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: #FFFFFF;
+            border-color: #FFFFFF;
+        }
+
+        .btn-outline:hover {
+            background-color: #FFFFFF;
+            color: var(--ink);
+        }
+
+        .btn-ghost {
+            background-color: transparent;
+            color: var(--ink);
+            border-color: var(--ink);
+        }
+
+        .btn-ghost:hover {
+            background-color: var(--ink);
+            color: #FFFFFF;
+        }
+
+        /* A. Sticky Navigation */
+        .sticky-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #FFFFFF;
+            z-index: 1000;
+            border-bottom: 1px solid var(--canvas-alt);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .sticky-nav.scrolled {
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--ink);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon {
+            color: var(--circuit);
+            font-size: 1.5rem;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+        }
+
+        .nav-phone {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--ink);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-phone:hover {
+            color: var(--circuit);
+        }
+
+        /* B. Hero Section */
+        .hero {
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.75)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=800&fit=crop&auto=format&q=80');
+            background-size: cover;
+            background-position: center;
+            padding-top: 80px; /* Offset for nav */
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            color: #FFFFFF;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            margin-bottom: var(--space-sm);
+        }
+
+        .hero p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.15rem;
+            text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+            margin: 0 auto var(--space-md) auto;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: var(--space-sm);
+            justify-content: center;
+            margin-bottom: var(--space-lg);
+        }
+
+        .hero-divider {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            z-index: 2;
+        }
+
+        .hero-divider svg {
+            width: 100%;
+            height: 100%;
+            fill: var(--canvas-alt);
+        }
+
+        /* Overlapping Trust Strip */
+        .trust-strip-wrapper {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            transform: translateY(50%);
+            z-index: 10;
+        }
+
+        .trust-strip {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-md);
+            flex-wrap: wrap;
+        }
+
+        .trust-badge {
+            background: #FFFFFF;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--ink);
+            border: 1px solid var(--canvas-alt);
+        }
+
+        .trust-badge span {
+            color: var(--circuit);
+            font-size: 1.2rem;
+        }
+
+        /* C. Services Section */
+        .services {
+            padding-top: calc(var(--space-xl) + 40px); /* Extra padding for overlap */
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-md);
+            margin-top: var(--space-lg);
+        }
+
+        .card {
+            background: #FFFFFF;
+            padding: var(--space-md);
+            border: 1px solid var(--canvas-alt);
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .icon-container {
+            width: 64px;
+            height: 64px;
+            background-color: rgba(197, 48, 48, 0.15);
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: var(--space-sm);
+            font-size: 2rem;
+            color: var(--circuit);
+        }
+
+        .card-link {
+            margin-top: auto;
+            padding-top: var(--space-sm);
+            color: var(--circuit);
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .card-link:hover {
+            color: var(--circuit-dark);
+        }
+
+        /* D. Accent Section (Mandatory) */
+        .accent-section {
+            background-color: var(--circuit);
+            background-image: radial-gradient(circle at center, var(--circuit-dark) 0%, var(--circuit) 100%);
+            color: #FFFFFF;
+            text-align: center;
+            padding: var(--space-xl) 0;
+            border-top: 4px solid var(--ink);
+            border-bottom: 4px solid var(--ink);
+        }
+
+        .accent-section h2 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            max-width: 800px;
+            margin: 0 auto var(--space-md) auto;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .accent-section p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.25rem;
+            margin: 0 auto var(--space-lg) auto;
+        }
+
+        /* E. Social Proof */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-md);
+            margin-bottom: var(--space-lg);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--circuit);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+            font-family: monospace;
+        }
+
+        .stat-label {
+            font-weight: 600;
+            color: var(--ink-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.85rem;
+        }
+
+        .review-stars {
+            color: #FBBF24;
+            font-size: 1.25rem;
+            margin-bottom: var(--space-xs);
+            letter-spacing: 2px;
+        }
+
+        .review-text {
+            font-style: italic;
+            color: var(--ink);
+            margin-bottom: var(--space-sm);
+            flex-grow: 1;
+        }
+
+        .review-author {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--ink-muted);
+        }
+
+        /* F. About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-lg);
+            align-items: center;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            object-fit: cover;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--canvas-alt);
+        }
+
+        .checklist {
+            list-style: none;
+            margin: var(--space-md) 0;
+        }
+
+        .checklist li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+            color: var(--ink);
+        }
+
+        .checklist li::before {
+            content: '✓';
+            color: #FFFFFF;
+            background-color: var(--circuit);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+        }
+
+        /* G. Service Area */
+        .area-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-top: var(--space-md);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .area-tag {
+            background: #FFFFFF;
+            padding: 0.5rem 1.25rem;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--ink);
+            border: 1px solid var(--canvas-alt);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* H. Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: var(--space-lg);
+        }
+
+        .contact-form-container {
+            background: #FFFFFF;
+            padding: var(--space-lg);
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--canvas-alt);
+            border-top: 4px solid var(--circuit);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-sm);
+        }
+
+        .form-group {
+            margin-bottom: var(--space-sm);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid var(--canvas-alt);
+            background-color: var(--canvas);
+            font-family: inherit;
+            font-size: 1rem;
+            color: var(--ink);
+            transition: all 0.2s ease;
+            border-radius: var(--radius);
+        }
+
+        .form-control::placeholder {
+            color: #9CA3AF;
+            opacity: 1;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--circuit);
+            box-shadow: 0 0 0 3px rgba(197, 48, 48, 0.1);
+            background-color: #FFFFFF;
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .btn-submit {
+            width: 100%;
+            margin-top: var(--space-sm);
+        }
+
+        .privacy-note {
+            display: block;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--ink-muted);
+            margin-top: var(--space-sm);
+        }
+
+        .contact-sidebar {
+            background: var(--ink);
+            color: #FFFFFF;
+            padding: var(--space-lg);
+            box-shadow: var(--shadow-lg);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .contact-sidebar h3 {
+            color: #FFFFFF;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-sidebar p {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 0;
+        }
+
+        .contact-info-block {
+            border-left: 3px solid var(--circuit);
+            padding-left: 1rem;
+        }
+
+        .sidebar-phone {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--circuit);
+            text-decoration: none;
+            display: block;
+            margin-top: 0.25rem;
+        }
+
+        /* I. Footer */
+        footer {
+            background-color: var(--ink);
+            color: rgba(255, 255, 255, 0.7);
+            padding: var(--space-md) 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+        }
+
+        .footer-logo {
+            color: #FFFFFF;
+            font-weight: 800;
+            font-size: 1.2rem;
+        }
+
+        /* J. Mobile Sticky CTA */
+        .mobile-sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(to top, var(--canvas) 70%, transparent);
+            z-index: 999;
+        }
+
+        .mobile-sticky-cta .btn {
+            width: 100%;
+            box-shadow: 0 4px 15px rgba(197, 48, 48, 0.3);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .contact-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            
+            .nav-phone { display: none; }
+            
+            .hero { min-height: 600px; padding-top: 100px; }
+            .hero-actions { flex-direction: column; }
+            .hero-actions .btn { width: 100%; }
+            
+            .trust-strip-wrapper { position: relative; transform: none; margin-top: var(--space-md); }
+            .trust-strip { flex-direction: column; padding: 0 var(--space-sm); }
+            .services { padding-top: var(--space-xl); }
+            
+            .grid-3 { grid-template-columns: 1fr; }
+            .about-grid { grid-template-columns: 1fr; }
+            .about-grid { order: -1; } /* Image first on mobile */
+            .about-image { min-height: 300px; margin-bottom: var(--space-md); }
+            
+            .form-row { grid-template-columns: 1fr; }
+            
+            .footer-content { flex-direction: column; text-align: center; }
+            
+            .mobile-sticky-cta { display: block; }
+            body { padding-bottom: 80px; } /* Space for sticky CTA */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- A. Sticky Navigation -->
+    <nav class="sticky-nav" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">⌂</span> Highland Roofing
+            </a>
+            <div class="nav-actions">
+                <a href="tel:01463555123" class="nav-phone">☎ 01463 555 123</a>
+                <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- B. Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Expert Roofers in Inverness</h1>
+            <p>Protecting Highland homes from the worst Scottish weather for over 28 years. From emergency storm repairs to full slate re-roofing, we build roofs that last.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                <a href="tel:01463555123" class="btn btn-outline">Call 01463 555 123</a>
+            </div>
+        </div>
+        
+        <!-- Overlapping Trust Strip -->
+        <div class="trust-strip-wrapper">
+            <div class="container">
+                <div class="trust-strip">
+                    <div class="trust-badge"><span>✓</span> SC-ROOF-4417 Licensed</div>
+                    <div class="trust-badge"><span>★</span> 4.8/5 Average Rating</div>
+                    <div class="trust-badge"><span>✓</span> Fully Insured</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decorative Divider -->
+        <div class="hero-divider">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 120 0 0 1200 120z"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- C. Services Section -->
+    <section class="services bg-alt" id="services">
+        <div class="container">
+            <h2 class="text-center">Our Roofing Services</h2>
+            <p class="text-center">Professional roofing services for homes and businesses in Inverness and the Highlands.</p>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <div class="icon-container">⌂</div>
+                    <h3>Slate Roof Repairs</h3>
+                    <p>Specialist repairs for traditional Scottish slate roofs. We source and match existing materials perfectly to maintain your home's character.</p>
+                    <a href="#contact" class="card-link">Get Quote →</a>
+                </div>
+                
+                <div class="card">
+                    <div class="icon-container">⬒</div>
+                    <h3>Full Re-roofing</h3>
+                    <p>Complete roof replacements built to withstand decades of Highland weather. Fully guaranteed, certified, and installed to the highest safety standards.</p>
+                    <a href="#contact" class="card-link">Get Quote →</a>
+                </div>
+                
+                <div class="card">
+                    <div class="icon-container">⇡</div>
+                    <h3>Chimney Repairs</h3>
+                    <p>Expert repointing, lead flashing replacement, and structural chimney repairs to prevent leaks and ensure structural integrity.</p>
+                    <a href="#contact" class="card-link">Get Quote →</a>
+                </div>
+                
+                <div class="card">
+                    <div class="icon-container">▭</div>
+                    <h3>Flat Roof Installations</h3>
+                    <p>Modern, durable flat roofing systems ideal for extensions, garages, and commercial properties. No more pooling water or persistent leaks.</p>
+                    <a href="#contact" class="card-link">Get Quote →</a>
+                </div>
+                
+                <div class="card">
+                    <div class="icon-container">⚠</div>
+                    <h3>Emergency Storm Damage</h3>
+                    <p>Rapid response for missing tiles, severe leaks, and storm damage across Inverness. We secure your property quickly to prevent further damage.</p>
+                    <a href="#contact" class="card-link">Get Quote →</a>
+                </div>
+                
+                <div class="card">
+                    <div class="icon-container">⍱</div>
+                    <h3>Guttering & Leadwork</h3>
+                    <p>Complete roofline maintenance, replacing gutters, fascias, soffits, and custom leadwork to keep water flowing exactly where it should.</p>
+                    <a href="#contact" class="card-link">Get Quote →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- D. Accent Section (Mandatory) -->
+    <section class="accent-section">
+        <div class="container">
+            <h2>Don't Wait for a Leak to Become a Flood</h2>
+            <p>Inverness weather is unforgiving. Get your roof inspected today by local experts with 28 years of experience.</p>
+            <a href="#contact" class="btn btn-outline" style="background: #FFFFFF; color: var(--circuit); border-color: #FFFFFF;">Request Inspection</a>
+        </div>
+    </section>
+
+    <!-- E. Social Proof Section -->
+    <section class="social-proof bg-white">
+        <div class="container">
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-number">365+</div>
+                    <div class="stat-label">Jobs Completed</div>
+                </div>
+                <div>
+                    <div class="stat-number">4.8</div>
+                    <div class="stat-label">Google Rating</div>
+                </div>
+                <div>
+                    <div class="stat-number">28</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div>
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Satisfaction</div>
+                </div>
+            </div>
+
+            <h2 class="text-center" style="margin-top: var(--space-lg);">Trusted by Inverness Homeowners</h2>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Replaced our entire slate roof after the January storms. Crew was up there in Baltic conditions and didn't cut a single corner. Neighbours have already asked for their number."</p>
+                    <div class="review-author">- James M., Inverness</div>
+                </div>
+                
+                <div class="card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Had a leak above the bedroom that two other roofers couldn't find. Highland found it in twenty minutes, patched it same day. Honest pricing too."</p>
+                    <div class="review-author">- Sarah T., Culloden</div>
+                </div>
+                
+                <div class="card">
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">"Solid chimney repoint job. Took a day longer than quoted because of the wind but they kept us updated and the finish is spot on."</p>
+                    <div class="review-author">- David R., Dingwall</div>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: var(--space-md);">
+                <a href="#" class="btn btn-ghost">Read More Reviews on Google</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- F. About Section -->
+    <section class="about bg-alt">
+        <div class="container about-grid">
+            <img src="https://images.unsplash.com/photo-1574359411659-15573a27fd0c?w=600&h=400&fit=crop&auto=format&q=80" alt="Highland Roofing tradesperson with tools" class="about-image" loading="lazy">
+            
+            <div class="about-content">
+                <h2 style="text-align: left;">Why Choose Highland Roofing & Sons</h2>
+                <p>For nearly three decades, we've been the roofing contractor Inverness homeowners trust when the Highland weather hits hardest. We don't believe in quick patches or cutting corners. We build, repair, and maintain roofs that are engineered to last.</p>
+                <p>As a local, family-owned business, our reputation is built on every single tile we lay and every chimney we point.</p>
+                
+                <ul class="checklist">
+                    <li>Family-owned & operated for 28 years</li>
+                    <li>Fixed, transparent pricing with no hidden fees</li>
+                    <li>Emergency storm damage callouts available</li>
+                    <li>Fully licensed (SC-ROOF-4417) and insured</li>
+                </ul>
+                
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- G. Service Area -->
+    <section class="service-area bg-white">
+        <div class="container text-center">
+            <h2>Areas We Serve</h2>
+            <p class="text-center">Proudly serving Inverness and surrounding Highland communities.</p>
+            
+            <div class="area-tags">
+                <span class="area-tag">Inverness</span>
+                <span class="area-tag">Culloden</span>
+                <span class="area-tag">Nairn</span>
+                <span class="area-tag">Dingwall</span>
+                <span class="area-tag">Beauly</span>
+                <span class="area-tag">Muir of Ord</span>
+                <span class="area-tag">Fortrose</span>
+                <span class="area-tag">Alness</span>
+                <span class="area-tag">Invergordon</span>
+                <span class="area-tag">Strathpeffer</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- H. Contact Section -->
+    <section class="contact bg-alt" id="contact">
+        <div class="container contact-grid">
+            <div class="contact-form-container">
+                <h2 style="text-align: left;">Get Your Free Quote</h2>
+                <p>Fill out the form below. We respond to all inquiries within 24 hours.</p>
+                
+                <!-- Formspree/Netlify endpoint goes in action -->
+                <form action="#" method="POST" id="quote-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Full Name *" required aria-label="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Phone Number *" required aria-label="Phone Number">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                    </div>
+                    
+                    <div class="form-group">
+                        <select class="form-control" required aria-label="Service Required">
+                            <option value="" disabled selected>Select a Service *</option>
+                            <option value="slate">Slate roof repairs</option>
+                            <option value="reroof">Full re-roofing</option>
+                            <option value="chimney">Chimney repairs & repointing</option>
+                            <option value="flat">Flat roof installations</option>
+                            <option value="emergency">Emergency storm damage</option>
+                            <option value="guttering">Guttering & leadwork</option>
+                            <option value="other">Other / Not Sure</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Tell us about your roof issue..." required aria-label="Message"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">Get My Free Quote</button>
+                    <span class="privacy-note">🔒 Your information is safe. No spam. Ever.</span>
+                </form>
+            </div>
+            
+            <div class="contact-sidebar">
+                <div class="contact-info-block">
+                    <h3>Call Us Directly</h3>
+                    <p>Available for emergency callouts.</p>
+                    <a href="tel:01463555123" class="sidebar-phone">01463 555 123</a>
+                </div>
+                
+                <div class="contact-info-block">
+                    <h3>Our Office</h3>
+                    <p>Highland Roofing & Sons<br>14 Castle Street<br>Inverness, IV2 3DU</p>
+                </div>
+                
+                <div class="contact-info-block">
+                    <h3>Business Hours</h3>
+                    <p>Monday - Friday: 7:30 AM - 6:00 PM<br>Saturday: 8:00 AM - 2:00 PM<br>Sunday: Emergency Only</p>
+                </div>
+                
+                <div class="contact-info-block">
+                    <h3>License & Insurance</h3>
+                    <p>License: SC-ROOF-4417<br>Fully Insured up to £5M</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- I. Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Highland Roofing & Sons</div>
+            <div>
+                <a href="#services" style="color: inherit; text-decoration: none; margin: 0 10px;">Services</a>
+                <a href="#contact" style="color: inherit; text-decoration: none; margin: 0 10px;">Contact</a>
+            </div>
+            <div style="font-size: 0.85rem;">
+                &copy; 2024 Highland Roofing & Sons. All rights reserved. License SC-ROOF-4417.
+            </div>
+        </div>
+    </footer>
+
+    <!-- J. Mobile Sticky CTA -->
+    <div class="mobile-sticky-cta">
+        <a href="tel:01463555123" class="btn btn-primary">Call 01463 555 123</a>
+    </div>
+
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Highland Roofing & Sons",
+      "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=800",
+      "@id": "",
+      "url": "",
+      "telephone": "01463 555 123",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Castle Street",
+        "addressLocality": "Inverness",
+        "postalCode": "IV2 3DU",
+        "addressCountry": "UK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 57.4778,
+        "longitude": -4.2247
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:30",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "14:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "73"
+      },
+      "areaServed": ["Inverness", "Culloden", "Nairn", "Dingwall", "Beauly", "Muir of Ord", "Fortrose", "Alness", "Invergordon", "Strathpeffer"]
+    }
+    </script>
+
+    <!-- Minimal JS for interactions -->
+    <script>
+        // Nav shadow on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Simple form submission handler (prevent default for demo)
+        const form = document.getElementById('quote-form');
+        if(form) {
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const btn = form.querySelector('.btn-submit');
+                const originalText = btn.innerText;
+                btn.innerText = 'Sending...';
+                btn.style.opacity = '0.8';
+                
+                // Simulate API call
+                setTimeout(() => {
+                    form.innerHTML = '<div style="text-align:center; padding: 2rem 0;"><h3>Thank You!</h3><p>Your quote request has been sent. We will call you shortly.</p></div>';
+                }, 1000);
+            });
+        }
+    </script>
+</body>
+</html>

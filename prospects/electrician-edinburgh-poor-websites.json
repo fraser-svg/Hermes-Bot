@@ -1,0 +1,367 @@
+[
+  {
+    "business_name": "Lumen Electrical",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "Argyle House, Lady Lawson St, Edinburgh EH3 9DR, UK",
+    "phone_number": "0131 460 9699",
+    "website_url": "http://lumen-electrical.com/",
+    "google_maps_url": "https://maps.google.com/?cid=12320063172983984377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 290,
+    "opportunity_score": 1421.0,
+    "website_audit": {
+      "quality_score": 42,
+      "bucket": "poor",
+      "issues": [
+        "missing_viewport_meta",
+        "missing_h1",
+        "weak_or_missing_cta",
+        "weak_trust_signals",
+        "weak_title_value_prop"
+      ],
+      "wins": [],
+      "signals": {
+        "fetch_status": "ok",
+        "https": false,
+        "has_viewport": false,
+        "has_h1": false,
+        "nav_links": 0,
+        "has_cta": false,
+        "has_trust": false,
+        "title": ""
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "CapitalVolt Electrical Services",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "80 Caroline Terrace, Corstorphine, Edinburgh EH12 8QU, UK",
+    "phone_number": "0131 560 6004",
+    "website_url": "http://www.capitalvolt.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=3604125594696849349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 65,
+    "opportunity_score": 325,
+    "website_audit": {
+      "quality_score": 42,
+      "bucket": "poor",
+      "issues": [
+        "missing_viewport_meta",
+        "missing_h1",
+        "weak_or_missing_cta",
+        "weak_trust_signals",
+        "weak_title_value_prop"
+      ],
+      "wins": [],
+      "signals": {
+        "fetch_status": "ok",
+        "https": false,
+        "has_viewport": false,
+        "has_h1": false,
+        "nav_links": 0,
+        "has_cta": false,
+        "has_trust": false,
+        "title": ""
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "My Electrical Solutions",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "85 Glasgow Rd, Edinburgh EH12 8LJ, UK",
+    "phone_number": "07824 774239",
+    "website_url": "https://my-electrical.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=15143997678238911926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 51,
+    "opportunity_score": 255,
+    "website_audit": {
+      "quality_score": 42,
+      "bucket": "poor",
+      "issues": [
+        "missing_viewport_meta",
+        "missing_h1",
+        "weak_or_missing_cta",
+        "weak_trust_signals",
+        "weak_title_value_prop"
+      ],
+      "wins": [],
+      "signals": {
+        "fetch_status": "ok",
+        "https": true,
+        "has_viewport": false,
+        "has_h1": false,
+        "nav_links": 0,
+        "has_cta": false,
+        "has_trust": false,
+        "title": ""
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "M R Electrical Ltd",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "4C W Telferton, Edinburgh EH7 6UL, UK",
+    "phone_number": "0131 629 8775",
+    "website_url": "http://www.mrelimited.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=11258312958186445072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 34,
+    "opportunity_score": 163.2,
+    "website_audit": {
+      "quality_score": 42,
+      "bucket": "poor",
+      "issues": [
+        "missing_viewport_meta",
+        "missing_h1",
+        "weak_or_missing_cta",
+        "weak_trust_signals",
+        "weak_title_value_prop"
+      ],
+      "wins": [],
+      "signals": {
+        "fetch_status": "ok",
+        "https": false,
+        "has_viewport": false,
+        "has_h1": false,
+        "nav_links": 0,
+        "has_cta": false,
+        "has_trust": false,
+        "title": ""
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "Edinburgh electrical solutions",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "44 Corbieshot, Edinburgh EH15 3RZ, UK",
+    "phone_number": "0131 235 2503",
+    "website_url": "http://www.edinburgh-electrical.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=5495407968973969121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 15,
+    "opportunity_score": 75,
+    "website_audit": {
+      "quality_score": 42,
+      "bucket": "poor",
+      "issues": [
+        "missing_viewport_meta",
+        "missing_h1",
+        "weak_or_missing_cta",
+        "weak_trust_signals",
+        "weak_title_value_prop"
+      ],
+      "wins": [],
+      "signals": {
+        "fetch_status": "ok",
+        "https": false,
+        "has_viewport": false,
+        "has_h1": false,
+        "nav_links": 0,
+        "has_cta": false,
+        "has_trust": false,
+        "title": ""
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "BNE electricians",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "125 Craigmount Ave N, Edinburgh EH4 8BR, UK",
+    "phone_number": "07958 722741",
+    "website_url": "https://www.bneelectricians.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=4827622359231004028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 18,
+    "opportunity_score": 84.6,
+    "website_audit": {
+      "quality_score": 82,
+      "bucket": "good",
+      "issues": [
+        "missing_h1",
+        "possible_table_based_layout"
+      ],
+      "wins": [
+        "mobile_viewport_present",
+        "navigation_depth_ok:4_links",
+        "cta_detected",
+        "trust_signals_detected",
+        "title_present"
+      ],
+      "signals": {
+        "fetch_status": "ok",
+        "https": true,
+        "has_viewport": true,
+        "has_h1": false,
+        "nav_links": 4,
+        "has_cta": true,
+        "has_trust": true,
+        "title": "BNE Electricians Edinburgh"
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "Ideal Electrical Solutions (UK) Ltd",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "4-5 Parsons Green Terrace, Edinburgh EH8 7AN, UK",
+    "phone_number": "0131 258 2750",
+    "website_url": "http://www.ies-edinburgh.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=16189858879432892410&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 506,
+    "opportunity_score": 2479.4,
+    "website_audit": {
+      "quality_score": 84,
+      "bucket": "good",
+      "issues": [
+        "overloaded_navigation:28_links",
+        "possible_table_based_layout"
+      ],
+      "wins": [
+        "mobile_viewport_present",
+        "has_h1",
+        "cta_detected",
+        "trust_signals_detected",
+        "title_present"
+      ],
+      "signals": {
+        "fetch_status": "ok",
+        "https": false,
+        "has_viewport": true,
+        "has_h1": true,
+        "nav_links": 28,
+        "has_cta": true,
+        "has_trust": true,
+        "title": "Edinburgh Electricians &amp; Electrical Contractors | Ideal"
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "Energize Electrical",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "59 Clermiston Grove, Edinburgh EH4 7DA, UK",
+    "phone_number": "0131 560 6805",
+    "website_url": "https://energizeelectrical.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=16261970377650669052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 400,
+    "opportunity_score": 2000,
+    "website_audit": {
+      "quality_score": 84,
+      "bucket": "good",
+      "issues": [
+        "overloaded_navigation:29_links",
+        "possible_table_based_layout"
+      ],
+      "wins": [
+        "mobile_viewport_present",
+        "has_h1",
+        "cta_detected",
+        "trust_signals_detected",
+        "title_present"
+      ],
+      "signals": {
+        "fetch_status": "ok",
+        "https": true,
+        "has_viewport": true,
+        "has_h1": true,
+        "nav_links": 29,
+        "has_cta": true,
+        "has_trust": true,
+        "title": "Electricians Edinburgh | NICEIC Certified | Energize Electrical"
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "DC Electrical Services - Rewire Specialists",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "Suite 12, Hercules House, ESKMILLS, Station Rd, Musselburgh EH21 7PB, UK",
+    "phone_number": "0131 510 1005",
+    "website_url": "http://www.dcelectricaledinburgh.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=10624737995075158295&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 254,
+    "opportunity_score": 1270,
+    "website_audit": {
+      "quality_score": 84,
+      "bucket": "good",
+      "issues": [
+        "overloaded_navigation:19_links",
+        "possible_table_based_layout"
+      ],
+      "wins": [
+        "mobile_viewport_present",
+        "has_h1",
+        "cta_detected",
+        "trust_signals_detected",
+        "title_present"
+      ],
+      "signals": {
+        "fetch_status": "ok",
+        "https": false,
+        "has_viewport": true,
+        "has_h1": true,
+        "nav_links": 19,
+        "has_cta": true,
+        "has_trust": true,
+        "title": "DC Electrical Edinburgh"
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  },
+  {
+    "business_name": "Keith Gunn Electrical Solutions",
+    "business_category": "electrician",
+    "city": "Edinburgh",
+    "address": "1 Rodney St, Edinburgh EH7 4EN, UK",
+    "phone_number": "0131 608 2636",
+    "website_url": "https://www.harkinsandvickers.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=11691580334050431822&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 268,
+    "opportunity_score": 1259.6,
+    "website_audit": {
+      "quality_score": 84,
+      "bucket": "good",
+      "issues": [
+        "overloaded_navigation:29_links",
+        "possible_table_based_layout"
+      ],
+      "wins": [
+        "mobile_viewport_present",
+        "has_h1",
+        "cta_detected",
+        "trust_signals_detected",
+        "title_present"
+      ],
+      "signals": {
+        "fetch_status": "ok",
+        "https": true,
+        "has_viewport": true,
+        "has_h1": true,
+        "nav_links": 29,
+        "has_cta": true,
+        "has_trust": true,
+        "title": "Harkins &amp; Vickers | Electricians in Edinburgh"
+      }
+    },
+    "_source": "google_maps_poor_website_audit"
+  }
+]

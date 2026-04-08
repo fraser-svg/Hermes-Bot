@@ -1,0 +1,41 @@
+{
+  "business_name": "H B Barbershop",
+  "business_category": "barber",
+  "city": "Stirling",
+  "address": "Unit 2, Murray Pl, Stirling FK8 1AX, UK",
+  "phone_number": "07447 708985",
+  "services_offered": [
+    "Haircuts",
+    "Beard trims",
+    "Hot towel shaves",
+    "Skin fades",
+    "Hair styling",
+    "Walk-ins welcome"
+  ],
+  "google_reviews": [
+    {
+      "rating": 5,
+      "text": "Really nice service and nice gentlemen, I have gotten a haircut, a beard trim and even had my beard shaved completely as well in my past visit and I have loved my experiences. I would absolutely recommend HB Barbershop for anyone new or looking for a new barbershop living in STIRLING"
+    },
+    {
+      "rating": 5,
+      "text": "I would highly recommend this barbers. I take my nephew who had autism in here every month and they are absolutely fantastic with him. So patient and friendly. Always does his hair amazing for the short time my nephew lets them"
+    },
+    {
+      "rating": 5,
+      "text": "First time getting haircut here this afternoon, these guys are great. I was very impressed by the barbers attention to detail. Clearly very experienced. Great trim thanks guys looking and feeling very fresh and dapper. I will deffinetly be back, thank you \ud83d\udc4d"
+    },
+    {
+      "rating": 5,
+      "text": "Visited twice and experienced top service at fair prices from different barbers. Highly recommended."
+    },
+    {
+      "rating": 2,
+      "text": "Didn't have a great experience here to be honest, from the barber coming in directly from having a smoke to cutting my hair inititally, which I've never been a fan of. The haircut itself seemed ok, although when I got home it was clear the mess the guy had made to the back of my neck, it's now three days after the haircut and the back of my neck is still tender. I won't be using this place again, unfortunately."
+    }
+  ],
+  "rating": 4.8,
+  "review_count": 31,
+  "google_maps_url": "https://maps.google.com/?cid=16607361800159986060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "_source": "google_maps_prospector"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Evolve Plumbing & Heating Ltd",
+    "score": "10.0/10",
+    "readability": "PASS",
+    "file": "/Users/foxy/Hermes Bot/output/evolve-plumbing-heating-ltd.html",
+    "success": true,
+    "phone": "07756 641751",
+    "rating": 4.9,
+    "reviews": 58,
+    "maps_url": "https://maps.google.com/?cid=6627185574009376312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  {
+    "name": "Alexander Thomson Plumbing & Heating",
+    "score": "10.0/10",
+    "readability": "PASS",
+    "file": "/Users/foxy/Hermes Bot/output/alexander-thomson-plumbing-heating.html",
+    "success": true,
+    "phone": "01383 724431",
+    "rating": 4.6,
+    "reviews": 24,
+    "maps_url": "https://maps.google.com/?cid=10425748498195418713&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  }
+]

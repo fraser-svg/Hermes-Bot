@@ -1,0 +1,199 @@
+[
+  {
+    "business_name": "H B Barbershop",
+    "business_category": "barber",
+    "city": "Stirling",
+    "address": "Unit 2, Murray Pl, Stirling FK8 1AX, UK",
+    "phone_number": "07447 708985",
+    "services_offered": [
+      "Haircuts",
+      "Beard trims",
+      "Hot towel shaves",
+      "Skin fades",
+      "Hair styling",
+      "Walk-ins welcome"
+    ],
+    "google_reviews": [
+      {
+        "rating": 5,
+        "text": "Really nice service and nice gentlemen, I have gotten a haircut, a beard trim and even had my beard shaved completely as well in my past visit and I have loved my experiences. I would absolutely recommend HB Barbershop for anyone new or looking for a new barbershop living in STIRLING"
+      },
+      {
+        "rating": 5,
+        "text": "I would highly recommend this barbers. I take my nephew who had autism in here every month and they are absolutely fantastic with him. So patient and friendly. Always does his hair amazing for the short time my nephew lets them"
+      },
+      {
+        "rating": 5,
+        "text": "First time getting haircut here this afternoon, these guys are great. I was very impressed by the barbers attention to detail. Clearly very experienced. Great trim thanks guys looking and feeling very fresh and dapper. I will deffinetly be back, thank you \ud83d\udc4d"
+      },
+      {
+        "rating": 5,
+        "text": "Visited twice and experienced top service at fair prices from different barbers. Highly recommended."
+      },
+      {
+        "rating": 2,
+        "text": "Didn't have a great experience here to be honest, from the barber coming in directly from having a smoke to cutting my hair inititally, which I've never been a fan of. The haircut itself seemed ok, although when I got home it was clear the mess the guy had made to the back of my neck, it's now three days after the haircut and the back of my neck is still tender. I won't be using this place again, unfortunately."
+      }
+    ],
+    "rating": 4.8,
+    "review_count": 31,
+    "google_maps_url": "https://maps.google.com/?cid=16607361800159986060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "_source": "google_maps_prospector"
+  },
+  {
+    "business_name": "Star Barbers Stirling",
+    "business_category": "barber",
+    "city": "Stirling",
+    "address": "13 Upper Craigs, Stirling FK8 2DG, UK",
+    "phone_number": "",
+    "services_offered": [
+      "Haircuts",
+      "Beard trims",
+      "Hot towel shaves",
+      "Skin fades",
+      "Hair styling",
+      "Walk-ins welcome"
+    ],
+    "google_reviews": [
+      {
+        "rating": 5,
+        "text": "Great barbers. Friendly staff. Clean. I have been a customer of Star Barbers (first chair next to window) for 7 years. Don\u2019t listen to dodgy reviews by fake customers."
+      },
+      {
+        "rating": 1,
+        "text": "The younger guy is absolutely terrible, genuinely wonder how he is able to work in a barbershop and get away with doing that to people\u2019s heads. Can\u2019t cut straight to save himself, can\u2019t blend nothing, I honestly think I could do a better job than him and I\u2019ve never cut anyone\u2019s hair in my life. Do NOT get the younger guy."
+      },
+      {
+        "rating": 5,
+        "text": "This place is a good barber, Kind staff and good quality haircuts. They are the BEST barbers in town.. 10/10"
+      },
+      {
+        "rating": 5,
+        "text": "Absolutely brilliant barbers and great with my two boys (4 yo and 1 yo). Their hair cuts are the best we've had and they were so patient with my 1 yo - made him feel at ease and comfortable. Thankyou and can't recommend this place enough \ud83d\udc4d"
+      },
+      {
+        "rating": 5,
+        "text": "Always great customer service and friendly greeting. Very clean and an excellent haircut."
+      }
+    ],
+    "rating": 4,
+    "review_count": 12,
+    "google_maps_url": "https://maps.google.com/?cid=5445096994381409088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "_source": "google_maps_prospector"
+  },
+  {
+    "business_name": "M2 Turkish Barber's",
+    "business_category": "barber",
+    "city": "Stirling",
+    "address": "34 Morrison Dr, Bannockburn, Stirling FK7 0HZ, UK",
+    "phone_number": "07881 857333",
+    "services_offered": [
+      "Haircuts",
+      "Beard trims",
+      "Hot towel shaves",
+      "Skin fades",
+      "Hair styling",
+      "Walk-ins welcome"
+    ],
+    "google_reviews": [
+      {
+        "rating": 5,
+        "text": "Thanks. Nice and good price"
+      },
+      {
+        "rating": 5,
+        "text": "Fantastic  boys"
+      },
+      {
+        "rating": 5,
+        "text": "Excellent"
+      }
+    ],
+    "rating": 5,
+    "review_count": 4,
+    "google_maps_url": "https://maps.google.com/?cid=17207692597221843437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "_source": "google_maps_prospector"
+  },
+  {
+    "business_name": "Scissors King's Barber",
+    "business_category": "barber",
+    "city": "Stirling",
+    "address": "41 Murray Pl, Stirling FK8 1DQ, UK",
+    "phone_number": "01786 450800",
+    "services_offered": [
+      "Haircuts",
+      "Beard trims",
+      "Hot towel shaves",
+      "Skin fades",
+      "Hair styling",
+      "Walk-ins welcome"
+    ],
+    "google_reviews": [
+      {
+        "rating": 1,
+        "text": "Officially, the worst haircut i ever had its in this place. You better off cutting yourself."
+      },
+      {
+        "rating": 5,
+        "text": "Brilliant guys, really happy with my son\u2019s haircut - very professional and attentive. Will be back soon\ud83d\ude0d"
+      },
+      {
+        "rating": 5,
+        "text": "Best barber in Stirling by a mile. Prev used star barbers in Craigs. They were a shambles ."
+      },
+      {
+        "rating": 5,
+        "text": "My son had the best experience he\u2019s ever had at the barbers I\u2019m annoyed with my self for not getting the barbers  name as he was amazing with my son best hair cut he\u2019s had and he\u2019s loving the blue spare  , definitely will be returning and willing to wait to have the same guy do his hair the next time"
+      },
+      {
+        "rating": 1,
+        "text": "Didn't cut my hair as requested and has left a horrible rash on the back on my neck (which I do not usually get after a haircut)\n\nHave been multiple times and never had this issue, must have been a new barber - make sure you ask for the same person each time to avoid this experience. I look like a clown now."
+      }
+    ],
+    "rating": 4.3,
+    "review_count": 20,
+    "google_maps_url": "https://maps.google.com/?cid=5192789051906727684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "_source": "google_maps_prospector"
+  },
+  {
+    "business_name": "5D Barbers",
+    "business_category": "barber",
+    "city": "Stirling",
+    "address": "Juniper Court, Stirling FK9 4AB, UK",
+    "phone_number": "07923 388123",
+    "services_offered": [
+      "Haircuts",
+      "Beard trims",
+      "Hot towel shaves",
+      "Skin fades",
+      "Hair styling",
+      "Walk-ins welcome"
+    ],
+    "google_reviews": [
+      {
+        "rating": 5,
+        "text": "As someone who live in beech court, never been to this barber but looking at the other reviews I feel it\u2019s lit af. So yeah, that\u2019s why I\u2019m giving it a 5 \ud83d\udd25"
+      },
+      {
+        "rating": 5,
+        "text": "Great atmosphere, the smell of baked beans adds a very homely feel. The cuts are extreme and exceptionally excellent"
+      },
+      {
+        "rating": 5,
+        "text": "Haven\u2019t been here however seems convenient as I live on campus defo need to be a test subject if it\u2019ll save me some money @kyle_ashton05 on snap \ud83d\udc88"
+      },
+      {
+        "rating": 5,
+        "text": "10/10 would recommend to a friend. Prices and atmosphere make this an easy 5 stars."
+      },
+      {
+        "rating": 5,
+        "text": "10/10 would recommend. came all the way from edinburgh"
+      }
+    ],
+    "rating": 5,
+    "review_count": 7,
+    "google_maps_url": "https://maps.google.com/?cid=7878368632952745898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "_source": "google_maps_prospector"
+  }
+]

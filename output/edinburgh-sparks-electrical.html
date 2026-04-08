@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Electricians in Edinburgh | Edinburgh Sparks Electrical - Licensed & Insured</title>
+    <meta name="description" content="Edinburgh Sparks Electrical provides professional electrical repairs, installations, and emergency callouts in Edinburgh and surrounding areas. Licensed, insured, 4.8-star rated. Call 0131 000 0000 for a free quote.">
+    <meta property="og:title" content="Expert Electricians in Edinburgh | Edinburgh Sparks Electrical">
+    <meta property="og:description" content="Professional electrical services in Edinburgh. Licensed & insured. Free quotes.">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Electrician",
+      "name": "Edinburgh Sparks Electrical",
+      "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&h=800&fit=crop&auto=format&q=80",
+      "telephone": "0131 000 0000",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Edinburgh",
+        "addressCountry": "UK"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Edinburgh"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "2"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "14:00"
+        }
+      ],
+      "description": "Your trusted, 5-star rated electricians for all repairs, installations, and emergency callouts in Edinburgh."
+    }
+    </script>
+
+    <style>
+        :root {
+            /* Persona: Bright & Bold */
+            --canvas: #FFFFFF;
+            --canvas-alt: #F7F9FC;
+            --spark: #FFD700;
+            --spark-dark: #E5BF00;
+            --ink: #1A202C;
+            --ink-muted: #4A5568;
+
+            /* Mix & Match Selections */
+            --border-radius: 0px;
+            --shadow-subtle: 0 2px 8px rgba(0,0,0,0.06);
+            --shadow-lifted: 0 12px 32px rgba(0,0,0,0.1);
+
+            /* Spacing Scale */
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 2rem;
+            --space-lg: 4rem;
+            --space-xl: 6rem;
+        }
+
+        /* --- Base & Reset --- */
+        *, *::before, *::after { box-sizing: border-box; }
+        html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+        body {
+            margin: 0;
+            font-family: 'Public Sans', sans-serif;
+            background-color: var(--canvas);
+            color: var(--ink-muted);
+            font-size: 1.05rem;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        img { max-width: 100%; height: auto; display: block; }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            font-family: 'Public Sans', sans-serif;
+            font-weight: 700;
+            color: var(--ink);
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+        h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 800; line-height: 0.95; }
+        h2 { font-size: clamp(1.75rem, 4vw, 2.75rem); }
+        h3 { font-size: 1.35rem; }
+        p { margin: 0 0 1rem; max-width: 650px; }
+        a { color: var(--spark-dark); text-decoration: none; transition: color 0.2s ease; }
+        a:hover { color: var(--spark); }
+
+        /* --- Layout --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-sm);
+        }
+        .section { padding: var(--space-xl) 0; }
+        .section-alt { background-color: var(--canvas-alt); }
+        .section-header { text-align: center; margin-bottom: var(--space-lg); }
+        .section-header p { margin-left: auto; margin-right: auto; }
+        .grid { display: grid; gap: var(--space-md); }
+        @media (min-width: 768px) {
+            .grid-2 { grid-template-columns: repeat(2, 1fr); }
+            .grid-3 { grid-template-columns: repeat(3, 1fr); }
+            .grid-4 { grid-template-columns: repeat(4, 1fr); }
+        }
+
+        /* --- Buttons --- */
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.75rem;
+            font-weight: 600;
+            border-radius: var(--border-radius);
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+        }
+        .btn-primary {
+            background-color: var(--spark);
+            color: var(--ink);
+        }
+        .btn-primary:hover {
+            background-color: var(--spark-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lifted);
+        }
+        .btn-outline {
+            background-color: transparent;
+            border-color: var(--canvas);
+            color: var(--canvas);
+        }
+        .btn-outline:hover {
+            background-color: var(--canvas);
+            color: var(--ink);
+        }
+        .btn-large {
+            padding: 1rem 2.25rem;
+            font-size: 1.1rem;
+        }
+        .btn-full {
+            width: 100%;
+            text-align: center;
+        }
+
+        /* --- A. STICKY NAVIGATION --- */
+        .main-nav {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: var(--canvas);
+            z-index: 1000;
+            padding: var(--space-sm) 0;
+            transition: box-shadow 0.2s ease;
+        }
+        .main-nav.scrolled { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--ink);
+        }
+        .nav-contact { display: flex; align-items: center; gap: var(--space-md); }
+        .nav-phone {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--ink);
+        }
+        .nav-phone .icon { color: var(--spark-dark); margin-right: 0.25rem; }
+        @media (max-width: 767px) {
+            .nav-phone span { display: none; }
+            .nav-contact { gap: var(--space-sm); }
+            .nav-logo { font-size: 1.2rem; }
+        }
+
+        /* --- B. HERO SECTION --- */
+        .hero {
+            background-image: linear-gradient(to bottom, rgba(26, 32, 44, 0.6), rgba(26, 32, 44, 0.8)), url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200&h=800&fit=crop&auto=format&q=80');
+            background-size: cover;
+            background-position: center;
+            color: var(--canvas);
+            padding: var(--space-xl) 0;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+        }
+        .hero-content {
+            max-width: 800px;
+            text-align: left;
+        }
+        .hero-content h1 {
+            color: var(--canvas);
+            text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        }
+        .hero-content p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.2rem;
+            margin: var(--space-md) 0;
+            max-width: 600px;
+        }
+        .hero-ctas {
+            display: flex;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+        }
+        .trust-badges {
+            margin-top: var(--space-lg);
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-md);
+        }
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            font-size: 0.9rem;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: var(--border-radius);
+            backdrop-filter: blur(5px);
+        }
+        .trust-badge .icon { color: var(--spark); }
+        @media (max-width: 767px) {
+            .hero { clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%); min-height: 70vh; text-align: center; }
+            .hero-content { text-align: center; }
+            .hero-ctas { flex-direction: column; }
+            .trust-badges { justify-content: center; }
+        }
+
+        /* --- C. SERVICES SECTION --- */
+        .service-card {
+            background: var(--canvas);
+            padding: var(--space-md);
+            text-align: center;
+            box-shadow: var(--shadow-subtle);
+            border-left: 6px solid var(--spark);
+            transition: all 0.2s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lifted);
+        }
+        .service-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background-color: rgba(255, 215, 0, 0.15);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto var(--space-sm);
+            font-size: 2rem;
+            color: var(--spark-dark);
+        }
+        .service-card h3 { margin-bottom: var(--space-sm); }
+        .service-card p { font-size: 0.95rem; }
+
+        /* --- D. ACCENT / SOCIAL PROOF SECTION --- */
+        .accent-section {
+            background-color: var(--ink);
+            color: var(--canvas);
+            padding: var(--space-xl) 0;
+            text-align: center;
+        }
+        .stats-bar .grid { gap: var(--space-lg); }
+        .stat-item h3 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--spark);
+            line-height: 1;
+        }
+        .stat-item p {
+            color: rgba(255, 255, 255, 0.8);
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            margin-top: var(--space-xs);
+        }
+        .reviews-section { padding-top: var(--space-xl); }
+        .review-card {
+            background: var(--canvas);
+            padding: var(--space-md);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-subtle);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .review-stars { color: #FBBF24; font-size: 1.2rem; margin-bottom: var(--space-sm); }
+        .review-text { font-style: italic; margin-bottom: var(--space-sm); flex-grow: 1; }
+        .review-author { font-weight: 600; color: var(--ink); }
+        .reviews-link { text-align: center; margin-top: var(--space-lg); }
+
+        /* --- E. ABOUT / WHY US SECTION --- */
+        .about-section .grid { align-items: center; }
+        .about-image img { border-radius: var(--border-radius); box-shadow: var(--shadow-lifted); }
+        .about-content h2 { text-align: left; }
+        .about-content p { margin-bottom: var(--space-md); }
+        .checklist {
+            list-style: none;
+            padding: 0;
+            margin: var(--space-md) 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--space-sm);
+        }
+        .checklist li { display: flex; align-items: center; gap: var(--space-xs); }
+        .checklist .icon { color: var(--spark-dark); font-weight: bold; }
+        @media (max-width: 767px) {
+            .about-image { order: -1; margin-bottom: var(--space-md); }
+            .checklist { grid-template-columns: 1fr; }
+        }
+
+        /* --- F. SERVICE AREA SECTION --- */
+        .area-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+        }
+        .area-tag {
+            background: var(--canvas);
+            color: var(--ink-muted);
+            padding: 0.5rem 1.25rem;
+            border-radius: 100px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid #E2E8F0;
+        }
+
+        /* --- G. CONTACT SECTION --- */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: var(--space-lg);
+            align-items: start;
+        }
+        .contact-form-wrapper {
+            background: var(--canvas);
+            padding: var(--space-lg);
+            box-shadow: 0 8px 35px rgba(0,0,0,0.08);
+            border-radius: var(--border-radius);
+        }
+        .contact-form-wrapper h2 { text-align: left; }
+        .form-group { margin-bottom: 1.5rem; }
+        .form-row { display: flex; gap: 1.5rem; }
+        .form-row .form-group { flex: 1; }
+        .form-control {
+            width: 100%;
+            padding: 0.85rem 1rem;
+            font-size: 1rem;
+            border: 1px solid #CBD5E0;
+            border-radius: var(--border-radius);
+            background: #F7FAFC;
+            transition: all 0.2s ease;
+        }
+        .form-control:focus {
+            outline: none;
+            border-color: var(--spark);
+            box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.2);
+        }
+        ::placeholder { color: #9CA3AF; opacity: 1; }
+        .privacy-note { font-size: 0.8rem; color: #718096; margin-top: 1rem; text-align: center; }
+        .contact-info-card {
+            background: var(--canvas-alt);
+            padding: var(--space-md);
+            border-radius: var(--border-radius);
+        }
+        .contact-info-card h3 { margin-bottom: var(--space-md); }
+        .contact-info-item { margin-bottom: 1.5rem; }
+        .contact-info-item strong { display: block; color: var(--ink); }
+        .contact-info-item a { font-size: 1.2rem; font-weight: 600; }
+        @media (max-width: 992px) {
+            .contact-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 767px) {
+            .form-row { flex-direction: column; gap: 0; }
+        }
+
+        /* --- H. FOOTER --- */
+        .main-footer {
+            background: var(--ink);
+            color: rgba(255, 255, 255, 0.7);
+            padding: var(--space-lg) 0;
+            font-size: 0.9rem;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-brand { font-weight: 600; color: var(--canvas); }
+        @media (max-width: 767px) {
+            .footer-container { flex-direction: column; gap: var(--space-sm); text-align: center; }
+        }
+
+        /* --- I. MOBILE STICKY CTA --- */
+        .mobile-sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, var(--canvas) 80%, transparent);
+            padding: 1.5rem 1rem 1rem;
+            z-index: 999;
+        }
+        @media (max-width: 767px) {
+            body { padding-bottom: 80px; } /* Prevent content from being hidden */
+            .mobile-sticky-cta { display: block; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- A. STICKY NAVIGATION -->
+    <nav class="main-nav" id="mainNav">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">Edinburgh Sparks Electrical</a>
+            <div class="nav-contact">
+                <a href="tel:01310000000" class="nav-phone">
+                    <span class="icon">&#9742;</span> <span>0131 000 0000</span>
+                </a>
+                <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- B. HERO SECTION -->
+        <header class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Expert Electricians in Edinburgh</h1>
+                    <p>Your trusted, 4.8-star rated electricians for all repairs, installations, and emergency callouts in Edinburgh. Fast, reliable, and fully insured.</p>
+                    <div class="hero-ctas">
+                        <a href="#contact" class="btn btn-primary btn-large">Get My Free Quote</a>
+                        <a href="tel:01310000000" class="btn btn-outline btn-large">Call Now: 0131 000 0000</a>
+                    </div>
+                    <div class="trust-badges">
+                        <div class="trust-badge"><span class="icon">✓</span> Licensed & Insured</div>
+                        <div class="trust-badge"><span class="icon">✓</span> NICEIC Registered</div>
+                        <div class="trust-badge"><span class="icon">✓</span> 24/7 Emergency Service</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- C. SERVICES SECTION -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Electrical Services</h2>
+                    <p>Professional electrical services for homes and businesses in Edinburgh.</p>
+                </div>
+                <div class="grid grid-4">
+                    <div class="service-card">
+                        <div class="service-icon">⚡️</div>
+                        <h3>Electrical Repairs</h3>
+                        <p>From faulty sockets to tripping circuits, we diagnose and fix all electrical issues quickly and safely.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💡</div>
+                        <h3>Installations</h3>
+                        <p>Expert installation of new lighting, consumer units, EV chargers, and smart home devices.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔌</div>
+                        <h3>Wiring & Rewiring</h3>
+                        <p>Full and partial rewiring services for renovations, extensions, and safety upgrades to modern standards.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🚨</div>
+                        <h3>Emergency Callouts</h3>
+                        <p>24/7 availability for urgent electrical problems. We're here when you need us most.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- D. ACCENT / SOCIAL PROOF SECTION -->
+        <section class="accent-section">
+            <div class="container">
+                <div class="stats-bar">
+                    <div class="grid grid-4">
+                        <div class="stat-item">
+                            <h3>100+</h3>
+                            <p>Jobs Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>4.8 ★</h3>
+                            <p>Google Rating</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-section">
+                    <div class="grid grid-3">
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"Great service, very professional and sorted out our lighting issue in no time. Would definitely use Edinburgh Sparks again."</p>
+                            <p class="review-author">- Fiona M., Edinburgh</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"Fast response for an emergency callout. The electrician was knowledgeable, friendly, and fixed the problem efficiently. Highly recommend."</p>
+                            <p class="review-author">- David L., Leith</p>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"Needed a full rewire for our kitchen renovation. The team was fantastic. Clean, on time, and very clear with their pricing. Everything works perfectly."</p>
+                            <p class="review-author">- Sarah K., New Town</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- E. ABOUT / WHY US SECTION -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-section grid grid-2">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=400&fit=crop&auto=format&q=80" alt="Professional electrician from Edinburgh Sparks Electrical with tools" loading="lazy">
+                    </div>
+                    <div class="about-content">
+                        <h2>Why Choose Edinburgh Sparks Electrical</h2>
+                        <p>We are a team of dedicated, certified electricians based right here in Edinburgh. For over a decade, we've built our reputation on providing safe, high-quality electrical work with transparent pricing and exceptional customer service. Your safety and satisfaction are our top priorities.</p>
+                        <ul class="checklist">
+                            <li><span class="icon">✓</span> Fully Certified Electricians</li>
+                            <li><span class="icon">✓</span> Upfront, Honest Pricing</li>
+                            <li><span class="icon">✓</span> NICEIC Registered Professionals</li>
+                            <li><span class="icon">✓</span> 24/7 Emergency Response</li>
+                            <li><span class="icon">✓</span> Local & Family-Owned</li>
+                            <li><span class="icon">✓</span> All Work Guaranteed</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- F. SERVICE AREA SECTION -->
+        <section id="area" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Areas We Serve in Edinburgh</h2>
+                    <p>Proudly serving Edinburgh and surrounding communities.</p>
+                </div>
+                <div class="area-tags">
+                    <span class="area-tag">Edinburgh City Centre</span>
+                    <span class="area-tag">Leith</span>
+                    <span class="area-tag">New Town</span>
+                    <span class="area-tag">Old Town</span>
+                    <span class="area-tag">Stockbridge</span>
+                    <span class="area-tag">Morningside</span>
+                    <span class="area-tag">Portobello</span>
+                    <span class="area-tag">Haymarket</span>
+                    <span class="area-tag">Corstorphine</span>
+                    <span class="area-tag">Musselburgh</span>
+                    <span class="area-tag">Dalkeith</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- G. CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-wrapper">
+                        <h2>Get Your Free Quote</h2>
+                        <p>Fill out the form below. We respond within 1 hour during business hours.</p>
+                        <form action="#" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="Phone Number" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <select id="service" name="service" class="form-control" required>
+                                    <option value="">Select a service...</option>
+                                    <option value="Electrical repairs">Electrical repairs</option>
+                                    <option value="Installations">Installations</option>
+                                    <option value="Wiring">Wiring</option>
+                                    <option value="Emergency callouts">Emergency callouts</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="4" class="form-control" placeholder="Tell us about your project..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-large btn-full">Get My Free Quote</button>
+                            <p class="privacy-note">🔒 Your information is safe. No spam. Ever.</p>
+                        </form>
+                    </div>
+                    <div class="contact-info-card">
+                        <h3>Contact Details</h3>
+                        <div class="contact-info-item">
+                            <strong>Phone:</strong>
+                            <a href="tel:01310000000">0131 000 0000</a>
+                        </div>
+                        <div class="contact-info-item">
+                            <strong>Hours:</strong>
+                            <span>Mon-Fri: 7am - 6pm</span><br>
+                            <span>Sat: 8am - 2pm</span><br>
+                            <span>Sun: Emergency Only</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <strong>Service Area:</strong>
+                            <span>Edinburgh & The Lothians</span>
+                        </div>
+                         <div class="contact-info-item">
+                            <strong>NICEIC #:</strong>
+                            <span>12345</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- H. FOOTER -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">Edinburgh Sparks Electrical</div>
+            <div class="footer-legal">© 2024 Edinburgh Sparks Electrical. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <!-- I. MOBILE STICKY CTA -->
+    <div class="mobile-sticky-cta">
+        <a href="tel:01310000000" class="btn btn-primary btn-large btn-full">Call 0131 000 0000</a>
+    </div>
+
+    <script>
+        // Add shadow to nav on scroll
+        const nav = document.getElementById('mainNav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+</body>
+</html>

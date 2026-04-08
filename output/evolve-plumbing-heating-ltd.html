@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plumber in Dunfermline | Evolve Plumbing & Heating Ltd - Licensed & Insured</title>
+    <meta name="description" content="Evolve Plumbing & Heating Ltd provides professional plumbing and heating services in Dunfermline and surrounding areas. 4.9-star rated. Call 07756 641751 for a free quote.">
+    <meta property="og:title" content="Expert Plumber in Dunfermline | Evolve Plumbing & Heating Ltd">
+    <meta property="og:description" content="Professional plumbing, boiler installation, and emergency repairs in Dunfermline. 5-star rated local experts. Free quotes.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts: Montserrat (Safety First Persona) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* ==========================================================================
+           DESIGN SYSTEM & VARIABLES (Safety First Persona)
+           ========================================================================== */
+        :root {
+            /* Palette */
+            --canvas: #F8FAFC;
+            --canvas-alt: #E2E8F0;
+            --circuit: #0056B3;
+            --circuit-dark: #004494;
+            --warning: #E53E3E;
+            --warning-dark: #C53030;
+            --ink: #1A202C;
+            --ink-muted: #475569; /* Darkened slightly from 64748B for better contrast */
+            --white: #FFFFFF;
+            
+            /* Typography */
+            --font-heading: 'Montserrat', sans-serif;
+            --font-body: 'Montserrat', sans-serif;
+            
+            /* Spacing Scale */
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 2rem;
+            --space-lg: 4rem;
+            --space-xl: 6rem;
+            
+            /* UI Elements (Mix & Match: Technical/Industrial) */
+            --radius: 0px;
+            --shadow-base: 4px 4px 0 rgba(0, 0, 0, 0.08);
+            --shadow-hover: 8px 8px 0 rgba(0, 86, 179, 0.15);
+            --shadow-float: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --transition: all 0.25s ease;
+        }
+
+        /* ==========================================================================
+           RESET & BASE STYLES
+           ========================================================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--canvas);
+            color: var(--ink-muted);
+            line-height: 1.6;
+            font-size: 1rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: var(--font-heading);
+            color: var(--ink);
+            line-height: 1.2;
+            margin-bottom: var(--space-sm);
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: clamp(1.75rem, 4vw, 2.75rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        h3 {
+            font-size: 1.35rem;
+            font-weight: 700;
+        }
+
+        p {
+            margin-bottom: var(--space-sm);
+            max-width: 650px; /* Golden Rule 2 */
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--circuit);
+            transition: var(--transition);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-sm);
+        }
+
+        .text-center { text-align: center; }
+        .text-center p { margin-left: auto; margin-right: auto; }
+        
+        section {
+            padding: var(--space-xl) 0;
+        }
+
+        /* ==========================================================================
+           BUTTONS & UI COMPONENTS
+           ========================================================================== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.875rem 2rem;
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.05rem;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: center;
+            border: 2px solid transparent;
+        }
+
+        .btn-primary {
+            background-color: var(--circuit);
+            color: var(--white);
+            box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--circuit-dark);
+            transform: translateY(-2px);
+            box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.15);
+            color: var(--white);
+        }
+
+        .btn-urgent {
+            background-color: var(--warning);
+            color: var(--white);
+            box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-urgent:hover {
+            background-color: var(--warning-dark);
+            transform: translateY(-2px);
+            box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.15);
+            color: var(--white);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--white);
+            border-color: var(--white);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--white);
+            color: var(--ink);
+        }
+
+        .btn-outline-dark {
+            background-color: transparent;
+            color: var(--ink);
+            border-color: var(--ink);
+        }
+
+        .btn-outline-dark:hover {
+            background-color: var(--ink);
+            color: var(--white);
+        }
+
+        .card {
+            background-color: var(--white);
+            padding: var(--space-md);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-base);
+            border: 1px solid var(--canvas-alt);
+            transition: var(--transition);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--circuit);
+        }
+
+        /* ==========================================================================
+           A. STICKY NAVIGATION
+           ========================================================================== */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            z-index: 1000;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-weight: 800;
+            font-size: 1.25rem;
+            color: var(--ink);
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon {
+            color: var(--circuit);
+            font-size: 1.5rem;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+        }
+
+        .nav-phone {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--ink);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-phone:hover {
+            color: var(--circuit);
+        }
+
+        /* ==========================================================================
+           B. HERO SECTION
+           ========================================================================== */
+        .hero {
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            padding-top: 80px; /* Offset for nav */
+            background-image: url('https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1200&h=800&fit=crop&auto=format&q=80');
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.85));
+            z-index: -1;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            margin-bottom: var(--space-sm);
+        }
+
+        .hero p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 1.15rem;
+            font-weight: 500;
+            margin-bottom: var(--space-md);
+            text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: var(--space-sm);
+            justify-content: center;
+            margin-bottom: var(--space-md);
+        }
+
+        .trust-badges-hero {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+        }
+
+        .badge {
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 100px;
+            color: var(--white);
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .badge-icon {
+            color: var(--circuit);
+            font-weight: bold;
+        }
+
+        /* Decorative Divider */
+        .hero-divider {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            z-index: 2;
+        }
+
+        .hero-divider svg {
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 60px;
+        }
+
+        .hero-divider .shape-fill {
+            fill: var(--canvas);
+        }
+
+        /* ==========================================================================
+           OVERLAPPING TRUST STRIP (Golden Rule 4)
+           ========================================================================== */
+        .trust-strip-wrapper {
+            position: relative;
+            z-index: 10;
+            margin-top: -40px;
+            margin-bottom: 40px;
+            padding: 0 var(--space-sm);
+        }
+
+        .trust-strip {
+            background-color: var(--white);
+            box-shadow: var(--shadow-float);
+            border: 1px solid var(--canvas-alt);
+            padding: var(--space-sm) var(--space-md);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: var(--space-sm);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 700;
+            color: var(--ink);
+            font-size: 0.95rem;
+        }
+
+        .trust-item-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(0, 86, 179, 0.15);
+            color: var(--circuit);
+            border-radius: 50%;
+            font-size: 1.2rem;
+        }
+
+        /* ==========================================================================
+           C. SERVICES SECTION
+           ========================================================================== */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-md);
+            margin-top: var(--space-md);
+        }
+
+        .service-icon-wrapper {
+            width: 64px;
+            height: 64px;
+            background-color: rgba(0, 86, 179, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: var(--space-sm);
+            font-size: 1.75rem;
+            color: var(--circuit);
+        }
+
+        .service-link {
+            margin-top: auto;
+            padding-top: var(--space-sm);
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .service-link:hover {
+            gap: 0.75rem;
+        }
+
+        /* ==========================================================================
+           D. ACCENT SECTION (Golden Rule 8)
+           ========================================================================== */
+        .accent-section {
+            background-color: var(--circuit);
+            background-image: radial-gradient(at 2% 98%, rgba(0, 68, 148, 1) 0px, transparent 50%);
+            color: var(--white);
+            padding: var(--space-xl) 0;
+            position: relative;
+        }
+
+        .accent-section h2 {
+            color: var(--white);
+        }
+
+        .accent-section p {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-md);
+            text-align: center;
+            margin-top: var(--space-md);
+        }
+
+        .stat-item {
+            padding: var(--space-sm);
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+            color: var(--white);
+            text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* ==========================================================================
+           E. SOCIAL PROOF SECTION
+           ========================================================================== */
+        .reviews-section {
+            background-color: var(--canvas-alt);
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: var(--space-md);
+            margin-top: var(--space-md);
+            margin-bottom: var(--space-md);
+        }
+
+        .review-card {
+            border-top: 4px solid var(--circuit);
+        }
+
+        .stars {
+            color: #FBBF24;
+            font-size: 1.25rem;
+            margin-bottom: var(--space-xs);
+            letter-spacing: 2px;
+        }
+
+        .review-text {
+            font-style: italic;
+            color: var(--ink);
+            margin-bottom: var(--space-sm);
+            flex-grow: 1;
+        }
+
+        .review-author {
+            font-weight: 700;
+            color: var(--ink);
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .review-author::before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 2px;
+            background-color: var(--circuit);
+        }
+
+        /* ==========================================================================
+           F. ABOUT SECTION
+           ========================================================================== */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-lg);
+            align-items: center;
+        }
+
+        .about-image-wrapper {
+            position: relative;
+        }
+
+        .about-image {
+            box-shadow: var(--shadow-base);
+            border: 1px solid var(--canvas-alt);
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .about-image-wrapper::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            width: 100%;
+            height: 100%;
+            border: 4px solid var(--circuit);
+            z-index: -1;
+        }
+
+        .checklist {
+            margin: var(--space-md) 0;
+        }
+
+        .checklist li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+            color: var(--ink);
+        }
+
+        .check-icon {
+            color: var(--circuit);
+            font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1;
+        }
+
+        /* ==========================================================================
+           G. SERVICE AREA
+           ========================================================================== */
+        .areas-section {
+            background-color: var(--canvas-alt);
+        }
+
+        .area-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-top: var(--space-md);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .area-tag {
+            background-color: var(--white);
+            border: 1px solid var(--canvas);
+            padding: 0.5rem 1.25rem;
+            border-radius: 100px;
+            font-weight: 600;
+            color: var(--ink);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: var(--transition);
+        }
+
+        .area-tag:hover {
+            border-color: var(--circuit);
+            color: var(--circuit);
+            transform: translateY(-2px);
+        }
+
+        /* ==========================================================================
+           H. CONTACT SECTION
+           ========================================================================== */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: var(--space-lg);
+        }
+
+        .contact-form-container {
+            background-color: var(--white);
+            padding: var(--space-lg);
+            box-shadow: var(--shadow-float);
+            border-top: 6px solid var(--circuit);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-sm);
+            margin-bottom: var(--space-sm);
+        }
+
+        .form-group {
+            margin-bottom: var(--space-sm);
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--ink);
+            font-size: 0.95rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid var(--canvas-alt);
+            background-color: var(--canvas);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            color: var(--ink);
+            transition: var(--transition);
+            border-radius: 0; /* Safety First industrial feel */
+        }
+
+        .form-control::placeholder {
+            color: #9CA3AF;
+            opacity: 1;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--circuit);
+            box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
+            background-color: var(--white);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .btn-submit {
+            width: 100%;
+            margin-top: var(--space-sm);
+        }
+
+        .privacy-note {
+            display: block;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--ink-muted);
+            margin-top: var(--space-sm);
+        }
+
+        .contact-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .contact-info-card {
+            background-color: var(--canvas-alt);
+            padding: var(--space-md);
+            border-left: 4px solid var(--circuit);
+        }
+
+        .contact-info-item {
+            margin-bottom: var(--space-sm);
+        }
+
+        .contact-info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-info-label {
+            font-weight: 700;
+            color: var(--ink);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .contact-info-label i {
+            color: var(--circuit);
+        }
+
+        .contact-info-value {
+            font-size: 1.1rem;
+            color: var(--ink-muted);
+        }
+
+        .contact-info-value.large {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--ink);
+        }
+
+        /* ==========================================================================
+           I. FOOTER
+           ========================================================================== */
+        .footer {
+            background-color: var(--ink);
+            color: rgba(255, 255, 255, 0.7);
+            padding: var(--space-lg) 0 var(--space-md);
+        }
+
+        .footer-grid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: var(--space-md);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: var(--space-md);
+            margin-bottom: var(--space-md);
+        }
+
+        .footer-brand h3 {
+            color: var(--white);
+            margin-bottom: 0.25rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: var(--space-md);
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+        }
+
+        .footer-links a:hover {
+            color: var(--circuit);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* ==========================================================================
+           J. MOBILE STICKY CTA
+           ========================================================================== */
+        .mobile-sticky-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: var(--space-sm);
+            background: linear-gradient(to top, var(--canvas) 70%, transparent);
+            z-index: 999;
+        }
+
+        .mobile-sticky-cta .btn {
+            width: 100%;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+        }
+
+        /* ==========================================================================
+           RESPONSIVE DESIGN
+           ========================================================================== */
+        @media (max-width: 992px) {
+            .contact-grid, .about-grid {
+                grid-template-columns: 1fr;
+            }
+            .about-image-wrapper {
+                order: -1;
+            }
+            .about-image {
+                height: 400px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            :root {
+                --space-xl: 4rem;
+                --space-lg: 3rem;
+            }
+            
+            .nav-phone span {
+                display: none;
+            }
+            
+            .hero {
+                min-height: 600px;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-grid {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .mobile-sticky-cta {
+                display: block;
+            }
+            
+            body {
+                padding-bottom: 80px; /* Space for mobile CTA */
+            }
+            
+            .trust-strip {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- A. STICKY NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🔧</span> Evolve Plumbing
+            </a>
+            <div class="nav-actions">
+                <a href="tel:07756641751" class="nav-phone">
+                    <span>☎</span> <span>07756 641751</span>
+                </a>
+                <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- B. HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Expert Plumbing & Heating in Dunfermline</h1>
+                <p>Fast, reliable, and professional service by Iain and the team. 4.9-star rated across 58 reviews. Fully insured and ready to help.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                    <a href="tel:07756641751" class="btn btn-urgent">24/7 Emergency Call</a>
+                </div>
+                
+                <div class="trust-badges-hero">
+                    <div class="badge"><span class="badge-icon">✓</span> 5-Star Rated</div>
+                    <div class="badge"><span class="badge-icon">✓</span> Local Expert</div>
+                    <div class="badge"><span class="badge-icon">✓</span> Fair Pricing</div>
+                    <div class="badge"><span class="badge-icon">✓</span> Fully Insured</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Decorative Divider -->
+        <div class="hero-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- OVERLAPPING TRUST STRIP -->
+    <div class="trust-strip-wrapper">
+        <div class="trust-strip">
+            <div class="trust-item">
+                <div class="trust-item-icon">⭐</div>
+                <span>4.9/5 Google Rating</span>
+            </div>
+            <div class="trust-item">
+                <div class="trust-item-icon">⏱️</div>
+                <span>Fast Response Times</span>
+            </div>
+            <div class="trust-item">
+                <div class="trust-item-icon">💷</div>
+                <span>Transparent Pricing</span>
+            </div>
+            <div class="trust-item">
+                <div class="trust-item-icon">🧹</div>
+                <span>Zero Mess Left Behind</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- C. SERVICES SECTION -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Our Services</h2>
+                <p>Professional plumbing and heating services for homes and businesses in Dunfermline and surrounding areas.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="card">
+                    <div class="service-icon-wrapper">🚨</div>
+                    <h3>Emergency Repairs</h3>
+                    <p>Fast response for leaks, bursts, and heating failures. We isolate the problem and fix it efficiently to prevent water damage.</p>
+                    <a href="#contact" class="service-link">Get Quote →</a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="card">
+                    <div class="service-icon-wrapper">🔥</div>
+                    <h3>Boiler Installation</h3>
+                    <p>Energy-efficient boiler upgrades and full heating system installations. Expert advice on the best system for your home.</p>
+                    <a href="#contact" class="service-link">Get Quote →</a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="card">
+                    <div class="service-icon-wrapper">🛁</div>
+                    <h3>Bathroom Fitting</h3>
+                    <p>Complete bathroom renovations, from initial pipework to final fixture installation. High-standard finish with zero mess.</p>
+                    <a href="#contact" class="service-link">Get Quote →</a>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="card">
+                    <div class="service-icon-wrapper">💧</div>
+                    <h3>Leak Detection</h3>
+                    <p>Advanced trace and access to find and fix hidden water leaks quickly, saving you money on water bills and property damage.</p>
+                    <a href="#contact" class="service-link">Get Quote →</a>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="card">
+                    <div class="service-icon-wrapper">🌀</div>
+                    <h3>Drain Unblocking</h3>
+                    <p>Clearing stubborn blockages in sinks, toilets, and exterior drains. We restore full flow to your plumbing system.</p>
+                    <a href="#contact" class="service-link">Get Quote →</a>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="card">
+                    <div class="service-icon-wrapper">🌡️</div>
+                    <h3>Radiator Installation</h3>
+                    <p>Adding, moving, or upgrading radiators for optimal home heating. Balancing systems to ensure every room stays warm.</p>
+                    <a href="#contact" class="service-link">Get Quote →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- D. ACCENT SECTION (Stats) -->
+    <section class="accent-section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Trusted by Dunfermline Homeowners</h2>
+                <p>We let our track record speak for itself. Quality workmanship on every job.</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">58+</div>
+                    <div class="stat-label">5-Star Reviews</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Satisfaction Focus</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Emergency Service</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- E. SOCIAL PROOF SECTION -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="text-center">
+                <h2>What Our Customers Say</h2>
+                <p>Don't just take our word for it. Read what your neighbors in Dunfermline have to say about Iain and the team.</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="card review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Evolve Plumbing and Heating Ltd replaced the tap in my en-suite. First class service provided by Iain. Turned up exactly when he said he would... Excellent tradesman and really nice, friendly guy. Extremely efficient and very reasonably priced."</p>
+                    <div class="review-author">Customer</div>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="card review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Needed a plumber to help sort a leaking valve on mains water supply... He sourced the parts required locally, and fixed the problem. Took some pictures of the repair to show me... very prompt, professional, and efficient at every step."</p>
+                    <div class="review-author">Customer</div>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="card review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"I contacted Iain to fix my kitchen tap. He offered great advice on the type I should be looking at etc - really appreciated this as I had no idea where to start... He switched over the taps quickly with zero mess! Would highly recommend!!"</p>
+                    <div class="review-author">Customer</div>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: var(--space-md);">
+                <a href="https://maps.google.com/?cid=6627185574009376312" target="_blank" rel="noopener" class="btn btn-outline-dark">Read All 58 Reviews on Google</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- F. ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>Why Choose Evolve Plumbing & Heating Ltd</h2>
+                    <p>Led by Iain, we are Dunfermline's trusted local plumbing and heating experts. We believe in doing the job right the first time, offering transparent pricing, and treating your home with respect.</p>
+                    <p>Whether it's a dripping tap, a leaking mains valve, or a full boiler installation, we handle every job with the same high level of professionalism. We turn up exactly when we say we will, and we never leave a mess behind.</p>
+                    
+                    <ul class="checklist">
+                        <li><span class="check-icon">✓</span> Fixed, transparent pricing with no hidden fees</li>
+                        <li><span class="check-icon">✓</span> Fast emergency response when you need it most</li>
+                        <li><span class="check-icon">✓</span> Fully qualified, insured, and experienced</li>
+                        <li><span class="check-icon">✓</span> Clean, tidy workmanship guaranteed</li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-primary">Get Started Today</a>
+                </div>
+                
+                <div class="about-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=800&fit=crop&auto=format&q=80" alt="Professional plumber at work" class="about-image" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- G. SERVICE AREA -->
+    <section class="areas-section">
+        <div class="container text-center">
+            <h2>Areas We Serve</h2>
+            <p>Proudly providing expert plumbing and heating services to Dunfermline and surrounding communities.</p>
+            
+            <div class="area-tags">
+                <span class="area-tag">Dunfermline</span>
+                <span class="area-tag">Rosyth</span>
+                <span class="area-tag">Inverkeithing</span>
+                <span class="area-tag">Dalgety Bay</span>
+                <span class="area-tag">Crossford</span>
+                <span class="area-tag">Cairneyhill</span>
+                <span class="area-tag">Townhill</span>
+                <span class="area-tag">Halbeath</span>
+                <span class="area-tag">Crossgates</span>
+                <span class="area-tag">Cowdenbeath</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- H. CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Form -->
+                <div class="contact-form-container">
+                    <h2>Get Your Free Quote</h2>
+                    <p style="margin-bottom: var(--space-md);">Fill out the form below with details of your plumbing or heating issue. Iain will respond promptly to discuss your needs.</p>
+                    
+                    <!-- Form action left as # for integration -->
+                    <form action="#" method="POST" id="quoteForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="07700 900000" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Required *</label>
+                            <select id="service" name="service" class="form-control" required>
+                                <option value="" disabled selected>Select a service...</option>
+                                <option value="Emergency Repair">Emergency Repair</option>
+                                <option value="Boiler Installation">Boiler Installation</option>
+                                <option value="Bathroom Fitting">Bathroom Fitting</option>
+                                <option value="Leak Detection">Leak Detection</option>
+                                <option value="Drain Unblocking">Drain Unblocking</option>
+                                <option value="Radiator Installation">Radiator Installation</option>
+                                <option value="Other">Other Plumbing Issue</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">How can we help? *</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Please describe the issue or project..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">Get My Free Quote</button>
+                        <span class="privacy-note">🔒 Your information is safe. No spam. Ever.</span>
+                    </form>
+                </div>
+                
+                <!-- Sidebar -->
+                <div class="contact-sidebar">
+                    <div class="contact-info-card">
+                        <div class="contact-info-item">
+                            <div class="contact-info-label"><i>☎</i> Direct Line</div>
+                            <a href="tel:07756641751" class="contact-info-value large">07756 641751</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-info-item">
+                            <div class="contact-info-label"><i>📍</i> Location</div>
+                            <div class="contact-info-value">13 Canmore Grove<br>Dunfermline KY12 0JT<br>United Kingdom</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-info-item">
+                            <div class="contact-info-label"><i>🕒</i> Business Hours</div>
+                            <div class="contact-info-value">
+                                Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                Saturday: 8:00 AM - 2:00 PM<br>
+                                Sunday: Emergency Callouts Only
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- I. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Evolve Plumbing & Heating Ltd</h3>
+                    <p>Professional plumbing services in Dunfermline.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Evolve Plumbing & Heating Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- J. MOBILE STICKY CTA -->
+    <div class="mobile-sticky-cta">
+        <a href="tel:07756641751" class="btn btn-primary">Call 07756 641751</a>
+    </div>
+
+    <!-- SCHEMA MARKUP -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Evolve Plumbing & Heating Ltd",
+      "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&h=600&fit=crop",
+      "@id": "",
+      "url": "",
+      "telephone": "07756 641751",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "13 Canmore Grove",
+        "addressLocality": "Dunfermline",
+        "postalCode": "KY12 0JT",
+        "addressCountry": "UK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 56.0719,
+        "longitude": -3.4653
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "14:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "58"
+      },
+      "areaServed": [
+        "Dunfermline",
+        "Rosyth",
+        "Inverkeithing",
+        "Dalgety Bay"
+      ],
+      "priceRange": "$$"
+    }
+    </script>
+
+    <!-- MINIMAL JS FOR NAV SHADOW -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 10) {
+                    navbar.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)';
+                } else {
+                    navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.05)';
+                }
+            });
+
+            // Basic form handling prevention for demo
+            const form = document.getElementById('quoteForm');
+            if(form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const btn = form.querySelector('.btn-submit');
+                    const originalText = btn.innerText;
+                    btn.innerText = 'Sending...';
+                    btn.style.backgroundColor = '#48BB78';
+                    
+                    setTimeout(() => {
+                        btn.innerText = 'Message Sent!';
+                        form.reset();
+                        setTimeout(() => {
+                            btn.innerText = originalText;
+                            btn.style.backgroundColor = '';
+                        }, 3000);
+                    }, 1500);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

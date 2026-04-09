@@ -7,6 +7,7 @@ outputs a production-ready single-file HTML website.
 import json
 import os
 import re
+import sys
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
@@ -18,7 +19,12 @@ OUTPUT_PATH = BASE_DIR / "output"
 REPORT_PATH = BASE_DIR / "build_report.json"
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "google/gemini-3.1-pro-preview"
+
+DRAFT_MODE = "--draft" in sys.argv
+MODEL_PRODUCTION = "google/gemini-3.1-pro-preview"
+MODEL_DRAFT = "google/gemini-2.5-flash"
+MODEL = MODEL_DRAFT if DRAFT_MODE else MODEL_PRODUCTION
+MAX_TOKENS = 16000 if DRAFT_MODE else 32000
 
 
 def load_env() -> dict[str, str]:
@@ -144,7 +150,7 @@ def call_gemini(system_prompt: str, user_message: str, api_key: str) -> str:
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_message},
         ],
-        "max_tokens": 32000,
+        "max_tokens": MAX_TOKENS,
         "temperature": 0.3,
     }).encode("utf-8")
 
@@ -292,6 +298,18 @@ def audit_readability(html: str) -> list[str]:
     return warnings
 
 
+def estimate_cost(model: str, input_chars: int, output_chars: int) -> float:
+    """Rough cost estimate from character counts (~4 chars per token)."""
+    input_tokens = input_chars // 4
+    output_tokens = output_chars // 4
+    rates: dict[str, tuple[float, float]] = {
+        MODEL_PRODUCTION: (2.00, 10.00),
+        MODEL_DRAFT: (0.075, 0.30),
+    }
+    inp_rate, out_rate = rates.get(model, (2.00, 10.00))
+    return (input_tokens * inp_rate + output_tokens * out_rate) / 1_000_000
+
+
 def generate_website() -> dict:
     """Main generation pipeline. Returns build report."""
     # Load inputs
@@ -303,6 +321,9 @@ def generate_website() -> dict:
     # Determine accent color
     accent = details.get("accent_color") or auto_select_accent(details)
 
+    mode = "DRAFT (Flash)" if DRAFT_MODE else "PRODUCTION (Pro)"
+    est = "~$0.02" if DRAFT_MODE else "~$0.60"
+    print(f"Mode: {mode} | Est cost: {est}")
     print(f"Generating website for: {details['business_name']}")
     print(f"Category: {details.get('business_category', 'general')}")
     print(f"Accent: {accent}")
@@ -311,8 +332,11 @@ def generate_website() -> dict:
     print("Calling Gemini...")
 
     # Call Gemini
+    input_chars = len(system_prompt) + len(user_message)
     raw_response = call_gemini(system_prompt, user_message, api_key)
     html = extract_html(raw_response)
+    cost_usd = estimate_cost(MODEL, input_chars, len(raw_response))
+    print(f"Actual cost estimate: ${cost_usd:.4f}")
 
     # Write output
     OUTPUT_PATH.mkdir(exist_ok=True)
@@ -368,6 +392,10 @@ def generate_website() -> dict:
             "warnings": readability_warnings,
         },
         "html_size_kb": round(len(html.encode("utf-8")) / 1024, 1),
+        "cost": {
+            "mode": "draft" if DRAFT_MODE else "production",
+            "estimated_usd": round(cost_usd, 4),
+        },
     }
 
     REPORT_PATH.write_text(json.dumps(report, indent=2))

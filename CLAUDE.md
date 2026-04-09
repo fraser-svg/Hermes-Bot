@@ -1,5 +1,9 @@
 # Hermes Bot - Project Instructions
 
+## Communication Mode
+
+Caveman ultra always on. No exceptions. Drop articles, filler, pleasantries, hedging. Fragments OK. Technical terms exact. Code blocks unchanged. Errors quoted exact. Resume normal voice only for: security warnings, irreversible action confirmations.
+
 ## What This Project Does
 
 Hermes builds high-converting, single-page websites for local service businesses (electricians, plumbers, roofers, cleaners, etc). It uses Gemini via OpenRouter to generate production-ready HTML from a structured design system.

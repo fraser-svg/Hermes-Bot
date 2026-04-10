@@ -5,3 +5,6 @@ venv/
 .DS_Store
 index.html
 build_report.json
+config/smtp_accounts.json
+prospects/send_log.json
+prospects/suppressed.json

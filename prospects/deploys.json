@@ -1,16 +1,5 @@
 [
   {
-    "slug": "edinburgh-sparks-electrical",
-    "site_id": "2361835d-75c9-4883-8659-93fe6afb474f",
-    "deploy_id": "69d807a12065d85db1d65a89",
-    "url": "https://h-edinburgh-sparks-electrical-be4b2f.netlify.app",
-    "deploy_url": "https://69d807a12065d85db1d65a89--h-edinburgh-sparks-electrical-be4b2f.netlify.app",
-    "html_file": "output/edinburgh-sparks-electrical.html",
-    "file_hash": "93bfe8a61cc76e2d",
-    "deployed_at": "2026-04-09T20:10:09.539214+00:00",
-    "status": "preview"
-  },
-  {
     "slug": "h-b-barbershop",
     "site_id": "b0cb2215-8011-4924-bda0-97353c310cf4",
     "deploy_id": "69d807d57564585e8cd9a523",
@@ -64,5 +53,15 @@
     "file_hash": "d495f43ad0f41c30",
     "deployed_at": "2026-04-09T20:12:14.100490+00:00",
     "status": "preview"
+  },
+  {
+    "slug": "edinburgh-sparks-electrical",
+    "project_name": "h-edinburgh-sparks-electrical-be4b2f",
+    "url": "https://h-edinburgh-sparks-electrical-be4b2f.pages.dev",
+    "html_file": "output/edinburgh-sparks-electrical.html",
+    "file_hash": "93bfe8a61cc76e2d",
+    "deployed_at": "2026-04-10T09:53:21.894732+00:00",
+    "status": "preview",
+    "provider": "cloudflare"
   }
 ]

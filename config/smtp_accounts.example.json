@@ -1,0 +1,20 @@
+[
+  {
+    "email": "fraser@fraserwebdesign.co.uk",
+    "password": "xxxx-xxxx-xxxx-xxxx",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "daily_limit": 30,
+    "display_name": "Fraser",
+    "active": true
+  },
+  {
+    "email": "fraser@reputasdesign.co.uk",
+    "password": "xxxx-xxxx-xxxx-xxxx",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "daily_limit": 30,
+    "display_name": "Fraser",
+    "active": true
+  }
+]

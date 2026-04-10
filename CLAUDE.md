@@ -87,6 +87,18 @@ main.py                  - LEGACY, do not use
 website_generator.py     - LEGACY, do not use
 ```
 
+## Deployment
+
+Sites deploy to **Cloudflare Pages** (free, unlimited bandwidth). Auth via `npx wrangler login` (OAuth, no API token).
+
+```bash
+python3 deploy.py                          # deploy all un-deployed sites
+python3 deploy.py output/some-business.html  # deploy one site
+python3 deploy.py --list                   # list all deployed sites
+```
+
+Sites go live at `h-{slug}-{hash}.pages.dev`. Deploy log: `prospects/deploys.json`.
+
 ## API Keys
 
 Stored in `.env`. Uses `openrouter` key to call Gemini via OpenRouter.

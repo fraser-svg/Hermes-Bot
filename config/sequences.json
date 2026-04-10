@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "h-b-barbershop",
+    "business_name": "H B Barbershop",
+    "preview_url": "https://h-h-b-barbershop-504967.netlify.app",
+    "payment_url": "https://buy.stripe.com/test_5kQ9AU7KUffS5LAcvddQQ05",
+    "steps": [
+      {
+        "step": 1,
+        "subject": "H B Barbershop",
+        "body": "Hi,\n\nI saw your Google rating is 4.8/5 with 31 reviews \u2014 that\u2019s great! I built you a new website to match that reputation. Here it is: https://h-h-b-barbershop-504967.netlify.app\n\nIt\u2019s simple, mobile-friendly, and includes real reviews plus a contact form. If you like it, it\u2019s just \u00a329/month and you can cancel anytime.\n\nHere\u2019s the payment link if you want to get started: https://buy.stripe.com/test_5kQ9AU7KUffS5LAcvddQQ05\n\nCheers,\nFraser"
+      },
+      {
+        "step": 2,
+        "subject": "re: H B Barbershop",
+        "body": "Hey,\n\nJust wanted to bump this in case you missed it. I think the reviews section turned out well and really shows off what people say about H B Barbershop.\n\nWorth a look if you haven\u2019t seen it yet: https://h-h-b-barbershop-504967.netlify.app\n\nIf you like it, here\u2019s the link to get started: https://buy.stripe.com/test_5kQ9AU7KUffS5LAcvddQQ05\n\nCheers,\nFraser"
+      },
+      {
+        "step": 3,
+        "subject": "Quick question about H B Barbershop",
+        "body": "Hi,\n\nI built this site just for H B Barbershop, but if you\u2019re not interested I\u2019ll reassign the design to someone else soon.\n\nNo pressure, just wanted to be upfront. If you want to move forward, here\u2019s the link again: https://buy.stripe.com/test_5kQ9AU7KUffS5LAcvddQQ05\n\nThanks for your time,\nFraser"
+      }
+    ],
+    "generated_at": "2026-04-10T09:52:11.648024+00:00"
+  }
+]

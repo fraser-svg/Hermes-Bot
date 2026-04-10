@@ -20,11 +20,21 @@ REPORT_PATH = BASE_DIR / "build_report.json"
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
-DRAFT_MODE = "--draft" in sys.argv
 MODEL_PRODUCTION = "google/gemini-3.1-pro-preview"
 MODEL_DRAFT = "google/gemini-2.5-flash"
-MODEL = MODEL_DRAFT if DRAFT_MODE else MODEL_PRODUCTION
-MAX_TOKENS = 16000 if DRAFT_MODE else 32000
+MAX_TOKENS_PRO = 32000
+MAX_TOKENS_DRAFT = 16000
+
+# Mode selection: --pro forces Pro, --draft forces Flash, default is smart (Flash-first)
+if "--pro" in sys.argv:
+    MODE = "production"
+elif "--draft" in sys.argv:
+    MODE = "draft"
+else:
+    MODE = "smart"
+
+SMART_THRESHOLD = 8.0  # Minimum score to accept Flash output (out of 10)
+SMART_REQUIRE_READABILITY = True  # Flash must also pass readability
 
 
 def load_env() -> dict[str, str]:
@@ -128,29 +138,38 @@ def auto_select_accent(details: dict) -> str:
     return accent_map.get(category, "#2563EB")
 
 
-def build_user_message(details: dict) -> str:
+def build_user_message(details: dict, fix_hints: list[str] | None = None) -> str:
     """Format business details into the user message for Gemini."""
     # Auto-select accent color if not specified
     if "accent_color" not in details:
         details = {**details, "accent_color": auto_select_accent(details)}
 
-    return (
+    msg = (
         "Build a complete website for this business. "
         "Use the YC startup aesthetic. Follow ALL 7 design rules and the anti-slop checklist. "
         "Return ONLY the HTML document, no explanations.\n\n"
         f"```json\n{json.dumps(details, indent=2)}\n```"
     )
 
+    if fix_hints:
+        msg += "\n\nCRITICAL: A previous attempt failed these checks. You MUST fix them:\n"
+        for hint in fix_hints:
+            msg += f"- {hint}\n"
 
-def call_gemini(system_prompt: str, user_message: str, api_key: str) -> str:
-    """Call Gemini 3.1 Pro via OpenRouter and return the HTML response."""
+    return msg
+
+
+def call_gemini(system_prompt: str, user_message: str, api_key: str, model: str | None = None, max_tokens: int | None = None) -> str:
+    """Call Gemini via OpenRouter and return the HTML response."""
+    use_model = model or MODEL
+    use_max_tokens = max_tokens or (MAX_TOKENS_PRO if use_model == MODEL_PRODUCTION else MAX_TOKENS_DRAFT)
     payload = json.dumps({
-        "model": MODEL,
+        "model": use_model,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_message},
         ],
-        "max_tokens": MAX_TOKENS,
+        "max_tokens": use_max_tokens,
         "temperature": 0.3,
     }).encode("utf-8")
 
@@ -310,44 +329,8 @@ def estimate_cost(model: str, input_chars: int, output_chars: int) -> float:
     return (input_tokens * inp_rate + output_tokens * out_rate) / 1_000_000
 
 
-def generate_website() -> dict:
-    """Main generation pipeline. Returns build report."""
-    # Load inputs
-    details = load_business_details()
-    system_prompt = load_system_prompt()
-    api_key = get_api_key()
-    user_message = build_user_message(details)
-
-    # Determine accent color
-    accent = details.get("accent_color") or auto_select_accent(details)
-
-    mode = "DRAFT (Flash)" if DRAFT_MODE else "PRODUCTION (Pro)"
-    est = "~$0.02" if DRAFT_MODE else "~$0.60"
-    print(f"Mode: {mode} | Est cost: {est}")
-    print(f"Generating website for: {details['business_name']}")
-    print(f"Category: {details.get('business_category', 'general')}")
-    print(f"Accent: {accent}")
-    print(f"City: {details['city']}")
-    print(f"Model: {MODEL}")
-    print("Calling Gemini...")
-
-    # Call Gemini
-    input_chars = len(system_prompt) + len(user_message)
-    raw_response = call_gemini(system_prompt, user_message, api_key)
-    html = extract_html(raw_response)
-    cost_usd = estimate_cost(MODEL, input_chars, len(raw_response))
-    print(f"Actual cost estimate: ${cost_usd:.4f}")
-
-    # Write output
-    OUTPUT_PATH.mkdir(exist_ok=True)
-    slug = re.sub(r"[^a-z0-9]+", "-", details["business_name"].lower()).strip("-")
-    html_file = OUTPUT_PATH / f"{slug}.html"
-    html_file.write_text(html)
-
-    # Also write to root index.html for quick preview
-    (BASE_DIR / "index.html").write_text(html)
-
-    # Validation checks
+def validate_html(html: str, details: dict) -> tuple[float, dict, list[str]]:
+    """Validate HTML and return (score, checks, readability_warnings)."""
     checks = {
         "has_tel_link": "tel:" in html,
         "has_contact_form": "<form" in html.lower(),
@@ -364,27 +347,36 @@ def generate_website() -> dict:
         "has_unsplash_images": "images.unsplash.com" in html,
         "has_hero_photo_bg": "background-image" in html and "unsplash" in html,
     }
-
-    # Readability / contrast audit
     readability_warnings = audit_readability(html)
     checks["readability_pass"] = len(readability_warnings) == 0
     passed = sum(checks.values())
     total = len(checks)
     score = round(passed / total * 10, 1)
+    return score, checks, readability_warnings
 
+
+def build_report(
+    details: dict, html: str, model: str, html_file: Path,
+    score: float, checks: dict, readability_warnings: list[str],
+    cost_usd: float, mode_label: str, escalated: bool = False,
+    draft_cost: float = 0.0,
+) -> dict:
+    """Build the report dict."""
+    accent = details.get("accent_color") or auto_select_accent(details)
+    total_cost = cost_usd + draft_cost
     report = {
         "success": True,
         "business": details["business_name"],
         "category": details.get("business_category", "general"),
         "accent": accent,
         "city": details["city"],
-        "model": MODEL,
+        "model": model,
         "output_file": str(html_file),
         "index_file": str(BASE_DIR / "index.html"),
         "validation": {
             "score": f"{score}/10",
-            "passed": passed,
-            "total": total,
+            "passed": sum(checks.values()),
+            "total": len(checks),
             "checks": checks,
         },
         "readability": {
@@ -393,18 +385,114 @@ def generate_website() -> dict:
         },
         "html_size_kb": round(len(html.encode("utf-8")) / 1024, 1),
         "cost": {
-            "mode": "draft" if DRAFT_MODE else "production",
-            "estimated_usd": round(cost_usd, 4),
+            "mode": mode_label,
+            "estimated_usd": round(total_cost, 4),
+            "escalated": escalated,
         },
     }
+    if escalated:
+        report["cost"]["draft_cost_usd"] = round(draft_cost, 4)
+        report["cost"]["pro_cost_usd"] = round(cost_usd, 4)
+    return report
+
+
+def call_and_validate(
+    system_prompt: str, user_message: str, api_key: str, model: str,
+    details: dict, label: str,
+) -> tuple[str, float, float, dict, list[str]]:
+    """Call model, extract HTML, validate. Returns (html, score, cost, checks, warnings)."""
+    input_chars = len(system_prompt) + len(user_message)
+    print(f"  Calling {model}...")
+    raw_response = call_gemini(system_prompt, user_message, api_key, model=model)
+    html = extract_html(raw_response)
+    cost_usd = estimate_cost(model, input_chars, len(raw_response))
+    score, checks, warnings = validate_html(html, details)
+    print(f"  {label}: {score}/10 | ${cost_usd:.4f} | readability={'PASS' if not warnings else f'{len(warnings)} warnings'}")
+    return html, score, cost_usd, checks, warnings
+
+
+def generate_website() -> dict:
+    """Main generation pipeline. Returns build report."""
+    details = load_business_details()
+    system_prompt = load_system_prompt()
+    api_key = get_api_key()
+    user_message = build_user_message(details)
+    accent = details.get("accent_color") or auto_select_accent(details)
+
+    print(f"Generating website for: {details['business_name']}")
+    print(f"Category: {details.get('business_category', 'general')} | Accent: {accent} | City: {details['city']}")
+
+    OUTPUT_PATH.mkdir(exist_ok=True)
+    slug = re.sub(r"[^a-z0-9]+", "-", details["business_name"].lower()).strip("-")
+    html_file = OUTPUT_PATH / f"{slug}.html"
+
+    escalated = False
+    draft_cost = 0.0
+
+    if MODE == "smart":
+        # Smart mode: try Flash first, escalate to Pro only if quality insufficient
+        pro_cost_est = estimate_cost(MODEL_PRODUCTION, len(system_prompt) + len(user_message), 20000 * 4)
+        print(f"Mode: SMART (Flash first, Pro fallback) | Pro would cost ~${pro_cost_est:.4f}")
+
+        html, score, cost_usd, checks, warnings = call_and_validate(
+            system_prompt, user_message, api_key, MODEL_DRAFT, details, "Flash",
+        )
+
+        needs_escalation = score < SMART_THRESHOLD or (SMART_REQUIRE_READABILITY and warnings)
+
+        if needs_escalation:
+            failed = [k for k, v in checks.items() if not v]
+            reason = f"score {score}/10" if score < SMART_THRESHOLD else f"{len(warnings)} readability warnings"
+            print(f"  Flash insufficient ({reason}). Failed: {', '.join(failed)}")
+            print(f"  Escalating to Pro with fix hints...")
+
+            draft_cost = cost_usd
+            escalated = True
+
+            # Build fix hints from failures so Pro knows what to fix
+            fix_hints = [k.replace("_", " ") for k, v in checks.items() if not v]
+            fix_hints.extend(warnings)
+            escalation_message = build_user_message(details, fix_hints=fix_hints)
+
+            html, score, cost_usd, checks, warnings = call_and_validate(
+                system_prompt, escalation_message, api_key, MODEL_PRODUCTION, details, "Pro",
+            )
+            model_used = MODEL_PRODUCTION
+            total = cost_usd + draft_cost
+            print(f"  Escalated. Total cost: ${total:.4f} (Flash ${draft_cost:.4f} + Pro ${cost_usd:.4f})")
+        else:
+            model_used = MODEL_DRAFT
+            saved = pro_cost_est - cost_usd
+            print(f"  Flash passed! Saved ${saved:.4f} vs Pro")
+
+        mode_label = "smart"
+    else:
+        model_used = MODEL_PRODUCTION if MODE == "production" else MODEL_DRAFT
+        mode_label = MODE
+        est = "~$0.02" if MODE == "draft" else "~$0.60"
+        print(f"Mode: {mode_label.upper()} | Est cost: {est} | Model: {model_used}")
+
+        html, score, cost_usd, checks, warnings = call_and_validate(
+            system_prompt, user_message, api_key, model_used, details, mode_label.title(),
+        )
+
+    # Write output
+    html_file.write_text(html)
+    (BASE_DIR / "index.html").write_text(html)
+
+    report = build_report(
+        details, html, model_used, html_file,
+        score, checks, warnings, cost_usd, mode_label,
+        escalated=escalated, draft_cost=draft_cost,
+    )
 
     REPORT_PATH.write_text(json.dumps(report, indent=2))
     print(f"\nBuild complete: {score}/10 validation score")
     print(f"Output: {html_file}")
 
-    if readability_warnings:
-        print(f"\n⚠ READABILITY WARNINGS ({len(readability_warnings)}):")
-        for w in readability_warnings:
+    if warnings:
+        print(f"\n⚠ READABILITY WARNINGS ({len(warnings)}):")
+        for w in warnings:
             print(f"  - {w}")
     else:
         print("Readability audit: PASS")

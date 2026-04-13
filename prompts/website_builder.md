@@ -57,7 +57,7 @@ YC sites use a "High-Value Neutral" palette. 90% white/gray, 10% utility color.
 ### Rule 3: The "Bento Box" Grid
 This is the hallmark of modern design (Linear, Apple, Vercel). Information is compartmentalized into rounded rectangles of varying sizes that fit together like a puzzle.
 
-- **Service cards:** use a bento grid, NOT a uniform 3-column grid. Mix sizes: one large card (spans 2 columns) + two smaller cards, or an asymmetric 60/40 split. Every section must have a DIFFERENT layout from the one above it.
+- **Service cards:** use a UNIFORM, SYMMETRICAL grid. All cards must be the same size. 3 columns desktop (or 2x4 if 8 services). NO card may span 2 columns. NO asymmetric sizing. Every card identical dimensions. If the number of services doesn't fill the last row evenly, center the remaining cards. Bento/asymmetric layouts are for OTHER sections (about, features) — NOT for the services grid. Services must look orderly and professional like a menu.
 - **Border-radius:** `12px`, `16px`, or `24px` on all containers. Pick ONE value and use it consistently for cards. NOT `0px` (brutalist), NOT `100px` (pill), NOT `8px` (too subtle).
 - **Card borders:** `1px solid #E5E7EB`. No heavy shadows. No colored borders on cards.
 - **Negative space:** if a section feels busy, delete 30% of the content. High-end sites breathe. Slop is cluttered. Use the `4/8/16/32/64px` spacing scale rigidly.
@@ -72,15 +72,40 @@ If you can't measure it, don't say it. AI slop uses "Revolutionary," "Unmatched,
   - Slop: "Experience the best haircut in Stirling."
   - YC: "Precision grooming. 25-minute slots. Walk-ins welcome."
 - If any sentence could apply to any business in any city, delete it.
+- **HARD WORD LIMITS (enforced, no exceptions):**
+  - Hero headline: max 8 words
+  - Hero subhead: max 15 words
+  - Service card title: max 4 words
+  - Service card description: max 15 words. Must contain a specific action or outcome.
+  - About section: max 60 words total
+  - Review quotes: truncate to 2 sentences max (~30 words)
+  - Section headings: max 6 words
+- Every sentence must contain at least one of: a number, a place name, or a specific action verb. If it doesn't, delete it.
 
 ### Rule 5: The Startup Hero Framework
 The top of the page follows the standard startup header structure:
 
-- **Top nav:** Logo text (left), 2-3 simple text links (center or right), ONE action button (right). Clean, minimal, no hamburger menus.
-- **Hero headline:** Massive (`clamp(2.5rem, 6vw, 4.5rem)`), weight 800, letter-spacing `-0.05em`. Left-aligned or centered. 2-3 lines maximum.
-- **Sub-head:** 1-2 lines of `#6B7280` gray text explaining what the business does and how it works. Max-width `550px`.
+- **Top nav:** Logo text (left), phone icon (center), ONE action button (right). Clean, minimal, no hamburger menus. No text links on mobile.
+- **Mobile nav constraints (CRITICAL — test these):**
+  - Nav height: max `56px`. Padding: `8px 16px`.
+  - Logo text: `font-size: clamp(0.85rem, 2.5vw, 1.05rem)`, weight 600, `white-space: nowrap`, `overflow: hidden`, `text-overflow: ellipsis`. Single line only. Max-width 40% of viewport.
+  - CTA button: max 2 words ("Get Quote" not "Get Free Quote"). `white-space: nowrap`, `font-size: 0.85rem`, `padding: 8px 16px` on mobile. Must never wrap to two lines.
+  - Phone icon: 24px, clickable `tel:` link. Hide phone NUMBER text on mobile, show icon only.
+
+#### Hero Copy Hierarchy (CRITICAL — competing text kills conversion)
+The hero has exactly 3 text elements. Nothing else. No extra taglines, no badge text competing with the headline, no decorative text. The visitor's eye must follow ONE path: headline → subhead → CTA.
+
+- **Hero headline:** ONE line of massive text. (`clamp(2.5rem, 6vw, 4.5rem)`), weight 800, letter-spacing `-0.05em`. Max 8 words. This is the ONLY large text in the hero. Nothing else may be visually close in size or weight. Left-aligned or centered. 2-3 lines maximum.
+- **Sub-head:** ONE line of supporting text in `#6B7280` gray (or `rgba(255,255,255,0.9)` on dark hero). Smaller than the headline by at least 50%. Max 15 words. Max-width `550px`. It answers "why should I trust you?" with facts (rating, years, speed). It does NOT repeat or rephrase the headline.
 - **CTA group:** One solid primary button + one "ghost" button (transparent bg, dark border). That's it. No third button. No "watch video" unless there's an actual video.
-- **Hero image:** full-bleed background photo with dark overlay (already enforced), OR a large side image in a bento-style rounded container.
+
+**Anti-competition rules:**
+- Do NOT place trust badges, taglines, or category labels above or near the headline. If trust badges exist, they go BELOW the CTA buttons with significant spacing (32px+).
+- Do NOT use multiple font sizes in the headline area. One size for the headline, one smaller size for the subhead. That's it.
+- Do NOT add a "pre-headline" or "eyebrow text" above the main headline — this splits attention and creates visual competition.
+- The headline and subhead must say DIFFERENT things. Headline = what + where. Subhead = proof + speed. Never echo the same idea in both.
+
+- **Hero image:** full-bleed background photo with dark overlay. NOT optional. NOT a plain white/colored background. See Rule 9 — the hero MUST have a real photograph as background. A hero without a photo looks like a Google Doc.
 
 ### Rule 6: Micro-Elevation (Layered Shadows)
 YC sites feel like physical objects layered on a desk. Avoid the default CSS drop shadow.
@@ -377,9 +402,10 @@ The page has exactly 8 components, top to bottom. Every local service website fo
 
 ### A. STICKY NAVIGATION - "The Trust Bar"
 Fixed to top. `--canvas` background. Subtle bottom shadow (`0 1px 3px rgba(0,0,0,0.08)`).
-- **Left:** Logo (business name as styled text in `--ink` color using heading font if no logo image provided, or `<img>` if available). Max 180px wide.
-- **Right:** Phone number (large, bold, `--ink` color, clickable `tel:` link with phone icon `&#9742;`) + CTA button ("Get Free Quote", accent color fill, links to `#contact`).
-- **Mobile:** Hide phone number text (keep icon clickable). CTA button stays visible. No hamburger menu - there are only 2 elements.
+- **Left:** Logo (business name as styled text, `font-size: clamp(0.85rem, 2.5vw, 1.05rem)`, weight 600, `--ink` color, `white-space: nowrap`, `overflow: hidden`, `text-overflow: ellipsis`). Max 40vw on mobile.
+- **Right:** Phone icon (clickable `tel:` link, 24px) + CTA button ("Get Quote" — 2 words max, accent color fill, `white-space: nowrap`, `font-size: 0.85rem`, `padding: 8px 16px`, links to `#contact`).
+- **Mobile:** Hide phone number TEXT (keep icon clickable). CTA button text must be 2 words max. Nav height max `56px`. No hamburger menu.
+- **Desktop:** Show full phone number text next to icon. CTA can use 3 words ("Get Free Quote").
 - **Scroll behavior:** Add `scroll-padding-top: 80px` to `html` for anchor offset.
 
 ### B. HERO SECTION - "The 3-Second Sell"
@@ -490,7 +516,14 @@ Always include a complete `<script type="application/ld+json">` block with:
 - **Images:** Use REAL Unsplash photos via their URL API (see Stock Photo System below). Every image must be a real photograph, not a placeholder box. This is critical for visual impact.
 - **Performance:** Target < 2s load time. No external JS libraries. No icon libraries - use Unicode characters (✓ ★ ☎ 🔒 →). Inline everything.
 - **Accessibility:** Semantic HTML5 (`<nav>`, `<main>`, `<section>`, `<footer>`). Skip-to-content link. All interactive elements keyboard-focusable. Form labels (use placeholder + aria-label). Sufficient color contrast. ALWAYS include a `::placeholder` CSS rule: `::placeholder { color: #9CA3AF; opacity: 1; }` to ensure form placeholders are readable.
-- **Responsive breakpoints:** Mobile-first. Single breakpoint at `768px`. Everything stacks to single column below 768px. Form row fields stack. Hero columns stack (image first on mobile via `order: -1`).
+- **Responsive breakpoints:** Mobile-first. Single breakpoint at `768px`. Everything stacks to single column below 768px. Form row fields stack. Hero columns stack (text first on mobile, image second — do NOT use `order: -1` which puts image first).
+- **Mobile-specific overrides (at `<768px`):**
+  - Nav: max height `56px`, logo `clamp(0.85rem, 2.5vw, 1.05rem)`, CTA `0.85rem nowrap`
+  - Hero headline: `clamp(1.8rem, 5vw, 2.5rem)`. Hero subhead: `1rem`.
+  - Hero buttons: stack vertically, `width: 100%`
+  - Hero image: `aspect-ratio: 16/9`, `object-fit: cover`, `border-radius: 8px`, full width
+  - Section padding: `48px 16px` (not `64px 0`)
+  - Cards: single column, no bento on mobile
 
 ---
 
@@ -517,8 +550,9 @@ https://images.unsplash.com/photo-[PHOTO_ID]?w=[WIDTH]&h=[HEIGHT]&fit=crop&auto=
 Choose Unsplash photos that match the business category. Use these REAL Unsplash photo IDs for known categories. For any unlisted category, search Unsplash mentally for a relevant professional image and use a realistic photo URL.
 
 **Electrician:**
-- Hero: `photo-1621905251189-08b45d6a269e` (electrician working on panel) w=1200&h=800
+- Hero: `photo-1558618666-fcd25c85f82e` (electrical panel / fuse board close-up) w=1200&h=800
 - About: `photo-1504328345606-18bbc8c9d7d1` (professional with tools) w=600&h=400
+- **PHOTO VALIDATION (CRITICAL):** NEVER use welding, sparks, metalwork, grinding, or fabrication photos for electricians. These are WRONG TRADE. A welder is not an electrician. If you are unsure whether a photo shows electrical work, DO NOT use it. Electrician photos MUST show one of: electrical panels, wiring, consumer units, fuse boards, light fixtures, lighting installations, EV chargers, or a person working on a wall socket/switch. When in doubt, use the exact photo IDs listed above — they are verified correct.
 
 **Plumber:**
 - Hero: `photo-1585704032915-c3400ca199e7` (plumbing work) w=1200&h=800
@@ -575,11 +609,12 @@ Choose Unsplash photos that match the business category. Use these REAL Unsplash
 
 ### Image Implementation Rules
 
-- **Hero image**: `loading="eager"`, full dimensions, `object-fit: cover`, `border-radius` from persona, prominent shadow
-- **All other images**: `loading="lazy"`
+- **Hero image**: `loading="eager"`, `object-fit: cover`, `width: 100%`, `aspect-ratio: 16/9` (or `4/3` for side images), `border-radius: 8px`, prominent shadow. NEVER allow squashing — always use `object-fit: cover` with a fixed aspect-ratio.
+- **All other images**: `loading="lazy"`, `object-fit: cover`
 - **Always include descriptive alt text**: "Electrician installing a consumer unit in an Edinburgh home" not "image1"
-- **Size the images properly**: Hero should be `w=800&h=600` or `w=1200&h=800`. About images `w=600&h=400`. Keep total page weight under 1MB.
-- **Object-fit**: All images inside fixed-height containers must use `object-fit: cover` to prevent distortion
+- **Size the images properly**: Hero should be `w=1200&h=800`. About images `w=600&h=400`. Keep total page weight under 1MB.
+- **Object-fit**: ALL images must use `object-fit: cover`. Never use `object-fit: contain` or leave it unset. This prevents distortion/squashing.
+- **Aspect ratio**: Hero background images use the container's min-height. Standalone hero images must set `aspect-ratio: 16/9` or `4/3` to prevent collapse or squash on mobile.
 - **Fallback**: If an Unsplash URL fails to load, the `<img>` tag should have a `background-color` on its parent container matching `--canvas-alt` so there's no broken image icon visible
 
 ### Image Styling

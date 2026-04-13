@@ -1,0 +1,455 @@
+[
+  {
+    "business_name": "Hawthorn Tax",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "4 Newton Pl, Glasgow G3 7PR, UK",
+    "phone_number": "0141 459 7969",
+    "website_url": "http://www.hawthorntax.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=1176508061914345709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 46,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 195.5
+  },
+  {
+    "business_name": "LPA Accountancy",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "22 Milnpark St, Kinning Park, Glasgow G41 1BB, UK",
+    "phone_number": "0141 459 3250",
+    "website_url": "https://lpa-accountancy.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=5205397515249331367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 29,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 145.0
+  },
+  {
+    "business_name": "ammu chartered accountants glasgow",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "10 Newton Terrace, Charing Cross Ln, Glasgow G3 7PJ, UK",
+    "phone_number": "0141 290 0262",
+    "website_url": "http://www.ammu.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=1459372463597468781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 21,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 89.2
+  },
+  {
+    "business_name": "K A Javid & Co Accountants",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "Javid House, 115 Bath St, Glasgow G2 2SZ, UK",
+    "phone_number": "0141 248 8666",
+    "website_url": "http://www.kajavid.com/",
+    "google_maps_url": "https://maps.google.com/?cid=11517532480901013887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 13,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 57.2
+  },
+  {
+    "business_name": "Blyth Accountants",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "272 Bath St, Glasgow G2 4JR, UK",
+    "phone_number": "0141 266 0468",
+    "website_url": "https://www.blythaccountants.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=1142791428908146112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 11,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 55.0
+  },
+  {
+    "business_name": "Abacus Glasgow Ltd",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "20 Sandyford St, Glasgow G3 8QJ, UK",
+    "phone_number": "0141 423 4931",
+    "website_url": "http://www.abacusglasgow.com/",
+    "google_maps_url": "https://maps.google.com/?cid=1355762797091106969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 13,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 51.9
+  },
+  {
+    "business_name": "Brett Nicholls Associates",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "Herbert House, 24 Herbert St, Glasgow G20 6NB, UK",
+    "phone_number": "0141 334 1318",
+    "website_url": "http://www.bnassociates.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=7388843156657576458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 10,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 42.5
+  },
+  {
+    "business_name": "A&A Accountants Glasgow",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "1037 Sauchiehall St, Glasgow G3 7TZ, UK",
+    "phone_number": "0141 334 2620",
+    "website_url": "https://www.aaaccounting.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=7423944469834208067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 7,
+    "pixel_audit": {
+      "tracking_score": 5,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": true,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "hotjar"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 33.2
+  },
+  {
+    "business_name": "Robb Ferguson Chartered Accountants",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "Regent Court, 70 W Regent St, Glasgow G2 2QZ, UK",
+    "phone_number": "0141 248 7411",
+    "website_url": "http://www.robbferguson.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=6126743830730642182&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 3,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 12.8
+  },
+  {
+    "business_name": "McAllisters Accountants",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "11 Woodside Cres, Glasgow G3 7UL, UK",
+    "phone_number": "0141 332 0392",
+    "website_url": "http://www.mcallisters-ca.com/",
+    "google_maps_url": "https://maps.google.com/?cid=15703298304339740158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 2,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 10.0
+  },
+  {
+    "business_name": "Callan Accountancy",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "21, 23 Woodside Pl, Glasgow G3 7QL, UK",
+    "phone_number": "0141 204 0930",
+    "website_url": "https://callanaccountancy.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=15549850797922114604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "review_count": 83,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-16818390637",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_ads_remarketing",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 224.1
+  },
+  {
+    "business_name": "The Kelvin Partnership",
+    "business_category": "accountant",
+    "city": "Glasgow",
+    "address": "505 Great Western Rd, Glasgow G12 8HN, UK",
+    "phone_number": "0141 334 6162",
+    "website_url": "http://www.thekelvinpartnership.com/",
+    "google_maps_url": "https://maps.google.com/?cid=9078454467928450584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 8,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-957298153",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_ads_remarketing",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 24.0
+  }
+]

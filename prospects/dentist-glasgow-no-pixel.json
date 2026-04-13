@@ -1,0 +1,419 @@
+[
+  {
+    "business_name": "G1 Dental",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "54 Dundas St, Glasgow G1 2AQ, UK",
+    "phone_number": "0141 332 6332",
+    "website_url": "http://www.g1dental.com/",
+    "google_maps_url": "https://maps.google.com/?cid=4764584607878055914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "review_count": 460,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Appletree Dental Care",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "3 Crow Rd, Glasgow G11 7RT, UK",
+    "phone_number": "0141 339 1961",
+    "website_url": "https://www.dentistglasgow.com/",
+    "google_maps_url": "https://maps.google.com/?cid=10240926313930523807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 151,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Crystal Dental Care - Private Dentist in Glasgow",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "474 Dumbarton Rd, Glasgow G11 6SQ, UK",
+    "phone_number": "0141 334 8792",
+    "website_url": "https://www.crystaldentalglasgow.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=42283171231529706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 102,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 424.8
+  },
+  {
+    "business_name": "Advanced Dentistry @ Hyndland Dental Clinic",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "2 floors, 154 Hyndland Rd, Glasgow G12 9HZ, UK",
+    "phone_number": "0141 339 7579",
+    "website_url": "https://www.advanceddentistryscotland.com/",
+    "google_maps_url": "https://maps.google.com/?cid=6376194532749305458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 101,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 412.1
+  },
+  {
+    "business_name": "Dentistry @ Jordanhill",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "454 Crow Rd, Glasgow G11 7DR, UK",
+    "phone_number": "0141 334 2550",
+    "website_url": "https://www.dentistryatjordanhill.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=11002187502604844058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 449,
+    "pixel_audit": {
+      "tracking_score": 30,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics",
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 350.0
+  },
+  {
+    "business_name": "Glasgow Smile Gallery",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "23 Ashton Rd, Glasgow G12 8SP, UK",
+    "phone_number": "0141 334 5166",
+    "website_url": "http://www.glasgowsmilegallery.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=15971507885984641803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 91,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 340.3
+  },
+  {
+    "business_name": "Hannah & Armitage Dental Practice",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "44 Lawrence St, Glasgow G11 5HD, UK",
+    "phone_number": "0141 339 5535",
+    "website_url": "https://hannahandarmitage.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=17291753983008494518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 28,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 134.4
+  },
+  {
+    "business_name": "West Dental Glasgow",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "2 Lansdowne Cres, Glasgow G20 6NQ, UK",
+    "phone_number": "0141 339 0873",
+    "website_url": "https://westdental.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+    "google_maps_url": "https://maps.google.com/?cid=2680685268528910639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 242,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "872961795015490",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0
+  },
+  {
+    "business_name": "Glasgow Smile Clinic",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "950 Argyle St, Finnieston, Glasgow G3 8LU, UK",
+    "phone_number": "0141 204 4080",
+    "website_url": "https://www.glasgowsmileclinic.com/",
+    "google_maps_url": "https://maps.google.com/?cid=4630826947826736060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 233,
+    "pixel_audit": {
+      "tracking_score": 55,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "396670757734134",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_analytics",
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 225.0
+  },
+  {
+    "business_name": "Devonshire Dental Care",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "164 Hyndland Rd, Glasgow G12 9HZ, UK",
+    "phone_number": "0141 339 3123",
+    "website_url": "https://devonshiredentalcare.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=gmb-homepage",
+    "google_maps_url": "https://maps.google.com/?cid=1603523880728485870&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 328,
+    "pixel_audit": {
+      "tracking_score": 65,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "8852898828132029",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-11008810179",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 175.0
+  },
+  {
+    "business_name": "Water Row Dental Practice",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "1 Water Row, Glasgow G51 3UW, UK",
+    "phone_number": "0141 445 1458",
+    "website_url": "http://waterrowdental.com/",
+    "google_maps_url": "https://maps.google.com/?cid=4136976667736614726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 1089,
+    "pixel_audit": {
+      "tracking_score": 65,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "823286901764524",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-450531237",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 175.0
+  }
+]

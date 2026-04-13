@@ -1,0 +1,340 @@
+[
+  {
+    "business_name": "Westend Hardware",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "601 Great Western Rd, Glasgow G12 8HX, UK",
+    "phone_number": "0141 579 0001",
+    "website_url": "http://westendhardware.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=3039291406299576456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 92,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 441.6
+  },
+  {
+    "business_name": "Access Lock Co",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "37 Forties Cres, Glasgow G46 8JS, UK",
+    "phone_number": "07710 399866",
+    "website_url": "http://www.glasgowlocksmiths.net/",
+    "google_maps_url": "https://maps.google.com/?cid=16563299187636026715&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 184,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Caledonian Lock & Safe",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "1020 Pollokshaws Rd, Glasgow G41 2HG, UK",
+    "phone_number": "0141 846 1817",
+    "website_url": "https://www.caledonianlock-safe.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=5451494518409394460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "review_count": 107,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 418.4
+  },
+  {
+    "business_name": "Keys Galore",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "613 Maryhill Rd, Glasgow G20 7TY, UK",
+    "phone_number": "0141 945 8646",
+    "website_url": "http://www.keysgalore.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=8138037592066753175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 97,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 387.5
+  },
+  {
+    "business_name": "Timpson",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "296 Byres Rd, Glasgow G12 8AW, UK",
+    "phone_number": "0141 357 4879",
+    "website_url": "https://www.timpson.co.uk/stores/Glasgow-Byres-Road",
+    "google_maps_url": "https://maps.google.com/?cid=3378581294026321570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "review_count": 75,
+    "pixel_audit": {
+      "tracking_score": 30,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics",
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 220.5
+  },
+  {
+    "business_name": "Glasgow West End Locksmiths",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "103 Byres Rd, Glasgow G11 5HW, UK",
+    "phone_number": "0141 776 1506",
+    "website_url": "http://www.locksolidglasgow.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=8024085004195602694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "review_count": 38,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 155.8
+  },
+  {
+    "business_name": "Mckays locksmiths",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "316 Crow Rd, Glasgow G11 7HS, UK",
+    "phone_number": "0141 339 3814",
+    "website_url": "http://mckay-locksmiths.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=16606985416489245602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "review_count": 15,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 67.5
+  },
+  {
+    "business_name": "Scottish Locksmith Union",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "48 W George St, Glasgow G2 1BP, UK",
+    "phone_number": "07490 861962",
+    "website_url": "https://www.glasgowlocksmithnearme.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=18168788865909389714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 6,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 30.0
+  },
+  {
+    "business_name": "LKC Locksmiths Glasgow",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "2 Chalmers Gate, Glasgow G40 2EL, UK",
+    "phone_number": "07590 573733",
+    "website_url": "https://lkclocksmiths.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=7972422605839453371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 545,
+    "pixel_audit": {
+      "tracking_score": 55,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-11394587152",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 225.0
+  }
+]

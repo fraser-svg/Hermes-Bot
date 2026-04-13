@@ -8,3 +8,6 @@ build_report.json
 config/smtp_accounts.json
 prospects/send_log.json
 prospects/suppressed.json
+_workspace/
+.playwright-mcp/
+validation/eval_report.json

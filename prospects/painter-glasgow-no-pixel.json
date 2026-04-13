@@ -1,0 +1,265 @@
+[
+  {
+    "business_name": "Decor-Wise Painters and Decorators",
+    "business_category": "painter",
+    "city": "Glasgow",
+    "address": "6 Streamfield Gate, Glasgow G33 1SJ, UK",
+    "phone_number": "07930 975983",
+    "website_url": "http://www.decorwiseglasgow.com/",
+    "google_maps_url": "https://maps.google.com/?cid=5261354855885934634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 160,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0
+  },
+  {
+    "business_name": "Splatter Art Studio",
+    "business_category": "painter",
+    "city": "Glasgow",
+    "address": "15 Osborne St, Glasgow G1 5QN, UK",
+    "phone_number": "07458 923813",
+    "website_url": "http://www.splatterartstudio.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=16118459893775847158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 428,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Downing Decor",
+    "business_category": "painter",
+    "city": "Glasgow",
+    "address": "26 Drumshaw Dr, Glasgow G32 8BE, UK",
+    "phone_number": "07814 525722",
+    "website_url": "https://downingdecor.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=6548918365648624819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 54,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 270.0
+  },
+  {
+    "business_name": "JD Painters, Decorators & Plasterers",
+    "business_category": "painter",
+    "city": "Glasgow",
+    "address": "4 Woodside Pl, Glasgow G3 7QF, UK",
+    "phone_number": "0141 342 5468",
+    "website_url": "http://www.jddecor.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=626424813551080380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 43,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 160.8
+  },
+  {
+    "business_name": "Splash Of colour painters decorators",
+    "business_category": "painter",
+    "city": "Glasgow",
+    "address": "22 Rotherwood Ave, Glasgow G13 2RJ, UK",
+    "phone_number": "07895 600774",
+    "website_url": "https://www.splashofcolour.biz/",
+    "google_maps_url": "https://maps.google.com/?cid=8070223631616950005&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 29,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 118.3
+  },
+  {
+    "business_name": "JMF Decorating",
+    "business_category": "painter",
+    "city": "Glasgow",
+    "address": "2, 7 Stewartville St, Glasgow G11 5PE, UK",
+    "phone_number": "07855 754779",
+    "website_url": "https://www.jmfdecorating.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=899235557038348086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 2,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 10.0
+  },
+  {
+    "business_name": "A & S Decor",
+    "business_category": "painter",
+    "city": "Glasgow",
+    "address": "Clyde Offices, 48 W George St, Glasgow G2 1BP, UK",
+    "phone_number": "0141 363 0208",
+    "website_url": "http://aandsdecor.com/",
+    "google_maps_url": "https://maps.google.com/?cid=7439464373074664640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 1,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 4.2
+  }
+]

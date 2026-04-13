@@ -1,0 +1,454 @@
+[
+  {
+    "business_name": "Kerr Brown Solicitors",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "Baltic Chambers, 50 Wellington St, Glasgow G2 6HJ, UK",
+    "phone_number": "0141 221 4880",
+    "website_url": "https://www.kerrbrown.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=998905878877524259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 415,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0
+  },
+  {
+    "business_name": "Belmont Solicitors",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "1 W Regent St, Glasgow G2 1RW, UK",
+    "phone_number": "0141 729 8848",
+    "website_url": "http://belmontsolicitors.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=7118242860385810330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 259,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0
+  },
+  {
+    "business_name": "Raeside Chisholm Solicitors Limited",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "Tontine House, 8 Gordon St, Glasgow G1 3PL, UK",
+    "phone_number": "0141 248 3456",
+    "website_url": "https://www.raesidechisholm.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=13874382192559920449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 550,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "LB & Co Incorporating Hughes Dowdall Foster",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "6, 42-46 New City Rd, Glasgow G4 9JT, UK",
+    "phone_number": "0141 332 0047",
+    "website_url": "http://liuslaw.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=3882206840450917625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 116,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "McVey & Murricane",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "13 Bath St, Glasgow G2 1HY, UK",
+    "phone_number": "0141 333 9688",
+    "website_url": "https://www.mmilegal.com/?utm_source=google&utm_medium=GoogleMyBusiness",
+    "google_maps_url": "https://maps.google.com/?cid=9431230563261838998&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 1875,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Chen Jie Solicitors",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "1, 117 Crow Rd, Glasgow G11 7SH, UK",
+    "phone_number": "0141 641 0089",
+    "website_url": "https://chenjiesolicitors.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=6974857778186811083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 83,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 415.0
+  },
+  {
+    "business_name": "Jain Neil & Ruddy Solicitors",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "The Town House, 12 Sandyford Pl, Glasgow G3 7NB, UK",
+    "phone_number": "0141 221 8778",
+    "website_url": "https://www.jnrsolicitors.com/",
+    "google_maps_url": "https://maps.google.com/?cid=2116641789255957057&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 43,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 179.1
+  },
+  {
+    "business_name": "Macdonald Henderson (formerly Ferguson Whyte)",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "185 Byres Rd, Glasgow G12 8TS, UK",
+    "phone_number": "0141 339 8432",
+    "website_url": "https://macdonaldhenderson.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=9156191739037915349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 33,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 145.2
+  },
+  {
+    "business_name": "mccarthy law",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "243-245 Crow Rd, Glasgow G11 7BE, UK",
+    "phone_number": "0141 337 6678",
+    "website_url": "http://www.mccarthylaw.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=12347440097290012331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 26,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 106.1
+  },
+  {
+    "business_name": "Simplicity Legal Solicitors Glasgow",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "34 Woodlands Rd, Glasgow G3 6UR, UK",
+    "phone_number": "0141 673 8305",
+    "website_url": "https://www.simplicitylegal.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=1306000186229383990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 90,
+    "pixel_audit": {
+      "tracking_score": 25,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 317.2
+  },
+  {
+    "business_name": "Weir Law Solicitors",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "12 Fitzroy Pl, Finnieston, Glasgow G3 7RW, UK",
+    "phone_number": "0141 628 5544",
+    "website_url": "https://www.weirlaw.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=12309259075518803834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 245,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-560173494",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_ads_remarketing",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0
+  },
+  {
+    "business_name": "McIntosh & McCann Family & Civil Solicitors",
+    "business_category": "solicitor",
+    "city": "Glasgow",
+    "address": "486 Dumbarton Rd, Glasgow G11 6SL, UK",
+    "phone_number": "0141 212 2222",
+    "website_url": "https://www.mcintoshmccann.com/",
+    "google_maps_url": "https://maps.google.com/?cid=6229156361646344692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.9,
+    "review_count": 55,
+    "pixel_audit": {
+      "tracking_score": 25,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_ads_remarketing"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 160.9
+  }
+]

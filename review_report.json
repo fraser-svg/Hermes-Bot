@@ -1,0 +1,4 @@
+{
+  "success": false,
+  "error": "OpenRouter API error 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\\"type\\\":\\\"error\\\",\\\"error\\\":{\\\"type\\\":\\\"invalid_request_error\\\",\\\"message\\\":\\\"messages.0.content.2.image.source.base64.data: At least one of the image dimensions exceed max allowed size: 8000 pixels\\\"},\\\"request_id\\\":\\\"req_011CZvFN12DA3WrbjAKHvmoN\\\"}\",\"provider_name\":\"Anthropic\",\"is_byok\":false}},\"user_id\":\"user_3C1vO56PVIGNyOwWfmdMUKryFVA\"}"
+}

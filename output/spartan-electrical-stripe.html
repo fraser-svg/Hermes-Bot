@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spartan Electrical — Edinburgh's Most Trusted Electricians</title>
+  <meta name="description" content="5-star rated electricians in Edinburgh. Domestic installations, rewiring, fuse boards, EV chargers, smart homes. 173+ Google reviews. Call 0131 202 2711.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 300;
+      color: #64748d;
+      background: #ffffff;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    /* ── Sticky Header ── */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid #e5edf5;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .header.scrolled {
+      box-shadow: rgba(50, 50, 93, 0.12) 0px 2px 12px 0px;
+    }
+
+    .header-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: 500;
+      color: #061b31;
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+
+    .logo span {
+      color: #533afd;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .nav a {
+      font-size: 14px;
+      font-weight: 400;
+      color: #273951;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .nav a:hover {
+      color: #533afd;
+    }
+
+    .nav-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #533afd;
+      color: #ffffff !important;
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 400;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .nav-cta:hover {
+      background: #4434d4;
+    }
+
+    .mobile-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+    }
+
+    .mobile-toggle span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: #061b31;
+      margin: 5px 0;
+      transition: all 0.3s;
+      border-radius: 1px;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      position: relative;
+      min-height: 600px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      margin-top: 64px;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1400') center/cover no-repeat;
+    }
+
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(6, 27, 49, 0.88) 0%, rgba(28, 30, 84, 0.82) 100%);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 96px 24px;
+      width: 100%;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 6px;
+      padding: 6px 14px;
+      margin-bottom: 24px;
+      font-size: 13px;
+      font-weight: 400;
+      color: #ffffff;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-badge .stars {
+      color: #fbbf24;
+    }
+
+    .hero h1 {
+      font-size: clamp(36px, 5vw, 56px);
+      font-weight: 300;
+      color: #ffffff;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      max-width: 650px;
+      margin-bottom: 20px;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero p {
+      font-size: 18px;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.8);
+      max-width: 520px;
+      line-height: 1.6;
+      margin-bottom: 36px;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #533afd;
+      color: #ffffff;
+      padding: 14px 32px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: inherit;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      text-shadow: none;
+    }
+
+    .btn-primary:hover {
+      background: #4434d4;
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+      padding: 14px 28px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: inherit;
+      text-decoration: none;
+      transition: background 0.2s;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* ── Trust Bar ── */
+    .trust-bar {
+      background: #f8fafc;
+      border-bottom: 1px solid #e5edf5;
+      padding: 24px 0;
+    }
+
+    .trust-bar-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      flex-wrap: wrap;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #273951;
+    }
+
+    .trust-icon {
+      width: 40px;
+      height: 40px;
+      background: #ffffff;
+      border: 1px solid #e5edf5;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    .trust-value {
+      font-weight: 500;
+      color: #061b31;
+    }
+
+    /* ── Section Base ── */
+    .section {
+      padding: 88px 0;
+    }
+
+    .section-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #533afd;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-size: clamp(28px, 3.5vw, 40px);
+      font-weight: 300;
+      color: #061b31;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+
+    .section-subtitle {
+      font-size: 17px;
+      color: #64748d;
+      max-width: 560px;
+      line-height: 1.6;
+    }
+
+    .section-header {
+      margin-bottom: 56px;
+    }
+
+    /* ── Services Grid ── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .service-card {
+      background: #ffffff;
+      border: 1px solid #e5edf5;
+      border-radius: 8px;
+      padding: 28px 24px;
+      transition: box-shadow 0.3s, transform 0.2s;
+    }
+
+    .service-card:hover {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 45px -30px, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px;
+      transform: translateY(-2px);
+    }
+
+    .service-icon {
+      width: 44px;
+      height: 44px;
+      background: #f0edff;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      margin-bottom: 16px;
+    }
+
+    .service-card h3 {
+      font-size: 15px;
+      font-weight: 500;
+      color: #061b31;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: #64748d;
+      line-height: 1.5;
+    }
+
+    /* ── Why Choose Us ── */
+    .why-section {
+      background: #f8fafc;
+    }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .why-card {
+      background: #ffffff;
+      border: 1px solid #e5edf5;
+      border-radius: 8px;
+      padding: 32px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .why-num {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      background: #533afd;
+      color: #ffffff;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .why-card h3 {
+      font-size: 16px;
+      font-weight: 500;
+      color: #061b31;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .why-card p {
+      font-size: 14px;
+      color: #64748d;
+      line-height: 1.6;
+      max-width: 650px;
+    }
+
+    /* ── Reviews ── */
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .review-card {
+      background: #ffffff;
+      border: 1px solid #e5edf5;
+      border-radius: 8px;
+      padding: 32px;
+      transition: box-shadow 0.3s;
+    }
+
+    .review-card:hover {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 45px -30px, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px;
+    }
+
+    .review-stars {
+      color: #fbbf24;
+      font-size: 16px;
+      margin-bottom: 16px;
+      letter-spacing: 2px;
+    }
+
+    .review-text {
+      font-size: 14px;
+      color: #64748d;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+
+    .review-author {
+      font-size: 14px;
+      font-weight: 500;
+      color: #061b31;
+    }
+
+    .review-source {
+      font-size: 12px;
+      color: #64748d;
+      margin-top: 2px;
+    }
+
+    /* ── Dark CTA Section ── */
+    .cta-section {
+      background: #1c1e54;
+      padding: 96px 0;
+      text-align: center;
+    }
+
+    .cta-section .section-label {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .cta-section h2 {
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 300;
+      color: #ffffff;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin-bottom: 16px;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .cta-section p {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.65);
+      max-width: 520px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+
+    .cta-phone {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 28px;
+      font-weight: 300;
+      color: #ffffff;
+      text-decoration: none;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .cta-phone:hover {
+      color: #a594ff;
+    }
+
+    .cta-btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    /* ── Footer ── */
+    .footer {
+      background: #0b0d2e;
+      padding: 56px 0 32px;
+    }
+
+    .footer-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .footer-brand .logo {
+      color: #ffffff;
+      font-size: 18px;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .footer-brand p {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.45);
+      max-width: 280px;
+      line-height: 1.6;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 56px;
+      flex-wrap: wrap;
+    }
+
+    .footer-col h4 {
+      font-size: 13px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 16px;
+    }
+
+    .footer-col a {
+      display: block;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+      margin-bottom: 10px;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: #ffffff;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 24px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.3);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    /* ── Mobile Nav ── */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      top: 64px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      z-index: 999;
+      padding: 32px 24px;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .mobile-nav.open {
+      display: flex;
+    }
+
+    .mobile-nav a {
+      font-size: 18px;
+      font-weight: 400;
+      color: #273951;
+      text-decoration: none;
+      padding: 12px 0;
+      border-bottom: 1px solid #e5edf5;
+    }
+
+    .mobile-nav .nav-cta {
+      margin-top: 16px;
+      text-align: center;
+      justify-content: center;
+      padding: 14px 28px;
+      font-size: 16px;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 1024px) {
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        display: none;
+      }
+
+      .mobile-toggle {
+        display: block;
+      }
+
+      .hero {
+        min-height: 520px;
+      }
+
+      .hero-content {
+        padding: 64px 24px;
+      }
+
+      .trust-bar-inner {
+        gap: 24px;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .section {
+        padding: 64px 0;
+      }
+
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .reviews-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-section {
+        padding: 72px 0;
+      }
+
+      .footer-top {
+        flex-direction: column;
+      }
+
+      .footer-links {
+        gap: 32px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .hero-actions a {
+        text-align: center;
+        justify-content: center;
+      }
+
+      .cta-phone {
+        font-size: 22px;
+      }
+    }
+
+    /* ── Utility ── */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Spartan Electrical home">Spartan<span>.</span></a>
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="tel:01312022711" class="nav-cta">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          0131 202 2711
+        </a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
+    <a href="#services" onclick="closeMenu()">Services</a>
+    <a href="#why" onclick="closeMenu()">Why Us</a>
+    <a href="#reviews" onclick="closeMenu()">Reviews</a>
+    <a href="tel:01312022711" class="nav-cta" onclick="closeMenu()">
+      Call 0131 202 2711
+    </a>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" role="img" aria-label="Electrician at work">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        5.0 from 173 Google Reviews
+      </div>
+      <h1>Edinburgh's Most Trusted Electricians</h1>
+      <p>From rewires to EV chargers, Spartan Electrical delivers meticulous workmanship with clear communication at every step.</p>
+      <div class="hero-actions">
+        <a href="tel:01312022711" class="btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          Call 0131 202 2711
+        </a>
+        <a href="#services" class="btn-secondary">View Services &#8594;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Bar -->
+  <div class="trust-bar">
+    <div class="trust-bar-inner">
+      <div class="trust-item">
+        <div class="trust-icon">&#9733;</div>
+        <div>
+          <div class="trust-value">5.0 Rating</div>
+          <div>173 Google Reviews</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">&#9889;</div>
+        <div>
+          <div class="trust-value">NICEIC Approved</div>
+          <div>Certified electricians</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">&#9962;</div>
+        <div>
+          <div class="trust-value">Edinburgh Coverage</div>
+          <div>City-wide &amp; surrounds</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">&#9200;</div>
+        <div>
+          <div class="trust-value">Emergency Call-outs</div>
+          <div>Fast response times</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">Services</div>
+        <h2 class="section-title">Everything electrical, done right</h2>
+        <p class="section-subtitle">Comprehensive electrical services for homes across Edinburgh, delivered with the precision and transparency our clients expect.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">&#9881;</div>
+          <h3>Domestic Installations</h3>
+          <p>Complete electrical installations for new builds and renovations, wired to the highest standards.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#128268;</div>
+          <h3>Rewiring &amp; Upgrades</h3>
+          <p>Full and partial rewires to bring older properties up to current safety regulations.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#9632;</div>
+          <h3>Fuse Board Replacements</h3>
+          <p>Modern consumer unit upgrades with RCD protection for improved safety and compliance.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#128161;</div>
+          <h3>Lighting Design</h3>
+          <p>Bespoke lighting schemes from ambient living rooms to functional kitchens and outdoor spaces.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#128270;</div>
+          <h3>Inspections &amp; Testing</h3>
+          <p>EICR reports and periodic inspection testing for homeowners, landlords, and letting agents.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#9888;</div>
+          <h3>Emergency Call-outs</h3>
+          <p>Rapid response for electrical emergencies — power failures, burning smells, and tripped circuits.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#9889;</div>
+          <h3>EV Charger Installation</h3>
+          <p>Home electric vehicle charging points installed safely with dedicated circuits and certification.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">&#127968;</div>
+          <h3>Smart Home Systems</h3>
+          <p>Smart lighting, automated switches, and connected home wiring for modern living.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section why-section" id="why">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">Why Spartan</div>
+        <h2 class="section-title">What our clients notice most</h2>
+        <p class="section-subtitle">Four things reviewers consistently praise about working with us.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-num">1</div>
+          <div>
+            <h3>The most detailed quotes you'll receive</h3>
+            <p>Our estimates break down every line item clearly. Clients regularly tell us our quote was the most thorough they received — no hidden costs, no surprises.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-num">2</div>
+          <div>
+            <h3>Safety-first mindset on every job</h3>
+            <p>From consumer units to full rewires, we prioritise safety above speed. Every installation is tested, documented, and certified to current BS 7671 standards.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-num">3</div>
+          <div>
+            <h3>We leave your home spotless</h3>
+            <p>Reviewers consistently mention our clean worksites. We protect floors and furniture, and clean up completely — one client noted we even cleaned their gas hob.</p>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-num">4</div>
+          <div>
+            <h3>Clear communication throughout</h3>
+            <p>From first enquiry to final sign-off, you'll know exactly what's happening and when. Timescales, costs, and documentation — all shared proactively.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section" id="reviews">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="section-label">Reviews</div>
+        <h2 class="section-title">Trusted by Edinburgh homeowners</h2>
+        <p class="section-subtitle">Real reviews from real clients on Google — 5.0 stars across 173 reviews.</p>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"Communication was outstanding throughout. Carlos arrived right on time, looking professional and well-presented. His manner and workmanship were impressive — efficient, precise, and carried out with great attention to detail."</p>
+          <div class="review-author">Izabela</div>
+          <div class="review-source">Google Review</div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"Carlos came out and walked the site followed by the most detailed estimate I received. From the day Chris and Carlos stepped foot on site to the day they completed the job, they were professional, courteous, and reliable."</p>
+          <div class="review-author">Google Reviewer</div>
+          <div class="review-source">Google Review</div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-text">"Super clear communication of timescales and costs. High quality work and shared extensive documentation afterwards. We recently had a full rewire completed and they were accommodating, friendly, efficient &amp; tidy."</p>
+          <div class="review-author">Google Reviewer</div>
+          <div class="review-source">Google Review</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark CTA -->
+  <section class="cta-section">
+    <div class="section-inner">
+      <div class="section-label">Get started</div>
+      <h2>Ready for an electrician<br>you can trust?</h2>
+      <p>Whether it's a rewire, EV charger, or emergency repair — call Spartan for a clear, detailed quote with no obligation.</p>
+      <a href="tel:01312022711" class="cta-phone">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        0131 202 2711
+      </a>
+      <div class="cta-btn-row">
+        <a href="tel:01312022711" class="btn-primary">Call Now — Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">Spartan<span>.</span></a>
+          <p>Edinburgh's trusted electricians. Domestic installations, rewiring, EV chargers, and more.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Services</h4>
+            <a href="#services">Domestic Installations</a>
+            <a href="#services">Rewiring &amp; Upgrades</a>
+            <a href="#services">Fuse Boards</a>
+            <a href="#services">EV Chargers</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="tel:01312022711">0131 202 2711</a>
+            <a href="https://maps.google.com/?cid=4687383007226150126" target="_blank" rel="noopener noreferrer">22 Stafford St, Edinburgh<br>EH3 7BD</a>
+            <a href="https://maps.google.com/?cid=4687383007226150126" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Spartan Electrical. All rights reserved.</span>
+        <span>Edinburgh, Scotland</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky header shadow on scroll
+    const header = document.querySelector('.header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 10);
+    }, { passive: true });
+
+    // Mobile menu toggle
+    const mobileNav = document.getElementById('mobileNav');
+    const toggle = document.querySelector('.mobile-toggle');
+
+    function toggleMenu() {
+      const open = mobileNav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      document.body.style.overflow = open ? 'hidden' : '';
+    }
+
+    function closeMenu() {
+      mobileNav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    }
+  </script>
+
+</body>
+</html>

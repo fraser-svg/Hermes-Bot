@@ -1,0 +1,457 @@
+[
+  {
+    "business_name": "O\u2019Callaghan Opticians",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "554 Dumbarton Rd, Glasgow G11 6RH, UK",
+    "phone_number": "0141 339 9297",
+    "website_url": "http://www.ocallaghanopticians.com/",
+    "google_maps_url": "https://maps.google.com/?cid=434553933136059513&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 120,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0
+  },
+  {
+    "business_name": "Vision Express Opticians - Glasgow - Byres Road",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "384 Byres Rd, Glasgow G12 8AR, UK",
+    "phone_number": "0141 357 7312",
+    "website_url": "https://www.visionexpress.com/opticians/glasgow/glasgow-byres-road?cid=yext_GMB_website_glasgow_353&utm_campaign=gmb-website&utm_source=google&utm_medium=organic&utm_content=353-Glasgow-384-Byres-Road&y_source=1_MTA4MTk3NDcxMi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+    "google_maps_url": "https://maps.google.com/?cid=11373795037848994223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 464,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Eyes Optical Optometrists",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "1497 Dumbarton Rd, Glasgow G14 9XL, UK",
+    "phone_number": "0141 954 6317",
+    "website_url": "https://www.eyesopticiansglasgow.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=11467638508786847836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 446,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Optical Express",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "Unit 68, St Enoch Sq, Glasgow G1 4BW, UK",
+    "phone_number": "0141 732 7196",
+    "website_url": "https://www.opticalexpress.co.uk/clinic-finder/scotland/glasgow-st-enochs-centre?utm_source=google&utm_medium=organic&utm_campaign=google-my-business",
+    "google_maps_url": "https://maps.google.com/?cid=10674076084043231278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 951,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "IOLLA",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "1313 Argyle St, Glasgow G3 8TL, UK",
+    "phone_number": "",
+    "website_url": "http://www.iolla.com/",
+    "google_maps_url": "https://maps.google.com/?cid=3633619077537150681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 358,
+    "pixel_audit": {
+      "tracking_score": 20,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": true,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager",
+        "hotjar"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 400.0
+  },
+  {
+    "business_name": "IOLLA",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "City Centre, 107 W George St, Glasgow G2 1QR, UK",
+    "phone_number": "",
+    "website_url": "https://iolla.com/",
+    "google_maps_url": "https://maps.google.com/?cid=749244853232862644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 243,
+    "pixel_audit": {
+      "tracking_score": 20,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": true,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager",
+        "hotjar"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 400.0
+  },
+  {
+    "business_name": "Ace & Tate",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "221 Byres Rd, Glasgow G12 8UD, UK",
+    "phone_number": "0141 846 0681",
+    "website_url": "https://www.aceandtate.com/gb/stores/united-kingdom/glasgow/byres-road-221?y_source=1_MTIwNjQ3NjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "google_maps_url": "https://maps.google.com/?cid=16331515269181602752&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 54,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 215.7
+  },
+  {
+    "business_name": "McGrath Opticians Ltd",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "251 Byres Rd, Glasgow G12 8UB, UK",
+    "phone_number": "0141 339 1720",
+    "website_url": "http://www.mcgrathopticians.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=2847924077874587740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 36,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 176.4
+  },
+  {
+    "business_name": "Forde Opticians",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "407 Dumbarton Rd, Glasgow G11 6DD, UK",
+    "phone_number": "0141 339 1444",
+    "website_url": "http://www.fordeopticians.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=3675228451784710327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 28,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 137.2
+  },
+  {
+    "business_name": "Hyndsight Optician",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "131 Hyndland Rd, Glasgow G12 9JA, UK",
+    "phone_number": "0141 357 5667",
+    "website_url": "http://hyndsightopticians.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=240689901121941750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 31,
+    "pixel_audit": {
+      "tracking_score": 30,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics",
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 108.5
+  },
+  {
+    "business_name": "Currie & Quirk Opticians",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "142-144 Byres Rd, Glasgow G12 8TD, UK",
+    "phone_number": "0141 339 2900",
+    "website_url": "https://www.currieandquirk.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=profile_traffic&utm_term=google_profile",
+    "google_maps_url": "https://maps.google.com/?cid=11121928566073279121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "review_count": 29,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 106.0
+  },
+  {
+    "business_name": "Munro Optometrists",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "137-139 Byres Rd, Glasgow G12 8TT, UK",
+    "phone_number": "0141 339 7555",
+    "website_url": "http://www.munro-optometrists.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=12189532697748910671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 12,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 47.9
+  }
+]

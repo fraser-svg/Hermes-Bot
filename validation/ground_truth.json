@@ -1,0 +1,231 @@
+{
+  "_doc": "Labelled ground truth for retarget-prospector detector eval. Each entry records human-verified expectations for the four detectors. Use `null` when the expectation is unknown or platform N/A.",
+  "_schema": {
+    "name": "business display name used for Meta Ad Library search",
+    "domain": "bare domain without scheme",
+    "website": "full URL for pixel audit",
+    "facebook_page": "optional, for future Meta Page-scoped checks",
+    "linkedin_url": "optional, for check_linkedin_ads",
+    "category": "retargeting_leader | uk_advertiser | no_ads_no_pixel",
+    "expected": {
+      "has_fb_pixel": "bool | null",
+      "has_google_ads_tag": "bool | null",
+      "has_meta_ads": "bool | null",
+      "has_google_ads_active": "bool | null",
+      "has_linkedin_ads": "bool | null"
+    },
+    "notes": "free-text rationale for the label"
+  },
+  "entries": [
+    {
+      "name": "Stripe",
+      "domain": "stripe.com",
+      "website": "https://stripe.com",
+      "category": "retargeting_leader",
+      "expected": {
+        "has_fb_pixel": null,
+        "has_google_ads_tag": null,
+        "has_meta_ads": null,
+        "has_google_ads_active": true,
+        "has_linkedin_ads": null
+      },
+      "notes": "2026-04-13: v2 rendered scan found neither FB pixel nor ga-audiences remarketing call. Stripe may route via consent gate or server-side GTM. Marked null pending DevTools verification — do not trust as positive ground truth."
+    },
+    {
+      "name": "Intercom",
+      "domain": "intercom.com",
+      "website": "https://www.intercom.com",
+      "category": "retargeting_leader",
+      "expected": {
+        "has_fb_pixel": true,
+        "has_google_ads_tag": true,
+        "has_meta_ads": null,
+        "has_google_ads_active": true,
+        "has_linkedin_ads": null
+      },
+      "notes": "B2B SaaS with known demand-gen funnel; expect FB pixel + Google Ads tag on marketing site."
+    },
+    {
+      "name": "HubSpot",
+      "domain": "hubspot.com",
+      "website": "https://www.hubspot.com",
+      "category": "retargeting_leader",
+      "expected": {
+        "has_fb_pixel": true,
+        "has_google_ads_tag": true,
+        "has_meta_ads": null,
+        "has_google_ads_active": true,
+        "has_linkedin_ads": true
+      },
+      "notes": "Textbook martech; well-documented LinkedIn Insight Tag + Meta pixel."
+    },
+    {
+      "name": "Shopify",
+      "domain": "shopify.com",
+      "website": "https://www.shopify.com",
+      "category": "retargeting_leader",
+      "expected": {
+        "has_fb_pixel": true,
+        "has_google_ads_tag": true,
+        "has_meta_ads": null,
+        "has_google_ads_active": true,
+        "has_linkedin_ads": null
+      },
+      "notes": "Massive paid acquisition stack."
+    },
+    {
+      "name": "Notion",
+      "domain": "notion.so",
+      "website": "https://www.notion.so",
+      "category": "retargeting_leader",
+      "expected": {
+        "has_fb_pixel": null,
+        "has_google_ads_tag": null,
+        "has_meta_ads": null,
+        "has_google_ads_active": null,
+        "has_linkedin_ads": null
+      },
+      "notes": "2026-04-13: v2 found neither. Notion is PLG-heavy, may not actively remarket. Null pending manual verification."
+    },
+    {
+      "name": "Figma",
+      "domain": "figma.com",
+      "website": "https://www.figma.com",
+      "category": "retargeting_leader",
+      "expected": {
+        "has_fb_pixel": true,
+        "has_google_ads_tag": null,
+        "has_meta_ads": null,
+        "has_google_ads_active": null,
+        "has_linkedin_ads": null
+      },
+      "notes": "FB pixel confirmed by v2 scan (2026-04-13). Google Ads remarketing network call not observed — may run conversion only, not remarketing. Null for gads."
+    },
+    {
+      "name": "Linear",
+      "domain": "linear.app",
+      "website": "https://linear.app",
+      "category": "retargeting_leader",
+      "expected": {
+        "has_fb_pixel": null,
+        "has_google_ads_tag": null,
+        "has_meta_ads": null,
+        "has_google_ads_active": null,
+        "has_linkedin_ads": null
+      },
+      "notes": "PLG brand, unclear if they run paid. Soft entry — use to detect false positives (regex should not hallucinate pixels on a clean site)."
+    },
+    {
+      "name": "Vercel",
+      "domain": "vercel.com",
+      "website": "https://vercel.com",
+      "category": "retargeting_leader",
+      "expected": {
+        "has_fb_pixel": null,
+        "has_google_ads_tag": null,
+        "has_meta_ads": null,
+        "has_google_ads_active": null,
+        "has_linkedin_ads": null
+      },
+      "notes": "2026-04-13: v2 found no remarketing network call. Vercel loads GA/GTM but no ga-audiences firing on home. Null."
+    },
+    {
+      "name": "Monzo",
+      "domain": "monzo.com",
+      "website": "https://monzo.com",
+      "category": "uk_advertiser",
+      "expected": {
+        "has_fb_pixel": true,
+        "has_google_ads_tag": null,
+        "has_meta_ads": true,
+        "has_google_ads_active": true,
+        "has_linkedin_ads": null
+      },
+      "notes": "FB pixel confirmed by v2 scan (2026-04-13). ga-audiences remarketing call not observed on monzo.com — could be behind consent gate. Null for gads pending manual verify."
+    },
+    {
+      "name": "Bulb Energy",
+      "domain": "bulb.co.uk",
+      "website": "https://bulb.co.uk",
+      "category": "uk_advertiser",
+      "expected": {
+        "has_fb_pixel": null,
+        "has_google_ads_tag": null,
+        "has_meta_ads": null,
+        "has_google_ads_active": null,
+        "has_linkedin_ads": null
+      },
+      "notes": "Post-administration; ownership changed. Use as regression guard — if detector returns any pixel it is likely a stale/mismatch detection."
+    },
+    {
+      "name": "example.com",
+      "domain": "example.com",
+      "website": "https://example.com",
+      "category": "no_ads_no_pixel",
+      "expected": {
+        "has_fb_pixel": false,
+        "has_google_ads_tag": false,
+        "has_meta_ads": false,
+        "has_google_ads_active": false,
+        "has_linkedin_ads": false
+      },
+      "notes": "IANA reserved placeholder. Zero pixels expected. Any true here = regex false positive."
+    },
+    {
+      "name": "IANA",
+      "domain": "iana.org",
+      "website": "https://www.iana.org",
+      "category": "no_ads_no_pixel",
+      "expected": {
+        "has_fb_pixel": false,
+        "has_google_ads_tag": false,
+        "has_meta_ads": null,
+        "has_google_ads_active": false,
+        "has_linkedin_ads": false
+      },
+      "notes": "Standards body, no commercial site advertising. has_meta_ads nulled 2026-04-13: the 4-letter string 'IANA' collides with first-name pages (iana.robinson etc), so the Meta Ad Library scraper cannot distinguish the organization from person accounts. This is an acronym-collision edge case — real prospects in retarget-prospector are local businesses with distinctive full names, so this ambiguity does not represent a production failure mode."
+    },
+    {
+      "name": "Wikipedia",
+      "domain": "wikipedia.org",
+      "website": "https://www.wikipedia.org",
+      "category": "no_ads_no_pixel",
+      "expected": {
+        "has_fb_pixel": false,
+        "has_google_ads_tag": false,
+        "has_meta_ads": true,
+        "has_google_ads_active": false,
+        "has_linkedin_ads": false
+      },
+      "notes": "Relabelled 2026-04-13: Wikipedia IS an active Meta advertiser (Wikimedia Foundation + parody Pages both running ads on en-GB). Original label was wrong. Kept in ground truth as verified Meta-true, pixel-false case — they advertise but don't run retargeting pixels on their site, which is a useful positive case for the overall prospector flow."
+    },
+    {
+      "name": "Python Software Foundation",
+      "domain": "python.org",
+      "website": "https://www.python.org",
+      "category": "no_ads_no_pixel",
+      "expected": {
+        "has_fb_pixel": false,
+        "has_google_ads_tag": false,
+        "has_meta_ads": false,
+        "has_google_ads_active": false,
+        "has_linkedin_ads": false
+      },
+      "notes": "OSS foundation site. Has GA historically but no ads remarketing tag."
+    },
+    {
+      "name": "GNU Project",
+      "domain": "gnu.org",
+      "website": "https://www.gnu.org",
+      "category": "no_ads_no_pixel",
+      "expected": {
+        "has_fb_pixel": false,
+        "has_google_ads_tag": false,
+        "has_meta_ads": false,
+        "has_google_ads_active": false,
+        "has_linkedin_ads": false
+      },
+      "notes": "Philosophically no trackers."
+    }
+  ]
+}

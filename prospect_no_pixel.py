@@ -243,15 +243,48 @@ def get_meta_token() -> str:
     return os.environ.get("META_AD_LIBRARY_TOKEN") or env.get("META_AD_LIBRARY_TOKEN") or ""
 
 
+def check_meta_ads_scrape(business_name: str, country: str = "GB") -> dict:
+    """Scrape the public Meta Ad Library web UI — no API token, no identity
+    verification required. Slower than the API and IP-rate-limited, but does
+    not require a Meta dev account. Use as default when META_AD_LIBRARY_TOKEN
+    is absent."""
+    import sys as _sys
+    scripts_dir = BASE_DIR / ".claude/skills/ad-verification/scripts"
+    _sys.path.insert(0, str(scripts_dir))
+    try:
+        from check_meta_ad_library import check as _scraper_check
+    except ImportError as e:
+        return {"active_ads": -1, "is_advertiser": None, "note": f"scraper_import_failed: {e}"}
+
+    result = _scraper_check(business_name, country=country)
+    if result.get("error"):
+        return {"active_ads": -1, "is_advertiser": None, "note": result["error"]}
+    ad_count = int(result.get("ad_count") or 0)
+    has_ads = result.get("has_meta_ads")
+    return {
+        "active_ads": ad_count,
+        "is_advertiser": has_ads if has_ads is not None else (ad_count > 0),
+        "ad_samples": [
+            {
+                "page_name": "",
+                "body_preview": (cr.get("headline") or cr.get("body") or "")[:120],
+            }
+            for cr in (result.get("sample_creatives") or [])[:3]
+        ],
+        "note": "scraped_public_ui",
+    }
+
+
 def check_meta_ads(business_name: str, country: str = "GB") -> dict:
     """Check Meta Ad Library for active ads by this business.
 
     Returns dict with 'active_ads' count and 'is_advertiser' bool.
-    Requires META_AD_LIBRARY_TOKEN in .env.
+    Prefers the official API if META_AD_LIBRARY_TOKEN is set; otherwise
+    falls back to scraping the public Ad Library web UI via Playwright.
     """
     token = get_meta_token()
     if not token:
-        return {"active_ads": -1, "is_advertiser": None, "note": "no META_AD_LIBRARY_TOKEN"}
+        return check_meta_ads_scrape(business_name, country=country)
 
     search_term = quote(business_name)
     url = (
@@ -354,6 +387,44 @@ def place_to_record(
     return record
 
 
+def _rendered_pixel_override(rows: list[dict]) -> list[dict]:
+    """Re-scan every record with audit_pixels_v2 (rendered browser) and
+    overwrite the static `pixel_audit` / `fetch_status` fields. Static regex
+    misses GTM-injected pixels — see validation/eval_detectors.py for ground-
+    truth eval proving static recall = 0.0 on Stripe/HubSpot/Shopify. Anything
+    the rendered scan cannot classify (blocked, error, timeout) leaves
+    `pixel_audit_status != 'ok'` so downstream qualifier treats it as unknown
+    rather than 'no pixel'."""
+    import sys as _sys
+    _sys.path.insert(0, str(BASE_DIR / ".claude/skills/ad-verification/scripts"))
+    from audit_pixels_v2 import audit_batch as _v2_batch
+
+    print(f"\nRendered pixel audit ({len(rows)} sites, multi-page + consent-aware)...\n")
+    audited = _v2_batch(list(rows))
+    for r in audited:
+        v2 = r.get("pixels_v2") or {}
+        status = v2.get("status", "error")
+        r["pixel_audit_status"] = status
+        if status != "ok":
+            # Do not overwrite static audit with partial/blocked data — leave
+            # record's pixel_audit intact but flag so qualifier treats as gap
+            r["pixel_audit"]["audit_gap"] = v2.get("error") or status
+            continue
+        r["pixel_audit"].update({
+            "facebook_pixel": v2.get("facebook_pixel", False),
+            "google_ads_remarketing": v2.get("google_ads_remarketing", False),
+            "google_ads_conversion": v2.get("google_ads_conversion", False),
+            "google_analytics": v2.get("google_analytics", False),
+            "google_tag_manager": v2.get("google_tag_manager", False),
+            "linkedin_insight": v2.get("linkedin_insight", False),
+            "tiktok_pixel": v2.get("tiktok_pixel", False),
+            "any_retargeting": v2.get("any_retargeting", False),
+            "pages_scanned": v2.get("pages_scanned", []),
+            "source": "playwright_v2",
+        })
+    return audited
+
+
 def run(
     category: str,
     location: str,
@@ -361,6 +432,7 @@ def run(
     top: int,
     company_filter: str,
     check_meta: bool,
+    rendered: bool = True,
 ) -> list[dict]:
     api_key = get_google_key()
     places = search_places(category, location, api_key, limit)
@@ -383,6 +455,9 @@ def run(
         record = place_to_record(p, category, location, check_meta=check_meta)
         if record:
             rows.append(record)
+
+    if rendered:
+        rows = _rendered_pixel_override(rows)
 
     # Sort: no retargeting first, then by opportunity score (highest first)
     rows.sort(key=lambda r: (
@@ -446,6 +521,7 @@ def main() -> int:
     parser.add_argument("--top", type=int, default=20, help="Show top N results")
     parser.add_argument("--company", default="", help="Filter by business name contains")
     parser.add_argument("--meta-ads", action="store_true", help="Check Meta Ad Library (needs META_AD_LIBRARY_TOKEN)")
+    parser.add_argument("--static-only", action="store_true", help="Skip rendered pixel audit — USE ONLY FOR DEBUGGING. Static regex misses GTM-injected pixels and produces false-positive leaks.")
     args = parser.parse_args()
 
     print("=" * 60)
@@ -461,6 +537,7 @@ def main() -> int:
             args.top,
             args.company,
             check_meta=args.meta_ads,
+            rendered=not args.static_only,
         )
     except RuntimeError as e:
         print(f"ERROR: {e}")

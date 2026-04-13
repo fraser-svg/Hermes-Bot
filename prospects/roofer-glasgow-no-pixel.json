@@ -1,0 +1,457 @@
+[
+  {
+    "business_name": "ML Roofing",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "40 Scotstoun St, Glasgow G14 0UN, UK",
+    "phone_number": "07875 502172",
+    "website_url": "https://ml-roofing.com/?fbclid=IwAR1DLklnPb7f3m6mgnEgpwaHM1yzf7616MDJobX3bn6kQej6U2R2AdhMhcE",
+    "google_maps_url": "https://maps.google.com/?cid=10465203184710238127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 131,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0
+  },
+  {
+    "business_name": "Cathcart Roofing",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "1A Greenhill Ave, Giffnock, Glasgow G46 6QX, UK",
+    "phone_number": "0141 620 3808",
+    "website_url": "https://glasgowroofingrepairs.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=6277212437012349594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 247,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "J.Shearer Roofing Ltd",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "315 Clarkston Rd, Muirend, Glasgow G44 3EJ, UK",
+    "phone_number": "0141 638 6613",
+    "website_url": "http://www.jshearer-roofing.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=8650595969728673325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 134,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Essence Roofers Glasgow",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "265 Cambuslang Rd, Cambuslang, Glasgow G72 7DB, UK",
+    "phone_number": "0141 570 9152",
+    "website_url": "https://essencebuilding.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=14706807301309465689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 149,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0
+  },
+  {
+    "business_name": "Great Western Roofing ltd",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "Unit 3, Kelvin Gate, 58 Kelvin Ave, Hillington, Glasgow G52 4GA, UK",
+    "phone_number": "0141 587 1861",
+    "website_url": "https://www.greatwesternroofing.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=13098174197398278081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 106,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 423.5
+  },
+  {
+    "business_name": "Strathclyde Domestic Roofing",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "4/1, 91 Mitchell St, Glasgow G1 3LN, UK",
+    "phone_number": "0141 255 2448",
+    "website_url": "https://www.strathclydedomesticroofing.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=7983441503189675487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 79,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 335.8
+  },
+  {
+    "business_name": "JC Roofing & Building",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "145 Kilmarnock Rd, Shawlands, Glasgow G41 3JA, UK",
+    "phone_number": "0141 319 7596",
+    "website_url": "https://www.jcroofingandbuilding.com/",
+    "google_maps_url": "https://maps.google.com/?cid=2052815824687270136&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 67,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 279.1
+  },
+  {
+    "business_name": "J & M Roofing & Guttering Glasgow",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "48 W George St, Glasgow G2 1BP, UK",
+    "phone_number": "0141 319 7704",
+    "website_url": "http://jandmroofingandguttering.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=12421259798350524938&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 26,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 110.5
+  },
+  {
+    "business_name": "Ross Clark Roofing Glasgow",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "126 W Regent St, Glasgow G2 2RQ, UK",
+    "phone_number": "0141 374 0655",
+    "website_url": "https://rossclarkroofingayr.co.uk/roofing-glasgow/",
+    "google_maps_url": "https://maps.google.com/?cid=16471145869814279143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 10,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 42.5
+  },
+  {
+    "business_name": "Sterling Roofing Services Glasgow",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "145 Kilmarnock Rd, Shawlands, Glasgow G41 3JE, UK",
+    "phone_number": "0141 366 3108",
+    "website_url": "https://www.sterlingroofingservices.co.uk/glasgow/",
+    "google_maps_url": "https://maps.google.com/?cid=11088679959886231870&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 113,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "359020705492989",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0
+  },
+  {
+    "business_name": "ADM Roofing Ltd",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "250 Blairtummock Rd, Glasgow G33 4ED, UK",
+    "phone_number": "0141 353 5117",
+    "website_url": "https://www.admroofingscotland.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=15763191661408483752&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 100,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "975990547862496",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0
+  },
+  {
+    "business_name": "Glasgow Roofing Contractors",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "56 Woodhill Rd, Bishopbriggs, Glasgow G64 1TB, UK",
+    "phone_number": "0141 482 7035",
+    "website_url": "https://www.glasgowroofing.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=3554564948656139063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 152,
+    "pixel_audit": {
+      "tracking_score": 65,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "1561248348408280",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-366674516",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 175.0
+  }
+]

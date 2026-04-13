@@ -63,5 +63,25 @@
     "deployed_at": "2026-04-10T09:53:21.894732+00:00",
     "status": "preview",
     "provider": "cloudflare"
+  },
+  {
+    "slug": "spartan-electrical-v2",
+    "project_name": "h-spartan-electrical-v2-d7db4a",
+    "url": "https://h-spartan-electrical-v2-d7db4a.pages.dev",
+    "html_file": "output/spartan-electrical-v2.html",
+    "file_hash": "03268d1f5ccae074",
+    "deployed_at": "2026-04-10T12:33:44.706333+00:00",
+    "status": "preview",
+    "provider": "cloudflare"
+  },
+  {
+    "slug": "spartan-electrical",
+    "project_name": "h-spartan-electrical-005f1a",
+    "url": "https://h-spartan-electrical-005f1a.pages.dev",
+    "html_file": "output/spartan-electrical.html",
+    "file_hash": "ec6f1bbeae2dfda6",
+    "deployed_at": "2026-04-10T12:38:19.480308+00:00",
+    "status": "preview",
+    "provider": "cloudflare"
   }
 ]

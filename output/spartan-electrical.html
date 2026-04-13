@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Electrician in Edinburgh | Spartan Electrical</title>
+    <meta name="description" content="Spartan Electrical provides professional electrical installations, rewiring, and emergency call-outs in Edinburgh. NICEIC registered. 173 5-star reviews. Call 0131 202 2711.">
+    <meta property="og:title" content="Emergency Electrician in Edinburgh | Spartan Electrical">
+    <meta property="og:description" content="Professional electrical services in Edinburgh. NICEIC registered. Fixed pricing.">
+    <meta property="og:type" content="website">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Editorial Industrial Palette */
+            --canvas: #F5F1EA;
+            --canvas-alt: #EBE5DA;
+            --border: #D8D0C0;
+            --ink: #0B1220;
+            --ink-muted: #3A4150;
+            --accent: #FFB020;
+            --accent-dark: #E89A00;
+            --urgent: #DC2626;
+
+            /* Spacing Scale */
+            --space-xs: 4px;
+            --space-sm: 8px;
+            --space-md: 16px;
+            --space-lg: 32px;
+            --space-xl: 64px;
+            --space-2xl: 120px;
+
+            /* Typography */
+            --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+            --font-display: 'Fraunces', Georgia, serif;
+            
+            /* Micro-elevation */
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 8px 20px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
+            --shadow-lg: 0 12px 32px rgba(0,0,0,0.12);
+            --shadow-float: 0 20px 50px rgba(0,0,0,0.15);
+            
+            /* Radii */
+            --radius-sm: 6px;
+            --radius-md: 8px;
+            --radius-lg: 16px;
+            --radius-xl: 24px;
+        }
+
+        /* Reset & Base */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--canvas);
+            color: var(--ink-muted);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        h1, h2, h3, h4 { color: var(--ink); font-weight: 700; line-height: 1.05; font-family: var(--font-display); font-style: normal; }
+        h1 { font-size: clamp(3.25rem, 8.5vw, 7rem); font-weight: 500; letter-spacing: -0.035em; font-variation-settings: "opsz" 144, "SOFT" 30; }
+        h2 { font-size: clamp(2.25rem, 5.2vw, 4rem); letter-spacing: -0.025em; font-weight: 500; font-variation-settings: "opsz" 144; }
+        h3 { font-size: 1.35rem; font-weight: 600; letter-spacing: -0.015em; font-family: var(--font-sans); }
+        .eyebrow { font-family: var(--font-sans); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); display: inline-flex; align-items: center; gap: 12px; }
+        .eyebrow::before { content: ""; display: inline-block; width: 28px; height: 1px; background: var(--accent); }
+        
+        p { max-width: 650px; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { max-width: 100%; height: auto; display: block; object-fit: cover; }
+
+        /* Layout Utility */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .section { padding: var(--space-2xl) 0; }
+        .section-alt { background-color: var(--canvas-alt); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+        .text-center { text-align: center; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+        .flex { display: flex; }
+        .grid { display: grid; }
+        .gap-sm { gap: var(--space-sm); }
+        .gap-md { gap: var(--space-md); }
+        .gap-lg { gap: var(--space-lg); }
+        .gap-xl { gap: var(--space-xl); }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex; align-items: center; justify-content: center;
+            padding: 12px 24px;
+            font-weight: 600; font-size: 0.95rem;
+            border-radius: var(--radius-md);
+            transition: all 0.2s ease;
+            cursor: pointer; border: none;
+            white-space: nowrap;
+        }
+        .btn-primary {
+            background-color: var(--accent); color: var(--ink);
+            padding: 18px 32px; font-size: 0.92rem;
+            text-transform: uppercase; letter-spacing: 0.1em;
+            border-radius: 0;
+            font-weight: 700;
+            position: relative;
+        }
+        .btn-primary::after {
+            content: "→"; margin-left: 14px;
+            transition: transform 0.25s ease;
+        }
+        .btn-primary:hover {
+            background-color: var(--ink); color: var(--accent);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(11,18,32,0.35);
+        }
+        .btn-primary:hover::after { transform: translateX(6px); }
+        .btn-ghost {
+            background-color: transparent; color: var(--ink);
+            border: 1px solid var(--border);
+        }
+        .btn-ghost:hover {
+            background-color: var(--canvas-alt);
+        }
+        .btn-white {
+            background-color: #FFFFFF; color: var(--ink);
+        }
+        .btn-white:hover {
+            background-color: var(--canvas-alt);
+        }
+        .btn-outline-white {
+            background-color: transparent; color: #FFFFFF;
+            border: 1px solid rgba(255,255,255,0.5);
+        }
+        .btn-outline-white:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+        /* A. Sticky Nav */
+        .nav {
+            position: fixed; top: 0; left: 0; right: 0;
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+            transition: box-shadow 0.3s ease;
+        }
+        .nav.scrolled { box-shadow: var(--shadow-sm); }
+        .nav-container {
+            display: flex; justify-content: space-between; align-items: center;
+            height: 72px;
+        }
+        .logo {
+            font-size: 1.25rem; font-weight: 700; color: var(--ink);
+            letter-spacing: -0.02em;
+        }
+        .nav-actions { display: flex; align-items: center; gap: var(--space-md); }
+        .nav-phone {
+            display: flex; align-items: center; gap: 8px;
+            font-weight: 600; color: var(--ink);
+        }
+        .nav-phone svg { width: 20px; height: 20px; color: var(--accent); }
+
+        /* B. Hero Section — editorial industrial */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex; align-items: flex-end;
+            padding-top: 72px;
+            background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1800&h=1200&fit=crop&auto=format&q=85');
+            background-size: cover;
+            background-position: center 30%;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: ''; position: absolute; inset: 0;
+            background:
+              radial-gradient(ellipse at 20% 60%, rgba(11, 18, 32, 0.5) 0%, rgba(11, 18, 32, 0.92) 70%),
+              linear-gradient(180deg, rgba(11, 18, 32, 0.55) 0%, rgba(11, 18, 32, 0.95) 100%);
+        }
+        .hero::after {
+            content: ''; position: absolute; inset: 0; pointer-events: none;
+            background-image:
+              radial-gradient(circle at 1px 1px, rgba(255,255,255,0.04) 1px, transparent 0);
+            background-size: 4px 4px;
+            mix-blend-mode: overlay;
+        }
+        .hero-content {
+            position: relative; z-index: 10;
+            max-width: 1100px;
+            padding-bottom: 140px;
+        }
+        .hero .eyebrow {
+            color: var(--accent);
+            margin-bottom: 28px;
+        }
+        .hero .eyebrow::before { background: var(--accent); }
+        .hero h1 {
+            color: #F5F1EA;
+            margin-bottom: var(--space-lg);
+            max-width: 14ch;
+            text-shadow: 0 2px 24px rgba(0,0,0,0.55);
+        }
+        .hero h1 em {
+            font-style: italic;
+            color: var(--accent);
+            font-variation-settings: "opsz" 144, "SOFT" 100;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            line-height: 1.55;
+            color: rgba(245, 241, 234, 0.78);
+            margin-bottom: var(--space-lg);
+            max-width: 52ch;
+            text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+            font-family: var(--font-sans);
+        }
+        .hero-actions {
+            display: flex; gap: var(--space-lg);
+            align-items: center;
+            margin-bottom: var(--space-xl);
+        }
+        .hero-phone {
+            display: inline-flex; flex-direction: column; gap: 2px;
+            color: rgba(245,241,234,0.7);
+            font-size: 0.78rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            font-family: var(--font-sans);
+        }
+        .hero-phone strong {
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            color: #F5F1EA;
+            letter-spacing: -0.01em;
+            font-weight: 500;
+            text-transform: none;
+        }
+        .hero-marker {
+            position: absolute;
+            top: 50%; right: 6vw;
+            transform: translateY(-50%);
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: clamp(8rem, 18vw, 16rem);
+            font-weight: 400;
+            color: rgba(255, 176, 32, 0.16);
+            line-height: 0.8;
+            z-index: 5;
+            font-variation-settings: "opsz" 144, "SOFT" 100;
+            user-select: none;
+        }
+        
+        /* Trust Strip (Overlapping Element) */
+        .trust-strip {
+            position: absolute;
+            bottom: 0; left: 50%; transform: translate(-50%, 50%);
+            background: var(--canvas);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 24px 48px;
+            display: flex; gap: 48px;
+            box-shadow: var(--shadow-md);
+            z-index: 20;
+            width: max-content;
+            max-width: 90vw;
+        }
+        .trust-item {
+            display: flex; align-items: center; gap: 12px;
+            font-weight: 600; color: var(--ink);
+            font-size: 0.95rem;
+        }
+        .trust-icon {
+            display: flex; align-items: center; justify-content: center;
+            width: 32px; height: 32px;
+            background: rgba(37, 99, 235, 0.15);
+            color: var(--accent);
+            border-radius: 50%;
+        }
+
+        /* C. Services — asymmetric editorial grid */
+        .services { padding-top: 120px; background: var(--canvas); }
+        .section-head {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 64px;
+            align-items: end;
+            margin-bottom: var(--space-xl);
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+        .section-head h2 { max-width: 14ch; }
+        .section-head .lede { color: var(--ink-muted); font-size: 1.1rem; max-width: 48ch; }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: var(--border);
+            margin-top: var(--space-xl);
+            border: 1px solid var(--border);
+        }
+        .bento-card {
+            background: var(--canvas);
+            padding: 48px 40px;
+            transition: all 0.35s ease;
+            display: flex; flex-direction: column;
+            grid-column: span 1;
+            min-height: 320px;
+            position: relative;
+        }
+        .bento-card::before {
+            content: counter(service-counter, decimal-leading-zero);
+            counter-increment: service-counter;
+            position: absolute;
+            top: 32px; right: 40px;
+            font-family: var(--font-display);
+            font-size: 0.95rem;
+            color: var(--ink-muted);
+            opacity: 0.5;
+            letter-spacing: 0.05em;
+        }
+        .bento-grid { counter-reset: service-counter; }
+        .bento-card:hover {
+            background: var(--ink);
+            color: #F5F1EA;
+        }
+        .bento-card:hover h3 { color: #F5F1EA; }
+        .bento-card:hover .icon-wrapper { background: var(--accent); color: var(--ink); }
+        .bento-card:hover .service-link { color: var(--accent); }
+        .bento-card:hover::before { color: var(--accent); opacity: 1; }
+        .bento-card.large {
+            grid-column: span 2;
+            background: var(--ink);
+            color: #F5F1EA;
+            min-height: 380px;
+        }
+        .bento-card.large h3 { color: #F5F1EA; font-size: 1.8rem; font-family: var(--font-display); font-weight: 500; max-width: 18ch; }
+        .bento-card.large p { color: rgba(245,241,234,0.7); }
+        .bento-card.large .icon-wrapper { background: var(--accent); color: var(--ink); }
+        .bento-card.large .service-link { color: var(--accent); }
+        .bento-card.large::before { color: var(--accent); opacity: 1; }
+        .icon-wrapper {
+            width: 52px; height: 52px;
+            border-radius: 0;
+            background: var(--ink);
+            color: var(--accent);
+            display: flex; align-items: center; justify-content: center;
+            margin-bottom: 32px;
+            transition: all 0.35s ease;
+        }
+        .icon-wrapper svg { width: 26px; height: 26px; }
+        .bento-card h3 { margin-bottom: 14px; font-size: 1.25rem; }
+        .bento-card p { font-size: 0.96rem; margin-bottom: 28px; flex-grow: 1; line-height: 1.6; max-width: 38ch; }
+        .service-link {
+            color: var(--ink); font-weight: 600; font-size: 0.78rem;
+            display: inline-flex; align-items: center; gap: 8px;
+            margin-top: auto;
+            text-transform: uppercase; letter-spacing: 0.12em;
+            transition: color 0.25s ease;
+        }
+        .service-link::after { content: "→"; transition: transform 0.25s ease; }
+        .service-link:hover::after { transform: translateX(4px); }
+
+        /* D. Social Proof — editorial pull quotes */
+        .reviews-grid {
+            display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 32px;
+            margin-top: var(--space-xl); margin-bottom: var(--space-lg);
+        }
+        .review-card {
+            background: var(--canvas);
+            border: none;
+            border-top: 1px solid var(--ink);
+            border-radius: 0;
+            padding: 36px 0 0 0;
+            box-shadow: none;
+            position: relative;
+        }
+        .review-card:first-child {
+            background: var(--canvas-alt);
+            padding: 48px 40px 40px;
+            border-top: 4px solid var(--accent);
+        }
+        .review-card:first-child .review-text {
+            font-family: var(--font-display);
+            font-size: 1.45rem;
+            line-height: 1.4;
+            font-style: normal;
+            color: var(--ink);
+            font-weight: 400;
+        }
+        .stars { color: var(--accent); margin-bottom: 20px; font-size: 0.95rem; letter-spacing: 4px; }
+        .review-text { font-style: normal; margin-bottom: 28px; font-size: 1rem; line-height: 1.65; color: var(--ink-muted); }
+        .review-author {
+            font-weight: 600; color: var(--ink); font-size: 0.78rem;
+            text-transform: uppercase; letter-spacing: 0.12em;
+            display: block; padding-top: 20px;
+            border-top: 1px solid var(--border);
+        }
+
+        /* E. Accent Section — editorial dark slab */
+        .accent-section {
+            background-color: var(--ink);
+            color: #F5F1EA;
+            padding: 140px 0;
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+        }
+        .accent-section::before {
+            content: ""; position: absolute; inset: 0;
+            background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.05) 1px, transparent 0);
+            background-size: 4px 4px;
+            pointer-events: none;
+        }
+        .accent-section .container { position: relative; z-index: 2; }
+        .accent-section .eyebrow { color: var(--accent); margin-bottom: 24px; }
+        .accent-section h2 { color: #F5F1EA; margin-bottom: 24px; max-width: 18ch; }
+        .accent-section h2 em { font-style: italic; color: var(--accent); font-variation-settings: "opsz" 144, "SOFT" 100; }
+        .accent-section > .container > p { color: rgba(245,241,234,0.7); margin: 0 0 80px 0; font-size: 1.15rem; max-width: 56ch; font-family: var(--font-sans); }
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
+            max-width: 100%; margin: 0;
+            border-top: 1px solid rgba(245,241,234,0.18);
+        }
+        .stat-item {
+            padding: 48px 32px 0 0;
+            border-right: 1px solid rgba(245,241,234,0.12);
+        }
+        .stat-item:last-child { border-right: none; }
+        .stat-item h4 {
+            font-family: var(--font-display);
+            font-size: clamp(3.5rem, 6vw, 5.5rem);
+            font-weight: 400;
+            color: var(--accent);
+            margin-bottom: 16px;
+            line-height: 1;
+            letter-spacing: -0.03em;
+            font-variation-settings: "opsz" 144, "SOFT" 50;
+        }
+        .stat-item p {
+            font-size: 0.78rem; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 0.14em;
+            color: rgba(245,241,234,0.6); margin: 0;
+            font-family: var(--font-sans);
+            max-width: none;
+        }
+
+        /* F. About — editorial split */
+        .about-grid {
+            display: grid; grid-template-columns: 1.1fr 1fr; gap: 96px;
+            align-items: center;
+        }
+        .about-image {
+            border-radius: 0;
+            box-shadow: 0 30px 80px rgba(11,18,32,0.25);
+            aspect-ratio: 4/5;
+            filter: contrast(1.05) saturate(0.92);
+        }
+        .about-content h2 { margin-bottom: 28px; max-width: 14ch; }
+        .about-content > p { font-size: 1.15rem; max-width: 50ch; line-height: 1.65; }
+        .checklist { margin: 40px 0 40px 0; padding-top: 32px; border-top: 1px solid var(--border); }
+        .checklist li {
+            display: flex; align-items: center; gap: 16px;
+            margin-bottom: 18px; font-weight: 500; color: var(--ink);
+            font-size: 1.02rem;
+            padding-bottom: 18px;
+            border-bottom: 1px solid var(--border);
+        }
+        .checklist li:last-child { border-bottom: none; }
+        .checklist-icon {
+            color: var(--accent);
+            display: flex; align-items: center; justify-content: center;
+            width: 28px; height: 28px;
+            background: var(--ink);
+            flex-shrink: 0;
+        }
+
+        /* G. Service Area — editorial list */
+        .area-tags {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
+            margin-top: 56px;
+            border-top: 1px solid var(--ink);
+        }
+        .area-tag {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid var(--border);
+            border-right: 1px solid var(--border);
+            padding: 28px 24px;
+            border-radius: 0;
+            font-size: 1.05rem;
+            font-weight: 500; color: var(--ink);
+            font-family: var(--font-display);
+            box-shadow: none;
+            display: flex; align-items: center; gap: 14px;
+            transition: background 0.25s ease;
+        }
+        .area-tag::before {
+            content: "→";
+            color: var(--accent);
+            font-family: var(--font-sans);
+            font-size: 0.85rem;
+        }
+        .area-tag:nth-child(4n) { border-right: none; }
+        .area-tag:hover { background: var(--canvas-alt); }
+
+        /* H. Contact */
+        .contact-grid {
+            display: grid; grid-template-columns: 3fr 2fr; gap: 64px;
+        }
+        .contact-form {
+            background: var(--canvas);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 48px;
+            box-shadow: var(--shadow-md);
+        }
+        .form-group { margin-bottom: 24px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        label {
+            display: block; font-size: 0.875rem; font-weight: 600; color: var(--ink);
+            margin-bottom: 8px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            color: var(--ink);
+            background: var(--canvas-alt);
+            transition: all 0.2s ease;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+            background: var(--canvas);
+        }
+        ::placeholder { color: #9CA3AF; opacity: 1; }
+        .privacy-note {
+            display: flex; align-items: center; justify-content: center; gap: 8px;
+            font-size: 0.85rem; color: var(--ink-muted); margin-top: 16px;
+        }
+        
+        .contact-info {
+            background: var(--canvas-alt);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 48px;
+        }
+        .info-block { margin-bottom: 32px; }
+        .info-block h4 { margin-bottom: 8px; font-size: 1.1rem; }
+        .info-block p { color: var(--ink-muted); }
+        .big-phone {
+            font-size: 2rem; font-weight: 800; color: var(--accent);
+            display: block; margin-top: 8px;
+        }
+
+        /* Editorial overrides for legacy centered section heads */
+        section .text-center.mx-auto {
+            text-align: left !important;
+            margin-left: 0 !important;
+            max-width: none !important;
+            margin-bottom: 64px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 64px;
+            align-items: end;
+        }
+        section .text-center.mx-auto h2 { max-width: 14ch; }
+        section .text-center.mx-auto p { max-width: 48ch; font-size: 1.1rem; }
+        section.text-center > .container { text-align: left; }
+        section.text-center h2 { text-align: left; }
+        section.text-center .text-center { text-align: left !important; }
+
+        /* I. Footer — editorial dark */
+        .footer {
+            background-color: var(--ink);
+            color: rgba(245,241,234,0.7);
+            padding: 96px 0 40px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .footer::before {
+            content: "SPARTAN";
+            position: absolute;
+            bottom: -40px; left: 50%;
+            transform: translateX(-50%);
+            font-family: var(--font-display);
+            font-style: italic;
+            font-size: clamp(8rem, 22vw, 24rem);
+            font-weight: 400;
+            color: rgba(255, 176, 32, 0.06);
+            line-height: 0.8;
+            letter-spacing: -0.04em;
+            white-space: nowrap;
+            font-variation-settings: "opsz" 144, "SOFT" 100;
+            pointer-events: none;
+        }
+        .footer .container { position: relative; z-index: 2; }
+        .footer-grid {
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid rgba(245,241,234,0.12);
+            padding-bottom: 40px; margin-bottom: 40px;
+        }
+        .footer-logo {
+            font-size: 1.4rem; font-weight: 500;
+            color: #F5F1EA;
+            font-family: var(--font-display);
+            font-style: italic;
+            letter-spacing: -0.01em;
+        }
+        .footer-links { display: flex; gap: 32px; }
+        .footer-links a {
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            color: rgba(245,241,234,0.6);
+        }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-bottom {
+            display: flex; justify-content: space-between;
+            font-size: 0.875rem;
+        }
+
+        /* Mobile Sticky CTA */
+        .mobile-cta {
+            display: none;
+            position: fixed; bottom: 0; left: 0; right: 0;
+            padding: 16px;
+            background: linear-gradient(to top, var(--canvas) 80%, transparent);
+            z-index: 99;
+        }
+        .mobile-cta .btn { width: 100%; padding: 16px; font-size: 1.1rem; box-shadow: var(--shadow-lg); }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 1024px) {
+            .bento-grid { grid-template-columns: repeat(2, 1fr); }
+            .bento-card.large { grid-column: span 2; }
+            .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .contact-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 900px) {
+            section .text-center.mx-auto {
+                grid-template-columns: 1fr !important;
+                gap: 24px;
+                margin-bottom: 40px;
+            }
+            section .text-center.mx-auto h2 { max-width: none; }
+            .area-tags { grid-template-columns: repeat(2, 1fr); }
+            .area-tag:nth-child(4n) { border-right: 1px solid var(--border); }
+            .area-tag:nth-child(2n) { border-right: none; }
+            .about-grid { grid-template-columns: 1fr; gap: 48px; }
+            .reviews-grid { grid-template-columns: 1fr; }
+            .review-card:first-child .review-text { font-size: 1.2rem; }
+        }
+
+        @media (max-width: 768px) {
+            .section { padding: 48px 0; }
+            .hero-marker { font-size: 6rem; right: 4vw; top: 30%; }
+            .hero-content { padding-bottom: 80px; }
+            .hero .eyebrow { font-size: 0.7rem; }
+            .hero h1 { font-size: clamp(2.4rem, 11vw, 3.6rem) !important; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 0 !important; }
+            .stat-item { padding: 32px 16px 0 0; border-bottom: 1px solid rgba(245,241,234,0.12); padding-bottom: 32px; }
+            .stat-item:nth-child(2n) { border-right: none; }
+            .area-tags { grid-template-columns: 1fr; }
+            .area-tag { border-right: none !important; padding: 20px 16px; }
+            .accent-section { padding: 80px 0; }
+            .footer::before { font-size: 8rem; bottom: -20px; }
+            .nav-container { height: 56px; }
+            .logo { font-size: clamp(0.85rem, 2.5vw, 1.05rem); max-width: 40vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+            .nav-phone span { display: none; } /* Hide phone text on mobile */
+            .nav .btn { padding: 8px 16px; font-size: 0.85rem; }
+            
+            .hero { min-height: 500px; padding-top: 56px; padding-bottom: 64px; }
+            .hero h1 { font-size: clamp(2rem, 8vw, 2.5rem); }
+            .hero-actions { flex-direction: column; }
+            .hero-actions .btn { width: 100%; }
+            
+            .trust-strip {
+                position: relative; transform: none; left: 0; bottom: 0;
+                width: 100%; max-width: 100%;
+                flex-direction: column; gap: 16px; padding: 24px;
+                border-radius: 0; border-left: none; border-right: none;
+                margin-top: 32px;
+            }
+            .services { padding-top: 48px; }
+            
+            .bento-grid { grid-template-columns: 1fr; gap: 16px; }
+            .bento-card.large { grid-column: span 1; }
+            .reviews-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: 1fr; gap: 32px; }
+            
+            .about-grid { grid-template-columns: 1fr; gap: 32px; }
+            .form-row { grid-template-columns: 1fr; gap: 0; }
+            .contact-form { padding: 24px; }
+            .contact-info { padding: 24px; }
+            
+            .footer-grid { flex-direction: column; gap: 24px; text-align: center; }
+            .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
+            
+            .mobile-cta { display: block; }
+            body { padding-bottom: 80px; } /* Space for mobile CTA */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- A. Sticky Navigation -->
+    <nav class="nav" id="nav">
+        <div class="container nav-container">
+            <a href="#" class="logo">Spartan Electrical</a>
+            <div class="nav-actions">
+                <a href="tel:01312022711" class="nav-phone">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span>0131 202 2711</span>
+                </a>
+                <a href="#contact" class="btn btn-primary">Get Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- B. Hero Section -->
+    <section class="hero">
+        <div class="hero-marker">01</div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="eyebrow">Edinburgh · Est. 2014 · NICEIC</span>
+                <h1>Emergency electricians, <em>on site in 45 minutes.</em></h1>
+                <p>173 five-star reviews. Fixed pricing quoted before we touch a wire. Rewires, fault-finding, EV chargers — done right the first time.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                    <a href="tel:01312022711" class="hero-phone">
+                        <span>24/7 dispatch</span>
+                        <strong>0131 202 2711</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Overlapping Trust Strip -->
+        <div class="trust-strip">
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                Fully Certified
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                </div>
+                5.0 Google Rating
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                24/7 Availability
+            </div>
+        </div>
+    </section>
+
+    <!-- C. Services Section -->
+    <section class="section services section-alt" id="services">
+        <div class="container">
+            <div class="text-center mx-auto" style="max-width: 600px;">
+                <h2>Our Services</h2>
+                <p>Professional electrical services for homes and businesses in Edinburgh. Certified, tested, and compliant.</p>
+            </div>
+            
+            <div class="bento-grid">
+                <div class="bento-card large">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </div>
+                    <h3>Complete Home Rewiring</h3>
+                    <p>Full property electrical upgrades. We handle everything from initial inspection to final certification, ensuring your home meets all current safety regulations.</p>
+                    <a href="#contact" class="service-link">Get Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+                
+                <div class="bento-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line></svg>
+                    </div>
+                    <h3>Fuse Board Upgrades</h3>
+                    <p>Modern consumer units with RCD protection installed safely and efficiently.</p>
+                    <a href="#contact" class="service-link">Get Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+                
+                <div class="bento-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                    </div>
+                    <h3>Emergency Call-Outs</h3>
+                    <p>Fast response for power loss, tripping circuits, and electrical faults.</p>
+                    <a href="#contact" class="service-link">Get Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+                
+                <div class="bento-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>
+                    </div>
+                    <h3>EV Charger Setup</h3>
+                    <p>Fast home charging stations installed for all electric vehicle makes.</p>
+                    <a href="#contact" class="service-link">Get Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+                
+                <div class="bento-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <h3>Safety Inspections</h3>
+                    <p>EICR certificates and thorough testing for landlords and home buyers.</p>
+                    <a href="#contact" class="service-link">Get Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+                
+                <div class="bento-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                    </div>
+                    <h3>Lighting Design</h3>
+                    <p>Interior and exterior custom lighting installations and upgrades.</p>
+                    <a href="#contact" class="service-link">Get Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+
+                <div class="bento-card">
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                    </div>
+                    <h3>Smart Home Systems</h3>
+                    <p>Lighting controls, smart thermostats, and integrated automation built around your routine.</p>
+                    <a href="#contact" class="service-link">Get Quote <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- D. Social Proof -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mx-auto" style="max-width: 600px;">
+                <h2>Trusted by Edinburgh</h2>
+                <p>Don't just take our word for it. Read what our customers say about our workmanship and reliability.</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Communication was outstanding throughout. His manner and workmanship were impressive—efficient, precise, and carried out with great attention to detail."</p>
+                    <p class="review-author">- Izabela, Edinburgh</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Friendly, professional and efficient. Got the job done nice and quickly as well as cleaning up after themselves. Will not hesitate to contact the team again."</p>
+                    <p class="review-author">- Keith, Edinburgh</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Accommodating, friendly, efficient & tidy. The whole process from initial enquiry to receiving a quote and booking a date was seamless."</p>
+                    <p class="review-author">- Chris, Edinburgh</p>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="https://maps.google.com/?cid=4687383007226150126" target="_blank" rel="noopener" class="btn btn-ghost">Read All 173 Reviews on Google</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- E. Accent Section (Mandatory) -->
+    <section class="accent-section">
+        <div class="container">
+            <h2>Precision Work. Proven Results.</h2>
+            <p>We don't guess. We diagnose, quote a fixed price, and fix it right the first time.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h4>850+</h4>
+                    <p>Jobs Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h4>5.0</h4>
+                    <p>Google Rating</p>
+                </div>
+                <div class="stat-item">
+                    <h4>10+</h4>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h4>100%</h4>
+                    <p>Fixed Pricing</p>
+                </div>
+            </div>
+            
+            <a href="#contact" class="btn btn-white">Book an Electrician</a>
+        </div>
+    </section>
+
+    <!-- F. About Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="about-grid">
+                <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=600&fit=crop&auto=format&q=80" alt="Spartan Electrical professional at work" class="about-image" loading="lazy">
+                
+                <div class="about-content">
+                    <h2>Why Choose Spartan Electrical</h2>
+                    <p>We deliver precision electrical work across Edinburgh. No call-out charges, transparent pricing, and a strict adherence to safety standards. When you hire us, you get certified professionals who respect your home.</p>
+                    
+                    <ul class="checklist">
+                        <li>
+                            <span class="checklist-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                            NICEIC Registered & Fully Certified
+                        </li>
+                        <li>
+                            <span class="checklist-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                            Fixed Upfront Pricing (No Hidden Fees)
+                        </li>
+                        <li>
+                            <span class="checklist-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                            Fast Emergency Response Times
+                        </li>
+                        <li>
+                            <span class="checklist-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+                            Clean, Tidy & Respectful Service
+                        </li>
+                    </ul>
+                    
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- G. Service Area -->
+    <section class="section">
+        <div class="container text-center">
+            <h2>Areas We Serve</h2>
+            <p class="mx-auto">Proudly serving Edinburgh and surrounding communities with fast, reliable electrical services.</p>
+            
+            <div class="area-tags">
+                <span class="area-tag">Edinburgh City Centre</span>
+                <span class="area-tag">Leith</span>
+                <span class="area-tag">Corstorphine</span>
+                <span class="area-tag">Morningside</span>
+                <span class="area-tag">Portobello</span>
+                <span class="area-tag">Stockbridge</span>
+                <span class="area-tag">New Town</span>
+                <span class="area-tag">Murrayfield</span>
+                <span class="area-tag">Bruntsfield</span>
+                <span class="area-tag">Marchmont</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- H. Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2 style="margin-bottom: 8px;">Get Your Free Quote</h2>
+                    <p style="margin-bottom: 32px;">Fill out the form below. We respond within 1 hour during business hours.</p>
+                    
+                    <form id="quoteForm" action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="07123 456789" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service...</option>
+                                <option value="Rewiring">Rewiring & Upgrades</option>
+                                <option value="Fuse Board">Fuse Board Replacement</option>
+                                <option value="Emergency">Emergency Call-Out</option>
+                                <option value="EV Charger">EV Charger Installation</option>
+                                <option value="Inspection">Electrical Inspection (EICR)</option>
+                                <option value="Other">Other Electrical Work</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Briefly describe what you need help with..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 16px;">Get My Free Quote</button>
+                        
+                        <div class="privacy-note">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                            Your information is safe. No spam. Ever.
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="info-block">
+                        <h4>Call Us Directly</h4>
+                        <p>Available for emergency call-outs and standard bookings.</p>
+                        <a href="tel:01312022711" class="big-phone">0131 202 2711</a>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h4>Operating Hours</h4>
+                        <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                        Saturday: 9:00 AM - 2:00 PM<br>
+                        Sunday: Emergency Only</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h4>Location</h4>
+                        <p>Spartan Electrical<br>
+                        22 Stafford St<br>
+                        Edinburgh EH3 7BD, UK</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- I. Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">Spartan Electrical</div>
+                <div class="footer-links">
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <a href="https://maps.google.com/?cid=4687383007226150126" target="_blank" rel="noopener">Google Reviews</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2024 Spartan Electrical. All rights reserved.</div>
+                <div>NICEIC Registered Electrician in Edinburgh</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky CTA -->
+    <div class="mobile-cta">
+        <a href="tel:01312022711" class="btn btn-primary">Call 0131 202 2711</a>
+    </div>
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Electrician",
+      "name": "Spartan Electrical",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&h=800&fit=crop",
+      "@id": "",
+      "url": "",
+      "telephone": "0131 202 2711",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "22 Stafford St",
+        "addressLocality": "Edinburgh",
+        "postalCode": "EH3 7BD",
+        "addressCountry": "UK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 55.9505,
+        "longitude": -3.2105
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "14:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "173"
+      },
+      "areaServed": [
+        "Edinburgh", "Leith", "Corstorphine", "Morningside", "Portobello"
+      ]
+    }
+    </script>
+
+    <!-- Minimal JS -->
+    <script>
+        // Nav shadow on scroll
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission handler (UI only)
+        document.getElementById('quoteForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button[type="submit"]');
+            const originalText = btn.innerText;
+            btn.innerText = 'Sending...';
+            btn.style.opacity = '0.8';
+            
+            // Simulate network request
+            setTimeout(() => {
+                this.innerHTML = '<div style="text-align:center; padding: 40px 0;"><h3>Request Sent!</h3><p style="margin-top:8px;">We will call you back within 1 hour.</p></div>';
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

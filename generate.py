@@ -12,6 +12,8 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
+import hero_images
+
 BASE_DIR = Path(__file__).resolve().parent
 DETAILS_PATH = BASE_DIR / "references" / "business_details.json"
 PROMPT_PATH = BASE_DIR / "prompts" / "website_builder.md"
@@ -144,10 +146,38 @@ def build_user_message(details: dict, fix_hints: list[str] | None = None) -> str
     if "accent_color" not in details:
         details = {**details, "accent_color": auto_select_accent(details)}
 
+    # Resolve industry-relevant hero + about photos deterministically so Gemini
+    # cannot ship a generic or mismatched image. These URLs are MANDATORY.
+    photos = hero_images.resolve(details.get("business_category"))
+    details = {
+        **details,
+        "hero_image_url": photos.hero,
+        "about_image_url": photos.about,
+        "_photo_match": photos.matched_category,
+    }
+
+    logo_url = (details.get("logo_url") or "").strip()
+    if logo_url:
+        logo_instruction = (
+            f"- LOGO (nav + footer): render <img src=\"{logo_url}\" alt=\"{details['business_name']} logo\"> "
+            "at height 32px desktop / 26px mobile, width auto, object-fit: contain. "
+            "Do NOT render the business name as styled text in the nav — use the image. "
+            "Keep the business name as a text h5 in the footer column.\n"
+        )
+    else:
+        logo_instruction = (
+            "- LOGO: no logo_url supplied — render business name as styled text in the nav (current behaviour).\n"
+        )
+
     msg = (
         "Build a complete website for this business. "
         "Use the YC startup aesthetic. Follow ALL 7 design rules and the anti-slop checklist. "
         "Return ONLY the HTML document, no explanations.\n\n"
+        "MANDATORY ASSETS — use these exact URLs verbatim. Do NOT substitute, "
+        "do NOT pick different photo IDs, do NOT change query params:\n"
+        f"- Hero (full-bleed background): {photos.hero}\n"
+        f"- About section: {photos.about}\n"
+        f"{logo_instruction}\n"
         f"```json\n{json.dumps(details, indent=2)}\n```"
     )
 
@@ -159,8 +189,38 @@ def build_user_message(details: dict, fix_hints: list[str] | None = None) -> str
     return msg
 
 
+def call_claude_cli(system_prompt: str, user_message: str) -> str:
+    """Call local `claude -p` CLI. Uses Claude Code session auth — no OpenRouter, no key.
+    Enabled when USE_CLAUDE_CLI=1.
+
+    Pipes the user message via stdin (argv would trip ARG_MAX on ~50KB prompts and
+    make `claude -p` hang) and passes the full builder prompt via --system-prompt.
+    Default --output-format text returns plain response. --bare is NOT used because
+    it disables OAuth/keychain auth and forces ANTHROPIC_API_KEY — we want session auth.
+    """
+    import subprocess
+    try:
+        result = subprocess.run(
+            [
+                "claude", "-p",
+                "--model", "sonnet",
+                "--output-format", "text",
+                "--system-prompt", system_prompt,
+            ],
+            input=user_message,
+            capture_output=True, text=True, timeout=600,
+        )
+    except FileNotFoundError as e:
+        raise RuntimeError("claude CLI not found on PATH") from e
+    if result.returncode != 0:
+        raise RuntimeError(f"claude CLI failed ({result.returncode}): {result.stderr[:500]}")
+    return result.stdout
+
+
 def call_gemini(system_prompt: str, user_message: str, api_key: str, model: str | None = None, max_tokens: int | None = None) -> str:
     """Call Gemini via OpenRouter and return the HTML response."""
+    if os.environ.get("USE_CLAUDE_CLI") == "1":
+        return call_claude_cli(system_prompt, user_message)
     use_model = model or MODEL
     use_max_tokens = max_tokens or (MAX_TOKENS_PRO if use_model == MODEL_PRODUCTION else MAX_TOKENS_DRAFT)
     payload = json.dumps({
@@ -200,18 +260,27 @@ def call_gemini(system_prompt: str, user_message: str, api_key: str, model: str 
 
 
 def extract_html(response: str) -> str:
-    """Extract HTML from response, stripping any markdown fences."""
-    # If response is wrapped in code fences, extract inner content
+    """Extract HTML from response, stripping any markdown fences.
+
+    Prefer a block that actually starts with <!DOCTYPE or <html over any
+    other fenced snippet — models sometimes return CSS/example blocks
+    before the real document.
+    """
+    doctype_match = re.search(
+        r"(<!doctype html.*?</html>|<html[^>]*>.*?</html>)",
+        response, re.DOTALL | re.IGNORECASE,
+    )
+    if doctype_match:
+        return doctype_match.group(1).strip()
+
     fence_match = re.search(r"```(?:html)?\s*\n(.*?)```", response, re.DOTALL)
     if fence_match:
         return fence_match.group(1).strip()
 
-    # If it starts with <!DOCTYPE or <html, use as-is
     stripped = response.strip()
     if stripped.lower().startswith("<!doctype") or stripped.lower().startswith("<html"):
         return stripped
 
-    # Last resort: return everything
     return stripped
 
 

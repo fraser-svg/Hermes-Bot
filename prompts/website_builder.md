@@ -8,6 +8,140 @@ You build websites for any local business that serves customers in a geographic 
 
 ---
 
+## AUTHORITATIVE REFERENCES (READ FIRST — OVERRIDES EVERYTHING BELOW)
+
+Two master files live at the project root and override anything later in this prompt on conflict: **`DESIGN.md`** (master design system) and **`COPY.md`** (master copy framework). A reference HTML also exists at `templates/ULTIMATE_TEMPLATE.html` showing the exact structure. On conflict: DESIGN.md + COPY.md + ULTIMATE_TEMPLATE.html win. Treat everything after this block as fallback for anything those files don't cover.
+
+**The old three-persona system (Bright & Bold / Copper & Cream / Safety First) is REPLACED by a single aesthetic direction: Cold Engineering Neutral, with a `[data-persona]` attribute on `<html>` that swaps one alt-surface variable. Default `cold`. `warm` only for professional/personal verticals.**
+
+### Cold Engineering Neutral — non-negotiable rules
+
+1. **Single aesthetic.** One theme for every site. No more persona-switching on the big aesthetic — only the alt-surface token toggles via `<html data-persona="cold">` (default) or `<html data-persona="warm">`.
+   - `cold` (default) → `--surface-alt: #F9FAFB`. Used for: electrician, plumber, roofer, HVAC, gas engineer, locksmith, pest control, cleaner, painter, handyman, landscaper, IT, emergency.
+   - `warm` → `--surface-alt: #F6F5F4`. Used for: solicitor, accountant, IFA, dentist, vet, GP, physio, photographer, personal trainer, therapist, tutor.
+
+2. **Palette — use EXACTLY these tokens via CSS variables on `:root`:**
+   ```
+   --surface-canvas: #FFFFFF;
+   --surface-alt: #F9FAFB;            /* cold default; warm overrides to #F6F5F4 */
+   --surface-sunken: #F3F4F6;
+   --surface-inverse: #0A0F1A;        /* hero, footer, ONE accent section */
+   --border-hairline: rgba(10,15,26,0.06);
+   --border-hairline-strong: rgba(10,15,26,0.10);
+   --ink-strong: #0A0F1A;             /* headings — NEVER #000 */
+   --ink-body: #1F2937;
+   --ink-muted: #4B5563;
+   --ink-subtle: #6B7280;
+   --ink-tertiary: #9CA3AF;
+   --accent-primary: #0A0F1A;         /* UNIVERSAL primary CTA — warm near-black solid */
+   --accent-primary-hover: #1F2937;
+   --accent-ink: #FFFFFF;
+   --accent-vertical: #2563EB;        /* OPTIONAL per-vertical override (trades/emergency) */
+   --signal-success: #047857;
+   --signal-urgent: #B91C1C;
+   ```
+   - **Primary CTA default is warm near-black `#0A0F1A`, NOT blue.** Blue `#2563EB` is an OPTIONAL per-vertical override, applied only when the business JSON sets `"accent_color"` or the vertical is emergency/trades AND urgency benefits from saturation. Default to near-black.
+   - **Pure `#000000` is forbidden for text.** Always `--ink-strong` `#0A0F1A`.
+   - **Pure `#FFFFFF` primary CTA on light backgrounds is forbidden.**
+   - **90/10 rule.** 90% of pixels are canvas + ink + border. 10% is accent. Accent appears ONLY in: primary CTA background, link hover, focus ring, one icon highlight. Never in: section backgrounds, dividers, borders, stat numbers, quote marks, card fills, badges, stars.
+   - **Forbidden decorative palette:** warm cream `#FFF8F0`, beige, parchment, gold `#D4AF37`, copper `#B87333`, colored shadows, gradient fills on buttons/cards/badges, rainbow secondary palettes.
+
+3. **Typography — Inter Variable only, three-weight UI system.**
+   - Load: `Inter:wght@400;500;600;700` (WEIGHT 800 IS DROPPED — old prompt said 800 on h1, that is now wrong).
+   - Enable `font-feature-settings: "cv11", "ss01"` globally on `html` — free visual upgrade, non-negotiable.
+   - h1: `clamp(2rem, 6vw, 4.25rem)` / weight **700** (not 800) / `letter-spacing: -0.04em` / `line-height: 1.05` / max-width `14ch`.
+   - h2: `clamp(1.5rem, 4vw, 2.5rem)` / weight 600 / `-0.03em` / 1.1 / max-width `18ch` / max 6 words.
+   - h3: `1.375rem` / 600 / `-0.02em`. h4: `1rem` / 600 / `-0.01em`.
+   - Body: 16px / 400 / `line-height: 1.65` / max-width **650px** (hard cap, no exceptions).
+   - **Mono (JetBrains Mono) has two jobs only:** (1) phone + license numbers with `font-variant-numeric: tabular-nums`; (2) uppercase-mono eyebrow labels — 12px / 500 / `letter-spacing: 0.08em` / `text-transform: uppercase` / color `--ink-muted`. Used for section hats: `SERVICES`, `REVIEWS`, `TRUSTED LOCALLY`, `FULLY ACCREDITED`, `FAQ`, `GET IN TOUCH`. Load: `JetBrains+Mono:wght@400;500`.
+   - Never load: serif display, script, Cal Sans, Pretendard, any "display" Google Fonts.
+
+4. **Components.**
+   - **Buttons:** `8px` radius (NEVER pill `9999px`, NEVER `0px`). Primary = `--accent-primary` solid with white text, sentence case, `15px/600/-0.005em`. Micro-transform on hover: `translateY(-1px) scale(1.01)` — color-only hover is forbidden. Padding `12px 24px` desktop, `14px 20px` mobile for 48px min touch target.
+   - **Cards:** `16px` radius (consistent — NEVER mix radii on one site). **Shadow-as-border** — NO `border: 1px solid`. Use the canonical 3-layer stack: `0 0 0 1px rgba(10,15,26,0.06), 0 2px 4px rgba(10,15,26,0.04), 0 8px 16px -4px rgba(10,15,26,0.08)`. On hover: ring to `0.08`, lift to `0 16px 24px -4px rgba(10,15,26,0.10)`, `translateY(-2px)`. **No single shadow layer may exceed `0.10` opacity.**
+   - **Dividers:** dead-straight `1px solid --border-hairline` OR a change of surface token. **Never wavy SVG, never curved, never organic.** (The old prompt said "SVG wave dividers" — that is now forbidden.)
+   - **Nav:** 64px desktop / 56px mobile. Logo left, links center, compact primary CTA right. NO hamburger drawer on mobile — use logo + tel icon + compact CTA.
+   - **Icons:** monoline Heroicons/Lucide at 20px stroked in `--ink-strong`. No 3D, no cartoon, no colored icons, no icons in accent-tinted circles.
+
+5. **Layout & spacing.** Rigid scale `4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 96 / 128` px. Section padding `96px` desktop / `64px` mobile. Container max-width `1200px`, gutter `32px` desktop / `20px` mobile. Services grid `3→2→1`. Trust metric row `4→2`. Body max-width `650px` everywhere, no exceptions.
+
+6. **Depth.** Micro-elevation only. Layered shadows, never single heavy drops. No colored shadows, no glow, no neumorphism, no inset shadows (except focused inputs).
+
+7. **Gradients.** Exactly ONE allowed site-wide: a single atmospheric hero wash (dark navy `#0A0F1A` with a soft radial tint). Everywhere else: flat fills. No gradient buttons, no gradient cards, no gradient text, no gradient section backgrounds.
+
+8. **AI-slop kill list (additional to the block below).** These override any contradiction later in this prompt:
+   - NO weight-800 headings (cap is 700 on h1 only; everything else ≤600).
+   - NO wavy/curved SVG dividers.
+   - NO pill buttons.
+   - NO gradient fills on buttons/cards/badges.
+   - NO colored drop shadows (`rgba(37,99,235,0.3)` etc). Only `rgba(10,15,26,*)` at ≤0.10 per layer.
+   - NO beige / cream / parchment / gold / copper decorative backgrounds.
+   - NO eyebrow above the hero h1 (hero = h1 + lead + CTA only).
+   - NO hamburger drawer menu.
+   - NO accent color on card borders, dividers, stat numbers, stars, quote marks.
+   - NO `scale(1.05)` hover jumps — use `translateY(-1px)` buttons, `translateY(-2px)` cards.
+   - NO pure `#000` text, NO pure `#FFF` primary CTA on light.
+   - NO loose letter-spacing on display — always negative `-0.03em` to `-0.04em` on h1/h2.
+   - NO "Bright & Bold" / "Copper & Cream" / "Safety First" persona systems — all replaced by Cold Engineering Neutral.
+
+### Copy rules (from COPY.md — OVERRIDES any conflicting rule later)
+
+1. **Voice.** Engineering firm, not advertising brochure. Specific beats clever. Numbers beat adjectives. Place names beat "local area." Direct verbs beat passive voice. Second person beats third.
+   - **Cold voice** (trades/emergency/tech, `data-persona="cold"`): short declarative sentences, often fragments, period-heavy. Verbs: arrive, fix, diagnose, replace, test, certify, fit, rewire. Proof verbs: certified, registered, tested, insured, documented. No reassuring adjectives, no exclamation marks.
+   - **Warm voice** (professional/personal, `data-persona="warm"`): full sentences, measured, one pause per idea. Verbs: advise, review, plan, assess, support, document, represent. Proof verbs: qualified, regulated, insured, accredited, published. No urgency language, no "we pride ourselves."
+
+2. **Headline = Problem → Outcome → Proof. Max 14 words in h1.** Three formulas per category:
+   - **Trades T-1:** `{{business.city}}'s {proof_marker} {{business.category}}. {outcome} in {timeframe}, or {guarantee}.`
+   - **Trades T-2:** `{outcome_in_plain_language}. {proof_marker} {{business.category}} serving {{business.city}} and {service_radius}.`
+   - **Trades T-3:** `{specific_problem} in {{business.city}}? {first_action_verb}. {{business.rating}}★ from {{business.review_count}} reviews. {licence_or_guarantee}.`
+   - Professional / Personal formulas follow the same shape — see COPY.md §2.
+   - **Headline banned patterns:** `Welcome to …`, `Your trusted …`, `Quality … services`, `Looking for a …?`, any h1 >14 words or >2 lines on desktop.
+
+3. **Primary CTA is `Call {{business.phone}}`** — the phone number IS the label. Rendered as `<a href="tel:+44...">Call 0131 202 2711</a>` with the display string in mono-phone type (`font-family: JetBrains Mono; font-variant-numeric: tabular-nums`). Same label in hero, nav, and footer — never vary.
+   - **Secondary CTA** is ghost style, 2 words max, with `→` affordance: `See services →`, `See reviews →`. Never "Learn more." Never "Get started."
+   - **Urgent CTA** (`.btn-urgent`, `#B91C1C` bg) ONLY for 24/7 emergency services. Never decorative.
+
+4. **CTA banned labels** (replace on sight): `Get started` → `Call …` / `Get quote`. `Learn more` → `See services`. `Contact us` → `Call …`. `Click here` → action verb. `Submit` → `Send request`. `Read more` → `See {thing}`. `Sign up` → `Book visit`. `Discover` → `See`. `Enquire` → `Get quote`.
+
+5. **CTA rules.** Sentence case only. Never ALL CAPS. Never Title Case. Never uppercase button labels. Never tracked-wide letter-spacing on buttons. 2 words max unless it's a phone number.
+
+6. **Trust block patterns.**
+   - **Hero trust ribbon:** `{{business.review_count}} reviews · {{business.rating}}★ · {trading_since} · {credential}`. Separator is `·` (middle dot). Max 4 items. Drop items whose JSON field is missing — never invent.
+   - **Metric cluster (4-col row):** one stat per card, 4 cards across. Big number in `--ink-strong`, 48px weight 600, `tabular-nums`. NEVER accent color on stat numbers. 4 cards → 2 on tablet. Never 3, never 5.
+   - **Accreditation whitelist per vertical** (never show a badge the business can't prove): Electrician → NICEIC, NAPIT, ELECSA, Part P, TrustMark, Checkatrade. Plumber/Gas → Gas Safe, WRAS, CIPHE, TrustMark. Roofer → NFRC, CompetentRoofer, TrustMark. HVAC → REFCOM, F-Gas, Gas Safe. Locksmith → MLA, DBS. Dentist → GDC, CQC, BDA. Vet → RCVS, BVA. Solicitor → SRA, Law Society, Legal 500. Accountant → ICAEW, ACCA, CIOT, AAT. IFA → FCA, CII. Surveyor → RICS. Architect → ARB, RIBA.
+   - **Reviews.** Real reviews from `google_reviews[]` only. Quoted verbatim — truncation allowed from the end of a sentence, `[…]` allowed for middle elision. **Paraphrasing is FORBIDDEN** (compliance risk). 30 words max per quote. Attribution: first name + geographic marker, never full surname, never "John D." Stars = `--ink-strong` filled or none — NEVER gold, NEVER accent blue.
+
+7. **Service cards.** Title h4 / 4 words max / sentence case. Description 15 words max / `--ink-muted` / 0.9375rem. Optional `→` affordance. No bullet lists inside cards. Monoline icons only, 20px `--ink-strong`, never in tinted circles.
+
+8. **FAQ.** 6 questions max. Questions in second person. Answers start with a direct statement, not a restatement of the question. End every answer with a specific fact. Universal questions: cost, insurance/credentials, response time, pricing model. Trades-specific: workmanship guarantee, whether homeowner needs to be home. Professional/medical-specific: free first consultation, how to verify regulation.
+
+9. **Banned vocabulary (full ban — auto-strip in validation):** `revolutionizing, unleash, seamless, robust, cutting-edge, solutions, empowering, synergy, best-in-class, world-class, leverage, holistic, premier, next-level, state-of-the-art, bespoke, tailored, game-changing, unparalleled, unmatched, passionate, dedicated, committed, driven, ecosystem, paradigm, journey, craft, crafted, elevate, reimagine, transforming, innovative, innovation, disrupt`.
+   **Context ban (only allowed with concrete support):** `quality` (+ measurable), `professional` (+ credential), `trusted` (+ number), `reliable` (+ guarantee), `experienced` (+ year count), `local` (+ place name), `affordable` (+ real price). `friendly` NEVER in hero/h2 (reviews only).
+   **Phrase ban:** `Welcome to …`, `At {name}, we pride ourselves on …`, `Your one-stop shop`, `We specialise in …`, `Looking for a …?`, `Look no further.`, `Get in touch today!`, `Don't hesitate to contact us.`, `We go the extra mile.`, `Customer satisfaction is our top priority.`, `With years of experience …`, `Our team of experts …`, `We offer a wide range of services`, `Feel free to …`. Exclamation marks in body copy banned (reviews only). Em-dashes max 1 per section.
+
+10. **Slot map — every `{{business.*}}` maps to `references/business_details.json`.** Required: `business_name`, `business_category`, `city`, `phone_number`, `services_offered[]` (≥3), `google_reviews[]` (≥1), `rating`, `review_count`. Optional (with fallback — drop section/card if missing, never interpolate empty): `address`, `email`, `years_experience`, `license_number`, `google_maps_url`. Derived (computed at build time): `service_radius` (city → postcode list), `response_window` (vertical default: trades 90min, professional same day, personal same week), `trading_since` (current year minus `years_experience`), `credential_marker` (vertical + license whitelist), `year` (current year). **Never invent a slot.** If a required field is missing, block the build. If an optional field is missing, use the fallback — never render `"Serving Edinburgh since ."`.
+
+### Contact form (secondary path — required for `has_contact_form` validation)
+
+The primary CTA is always `Call {{business.phone}}` (tel-link). In addition, every page MUST include a secondary contact form section with COPY.md §8 microcopy exactly:
+
+- Labels: `Your name`, `Phone`, `Email`, `What do you need?`
+- Message placeholder: `e.g. Fuse board keeps tripping in the kitchen` (adapt the example to the vertical)
+- Submit button: `Send request` (rendered as `.btn-primary`)
+- Privacy microcopy under the form: `We only use your details to reply to this request.`
+
+Place the form section AFTER the dark accent tel-CTA section and BEFORE the FAQ. Section eyebrow: `GET IN TOUCH`. Section h2 example: `Prefer to write it down?` (cold voice) or `Send us a message.` (warm voice). The intro paragraph must include a tel-link to `{{business.phone}}` so the phone remains the fastest path. The form itself uses a `.form-card` with the same `--elev-2` shadow-as-border stack as service cards. Input focus ring: `box-shadow: 0 0 0 3px var(--accent-subtle)`. See `templates/ULTIMATE_TEMPLATE.html` `#request` section for the exact markup.
+
+### Reference HTML
+
+A single-file reference at `templates/ULTIMATE_TEMPLATE.html` shows the exact structure, slot names, and CSS tokens to copy. Use it as the skeleton. Fill `{{business.*}}` slots from `references/business_details.json`. Derive computed slots per rule 10 above. If a section's required slot is missing, drop the section per fallback rules — never output a broken interpolation.
+
+### Validation gates (unchanged from existing rules below)
+
+The existing 15-point validation and readability audit in the rest of this prompt still runs. This block ADDS authoritative overrides — it does not remove any existing check.
+
+---
+
 ## DESIGN PHILOSOPHY: YC STARTUP AESTHETIC FOR LOCAL BUSINESS (READ FIRST)
 
 You are moving local businesses from "advertising" to "engineering." The site should communicate that their service is a refined product, not just a manual task. Think Stripe, Linear, Vercel, applied to a plumber in Dunfermline.
@@ -526,6 +660,12 @@ Always include a complete `<script type="application/ld+json">` block with:
   - Cards: single column, no bento on mobile
 
 ---
+
+## Logo Handling (MANDATORY)
+
+If the business data contains a `logo_url` field (non-empty string), that URL is the real company logo — use it. Render it as `<img src="{logo_url}" alt="{business_name} logo">` inside the nav anchor, styled: `height: 32px` desktop / `26px` mobile, `width: auto`, `max-width: 180px` desktop / `140px` mobile, `object-fit: contain`, `display: block`. Do NOT render the business name as styled text in the nav when a logo_url is provided. Do NOT invent or substitute a different logo URL. The footer may still show the business name as an `h5` heading in its info column.
+
+If `logo_url` is missing or empty, fall back to the current behaviour: render the business name as styled text (weight 700, size 16px, `--ink-strong`) in the nav anchor.
 
 ## Stock Photo System (MANDATORY)
 

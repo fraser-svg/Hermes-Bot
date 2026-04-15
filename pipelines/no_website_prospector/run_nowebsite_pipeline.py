@@ -8,18 +8,18 @@ optionally builds + deploys a site per qualified prospect.
 
 Usage:
     # Discovery only (stop before qualify/build/deploy):
-    python3 run_nowebsite_pipeline.py \\
+    python3 -m pipelines.no_website_prospector.run_nowebsite_pipeline \\
         --cities "Edinburgh,Glasgow,Stirling" \\
         --categories "electrician,plumber" \\
         --limit 20 \\
         --discover-only
 
     # Full pipeline (build + deploy each qualified prospect):
-    python3 run_nowebsite_pipeline.py \\
+    python3 -m pipelines.no_website_prospector.run_nowebsite_pipeline \\
         --cities "Stirling" --categories "electrician" --limit 10
 
     # Build + deploy for already-qualified prospects (skips discovery):
-    python3 run_nowebsite_pipeline.py --build-qualified
+    python3 -m pipelines.no_website_prospector.run_nowebsite_pipeline --build-qualified
 
 The qualifier step itself is expected to be driven by the orchestrator skill
 invoking the `no-website-qualifier` agent on each candidate; this script emits

@@ -7,10 +7,10 @@ tag managers. Businesses spending on ads but missing retargeting = high
 value leads leaking conversions.
 
 Usage:
-    python3 prospect_no_pixel.py "electrician" "Edinburgh"
-    python3 prospect_no_pixel.py "plumber" "Glasgow" --limit 20 --top 5
-    python3 prospect_no_pixel.py "dentist" "London" --company "Smile"
-    python3 prospect_no_pixel.py "electrician" "Edinburgh" --meta-ads
+    python3 -m pipelines.retarget_prospector.prospect_no_pixel "electrician" "Edinburgh"
+    python3 -m pipelines.retarget_prospector.prospect_no_pixel "plumber" "Glasgow" --limit 20 --top 5
+    python3 -m pipelines.retarget_prospector.prospect_no_pixel "dentist" "London" --company "Smile"
+    python3 -m pipelines.retarget_prospector.prospect_no_pixel "electrician" "Edinburgh" --meta-ads
 
 Requires GOOGLE_MAPS_API in .env
 Optional: META_AD_LIBRARY_TOKEN in .env for Meta Ad Library lookups

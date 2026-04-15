@@ -5,17 +5,14 @@ Autonomous agent that finds local service businesses without websites (via Googl
 ## Quick Start
 
 ```bash
-# Chat mode
-python3 hermes.py
-
 # Find businesses without websites
-python3 prospect.py "electrician" "Edinburgh"
+python3 -m core.prospect "electrician" "Edinburgh"
 
 # Build a website
-python3 generate.py
+python3 -m core.generate
 
 # Find + build in one shot
-python3 prospect.py "electrician" "Edinburgh" --build-first
+python3 -m core.prospect "electrician" "Edinburgh" --build-first
 ```
 
 ## Setup
@@ -39,12 +36,14 @@ Enable "Places API (New)" in Google Cloud Console.
 
 | File | Purpose |
 |------|---------|
-| `hermes.py` | Chat agent |
-| `generate.py` | Website builder (Gemini 3.1 Pro) |
-| `prospect.py` | Google Maps prospector |
-| `prompts/website_builder.md` | Design system (500+ lines) |
-| `prompts/hermes_system_prompt.md` | GPT instructions |
-| `MASTER_INIT_BRIEF.md` | Full init brief for Hermes |
+| `core/generate.py` | Website builder (Gemini 3.1 Pro) |
+| `core/prospect.py` | Google Maps prospector |
+| `core/deploy.py` | Cloudflare Pages deploy |
+| `core/prompts/website_builder.md` | Design system (500+ lines) |
+| `core/prompts/hermes_system_prompt.md` | GPT instructions |
+| `pipelines/retarget_prospector/` | Retarget pixel-leak pipeline |
+| `pipelines/no_website_prospector/` | No-website pipeline |
+| `docs/MASTER_INIT_BRIEF.md` | Full init brief for Hermes |
 
 ## Business Model
 

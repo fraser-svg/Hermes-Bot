@@ -9,7 +9,7 @@
 - `DESIGN.md` (Cold Engineering Neutral, `[data-persona]` toggle, warm near-black primary CTA)
 - `COPY.md` (10-section framework, banned vocabulary, slot map)
 - `templates/ULTIMATE_TEMPLATE.html` (reference single-file HTML)
-- `references/business_details.json` (slot schema)
+- `core/references/business_details.json` (slot schema)
 - `_workspace/template/03_copy_decisions.md` (slot validation log)
 - `.claude/skills/template-synthesis/SKILL.md` (patching convention)
 
@@ -55,13 +55,13 @@ See `prompts/website_builder.md` lines 11–136 (approx) after patch: `## AUTHOR
 2. Find the line `## AUTHORITATIVE REFERENCES (READ FIRST — OVERRIDES EVERYTHING BELOW)`.
 3. Delete everything from that line through (and including) the terminating `---` directly before the original `## DESIGN PHILOSOPHY: YC STARTUP AESTHETIC FOR LOCAL BUSINESS (READ FIRST)` line.
 4. Verify the file now jumps from the Role section's closing `---` straight to `## DESIGN PHILOSOPHY …`.
-5. Run `python3 generate.py` on `references/business_details.json` (Spartan Electrical) — must still pass 15/15 validation + 0 readability warnings (the exact pre-patch behaviour).
+5. Run `python3 -m core.generate` on `core/references/business_details.json` (Spartan Electrical) — must still pass 15/15 validation + 0 readability warnings (the exact pre-patch behaviour).
 
 Alternative (git): `git checkout HEAD -- prompts/website_builder.md` if no other edits to that file are pending.
 
 ## Slot map validation
 
-Cross-checked against `_workspace/template/03_copy_decisions.md §Slot validation log` and `references/business_details.json`:
+Cross-checked against `_workspace/template/03_copy_decisions.md §Slot validation log` and `core/references/business_details.json`:
 
 | Slot used in ULTIMATE_TEMPLATE.html | JSON field | Present in Spartan JSON? | Fallback |
 |---|---|---|---|

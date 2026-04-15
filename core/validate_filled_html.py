@@ -29,9 +29,9 @@ from pathlib import Path
 from typing import Any
 
 BASE_DIR = Path(__file__).resolve().parent
-sys.path.insert(0, str(BASE_DIR))
+sys.path.insert(0, str(BASE_DIR.parent))
 
-from generate import audit_readability, validate_html  # noqa: E402
+from core.generate import audit_readability, validate_html  # noqa: E402
 
 BANNED_WORDS: tuple[str, ...] = (
     "revolutionizing",

@@ -1,0 +1,1122 @@
+[
+  {
+    "business_name": "Cherrybank Dental Spa",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "168 Glasgow Rd, Perth PH2 0LY, UK",
+    "phone_number": "01738 505352",
+    "website_url": "https://www.cherrybankdentalspa.com/?utm_campaign=gmb",
+    "google_maps_url": "https://maps.google.com/?cid=349752345824579679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 155,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.cherrybankdentalspa.com/?utm_campaign=gmb"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.cherrybankdentalspa.com/?utm_campaign=gmb"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "LifeCare Dental",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "Upper Level Forrest Chase, T18/200-204 Murray St, Perth WA 6000, Australia",
+    "phone_number": "(08) 9221 2777",
+    "website_url": "https://lifecaredental.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing&utm_content=perth-fcu",
+    "google_maps_url": "https://maps.google.com/?cid=513156403906035703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "review_count": 1259,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://lifecaredental.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing&utm_content=perth-fcu",
+        "https://lifecaredental.com.au/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://lifecaredental.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing&utm_content=perth-fcu",
+        "https://lifecaredental.com.au/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Iconic Dentistry",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "Unit 3/298 Mill Point Rd, South Perth WA 6151, Australia",
+    "phone_number": "(08) 9474 3947",
+    "website_url": "https://www.iconicdentistry.com.au/",
+    "google_maps_url": "https://maps.google.com/?cid=9933554505983158071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 440,
+    "pixel_audit": {
+      "tracking_score": 30,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.iconicdentistry.com.au/",
+        "https://www.iconicdentistry.com.au/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 350.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.iconicdentistry.com.au/",
+        "https://www.iconicdentistry.com.au/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Smile Design",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "The Old Bank, 11 Main St, Bridgend, Perth PH2 7HD, UK",
+    "phone_number": "01738 446999",
+    "website_url": "http://www.smiledesignperth.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=10124962696403145106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "review_count": 15,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.smiledesignperth.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 57.4,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.smiledesignperth.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Balhousie Dental",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "10 Balhousie St, Perth PH1 5HJ, UK",
+    "phone_number": "01738 625027",
+    "website_url": "http://www.balhousiedental.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=1014276658301941762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 13,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.balhousiedental.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 48.6,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.balhousiedental.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Dental Care Perth",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "23 S Methven St, Perth PH1 5PE, UK",
+    "phone_number": "01738 638399",
+    "website_url": "https://clydemunrodental.com/find-your-practice/dental-care-perth/",
+    "google_maps_url": "https://maps.google.com/?cid=13110231910774546488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 358,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": true,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": true,
+      "pages_scanned": [
+        "https://clydemunrodental.com/find-your-practice/dental-care-perth/",
+        "https://clydemunrodental.com/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": true,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": true,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://clydemunrodental.com/find-your-practice/dental-care-perth/",
+        "https://clydemunrodental.com/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Perth Central Dental Centre",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "497 Wellington St, Perth WA 6000, Australia",
+    "phone_number": "(08) 9222 5900",
+    "website_url": "https://www.perthdentalcentre.com.au/",
+    "google_maps_url": "https://maps.google.com/?cid=2563871119725398950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 1046,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": true,
+      "pages_scanned": [
+        "https://www.perthdentalcentre.com.au/",
+        "https://www.perthdentalcentre.com.au/contact"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": true,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.perthdentalcentre.com.au/",
+        "https://www.perthdentalcentre.com.au/contact"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Caledonian Dental Care",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "53 Kinnoull Causeway, Perth PH2 8HQ, UK",
+    "phone_number": "01738 441159",
+    "website_url": "https://www.caledoniandental.co.uk/?utm_source=googlemaps&utm_medium=organic&utm_campaign=primary",
+    "google_maps_url": "https://maps.google.com/?cid=13150404038362690548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 490,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.caledoniandental.co.uk/?utm_source=googlemaps&utm_medium=organic&utm_campaign=primary"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.caledoniandental.co.uk/?utm_source=googlemaps&utm_medium=organic&utm_campaign=primary"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Caledonian Dental Care - York Place",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "45 York Pl, Perth PH2 8EH, UK",
+    "phone_number": "01738 622912",
+    "website_url": "https://www.caledoniandental.co.uk/?utm_source=googlemaps&utm_medium=organic&utm_campaign=primary",
+    "google_maps_url": "https://maps.google.com/?cid=14978732609716627467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 142,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.caledoniandental.co.uk/?utm_source=googlemaps&utm_medium=organic&utm_campaign=primary"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.caledoniandental.co.uk/?utm_source=googlemaps&utm_medium=organic&utm_campaign=primary"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Perth City Dental",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "5/105 St Georges Terrace, Perth WA 6000, Australia",
+    "phone_number": "(08) 9321 5721",
+    "website_url": "https://www.perthcitydental.com.au/?utm_campaign=gmb&utm_medium=organic&utm_source=gmblisting",
+    "google_maps_url": "https://maps.google.com/?cid=13346448611562578676&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 113,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.perthcitydental.com.au/?utm_campaign=gmb&utm_medium=organic&utm_source=gmblisting",
+        "https://www.perthcitydental.com.au/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.perthcitydental.com.au/?utm_campaign=gmb&utm_medium=organic&utm_source=gmblisting",
+        "https://www.perthcitydental.com.au/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "DB Dental Perth City",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "Suite 3-4/570 Wellington St, Perth WA 6000, Australia",
+    "phone_number": "(08) 9235 8900",
+    "website_url": "https://www.nationaldentalcare.com.au/perth-city",
+    "google_maps_url": "https://maps.google.com/?cid=12436106905945632807&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 330,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": true,
+      "pages_scanned": [
+        "https://www.nationaldentalcare.com.au/perth-city",
+        "https://www.nationaldentalcare.com.au/perth-city/contact"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": true,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.nationaldentalcare.com.au/perth-city",
+        "https://www.nationaldentalcare.com.au/perth-city/contact"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Aria Dental",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "1002 Hay St, Perth WA 6000, Australia",
+    "phone_number": "(08) 6326 0724",
+    "website_url": "https://www.ariadental.net.au/dental-implants-perth/?utm_source=googlebusinessprofile&utm_medium=google&utm_campaign=gbp_perthcbd",
+    "google_maps_url": "https://maps.google.com/?cid=4250162679440999226&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 364,
+    "pixel_audit": {
+      "tracking_score": 30,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.ariadental.net.au/dental-implants-perth/?utm_source=googlebusinessprofile&utm_medium=google&utm_campaign=gbp_perthcbd",
+        "https://www.ariadental.net.au/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 350.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.ariadental.net.au/dental-implants-perth/?utm_source=googlebusinessprofile&utm_medium=google&utm_campaign=gbp_perthcbd",
+        "https://www.ariadental.net.au/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "My Implant Dentist South Perth",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "65B Angelo St, South Perth WA 6151, Australia",
+    "phone_number": "(08) 9361 5544",
+    "website_url": "https://myimplantdentist.com.au/locations/south-perth/",
+    "google_maps_url": "https://maps.google.com/?cid=8165939502974549270&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 280,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "1097875062226004",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://myimplantdentist.com.au/locations/south-perth/",
+        "https://myimplantdentist.com.au/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://myimplantdentist.com.au/locations/south-perth/",
+        "https://myimplantdentist.com.au/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Advanced Dental Artistry",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "555 Newcastle St, West Perth WA 6005, Australia",
+    "phone_number": "(08) 6165 3888",
+    "website_url": "https://advanceddentalartistry.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "google_maps_url": "https://maps.google.com/?cid=544753959529246622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 330,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_ads_remarketing",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://advanceddentalartistry.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+        "https://advanceddentalartistry.com.au/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://advanceddentalartistry.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+        "https://advanceddentalartistry.com.au/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Above & Beyond Dental",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "28 St Georges Terrace, Perth WA 6000, Australia",
+    "phone_number": "(08) 6183 9989",
+    "website_url": "https://aandbdental.com/",
+    "google_maps_url": "https://maps.google.com/?cid=16245102865907992766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 368,
+    "pixel_audit": {
+      "tracking_score": 55,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "268963208644191",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://aandbdental.com/",
+        "https://aandbdental.com/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 225.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://aandbdental.com/",
+        "https://aandbdental.com/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "West Perth Dental Centre",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "39 Colin St, West Perth WA 6005, Australia",
+    "phone_number": "(08) 9321 6928",
+    "website_url": "https://wperthdental.com.au/?utm_campaign=gmb",
+    "google_maps_url": "https://maps.google.com/?cid=10779987287297528880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 234,
+    "pixel_audit": {
+      "tracking_score": 80,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "621900319717396",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-11008370777",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://wperthdental.com.au/?utm_campaign=gmb",
+        "https://wperthdental.com.au/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 100.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://wperthdental.com.au/?utm_campaign=gmb",
+        "https://wperthdental.com.au/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "eDental Perth",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "Eastgate Commercial Centre, 14/49 Great Eastern Hwy, Rivervale WA 6103, Australia",
+    "phone_number": "1300 467 112",
+    "website_url": "https://www.edentalperth.net.au/",
+    "google_maps_url": "https://maps.google.com/?cid=2999293992777500748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.5,
+    "review_count": 663,
+    "pixel_audit": {
+      "tracking_score": 80,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.edentalperth.net.au/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 100.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.edentalperth.net.au/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "York Place Dental",
+    "business_category": "dentist",
+    "city": "perth",
+    "address": "19 York Pl, Perth PH2 8EP, UK",
+    "phone_number": "01738 633315",
+    "website_url": "https://www.caledoniandental.co.uk/where-we-are/the-practice-and-team-york",
+    "google_maps_url": "https://maps.google.com/?cid=5056820436813316320&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.1,
+    "review_count": 10,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.caledoniandental.co.uk/where-we-are/the-practice-and-team-york"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 34.9,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.caledoniandental.co.uk/where-we-are/the-practice-and-team-york"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "business_name": "Thornton E & Co",
+    "business_category": "solicitor",
+    "city": "oban",
+    "address": "17 Lochside St, Oban PA34 4HP, UK",
+    "phone_number": "01631 566771",
+    "website_url": "http://www.ethornton.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=2901320101704030291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "review_count": 10,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.ethornton.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 42.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.ethornton.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Stevenson Kennedy",
+    "business_category": "solicitor",
+    "city": "oban",
+    "address": "Linndhu House, 19 Stevenson St, Oban PA34 5NA, UK",
+    "phone_number": "01631 562317",
+    "website_url": "http://www.stevensonkennedy.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=8537006456392378348&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 7,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.stevensonkennedy.co.uk/",
+        "http://www.stevensonkennedy.co.uk/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 29.8,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.stevensonkennedy.co.uk/",
+        "http://www.stevensonkennedy.co.uk/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "MacPhee & Partners",
+    "business_category": "solicitor",
+    "city": "oban",
+    "address": "First Floor, 26 George St, Oban PA34 5SB, UK",
+    "phone_number": "01631 562308",
+    "website_url": "http://www.macphee.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=6924451197461738498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 7,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.macphee.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 29.8,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.macphee.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "MacKinnon D M",
+    "business_category": "solicitor",
+    "city": "oban",
+    "address": "Station Rd, Oban PA34 4LN, UK",
+    "phone_number": "01631 563014",
+    "website_url": "https://dmmk.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=15675407631253859308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 4,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://dmmk.co.uk/",
+        "https://dmmk.co.uk/contact-us/",
+        "https://dmmk.co.uk/services/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 19.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://dmmk.co.uk/",
+        "https://dmmk.co.uk/contact-us/",
+        "https://dmmk.co.uk/services/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Anderson Banks",
+    "business_category": "solicitor",
+    "city": "oban",
+    "address": "22 Argyll Square, Oban PA34 4AT, UK",
+    "phone_number": "01631 563158",
+    "website_url": "https://andersonbanks.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=12679649038237956764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 2.3,
+    "review_count": 4,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://andersonbanks.co.uk/",
+        "https://andersonbanks.co.uk/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 9.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://andersonbanks.co.uk/",
+        "https://andersonbanks.co.uk/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "MacArthur Legal",
+    "business_category": "solicitor",
+    "city": "oban",
+    "address": "Boswell House, Argyll Square, Oban PA34 4BD, UK",
+    "phone_number": "01631 562215",
+    "website_url": "https://www.macarthurlegal.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=8301329261459930639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 1,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.macarthurlegal.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 5.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.macarthurlegal.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "DAVID PRESTON",
+    "business_category": "solicitor",
+    "city": "oban",
+    "address": "Westback, Duncraggan Rd, Oban PA34 5DU, UK",
+    "phone_number": "07887 950316",
+    "website_url": "http://benvoulin.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=5380373323669004179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 0,
+    "review_count": 0,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://benvoulin.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 0.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://benvoulin.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  }
+]

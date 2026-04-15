@@ -1,0 +1,1249 @@
+[
+  {
+    "business_name": "Wallace Vets - Broughty Ferry",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "285 Queen St, Broughty Ferry, Dundee DD5 2HT, UK",
+    "phone_number": "01382 549600",
+    "website_url": "https://www.wallacevets.com/",
+    "google_maps_url": "https://maps.google.com/?cid=1874293505614489950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 317,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.wallacevets.com/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.wallacevets.com/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Wallace Vets - Carnoustie",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "73 Ravensby Park Gardens, Carnoustie, Dundee DD7 7NY, UK",
+    "phone_number": "01382 549600",
+    "website_url": "https://www.wallacevets.com/",
+    "google_maps_url": "https://maps.google.com/?cid=9124254279289514401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "review_count": 182,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.wallacevets.com/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.wallacevets.com/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Parkside Veterinary Group, Dundee Branch",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "5 King's Cross Rd, Dundee DD2 3PT, UK",
+    "phone_number": "01382 810777",
+    "website_url": "https://www.parksidevets.com/pets/",
+    "google_maps_url": "https://maps.google.com/?cid=13822097300885548984&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "review_count": 626,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.parksidevets.com/pets/",
+        "https://www.parksidevets.com/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.parksidevets.com/pets/",
+        "https://www.parksidevets.com/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Tay Veterinary Centre",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "Finavon St, Dundee DD4 9DU, UK",
+    "phone_number": "01382 884411",
+    "website_url": "https://www.tayvet.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=18252702012018127952&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 217,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.tayvet.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.tayvet.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Veterinary Healthcare Associates",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "3025 Dundee Rd, Winter Haven, FL 33884, USA",
+    "phone_number": "(863) 324-3340",
+    "website_url": "https://vhavets.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=website",
+    "google_maps_url": "https://maps.google.com/?cid=12552178746528423326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "review_count": 1965,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://vhavets.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=website",
+        "https://vhavets.com/contact/",
+        "https://vhavets.com/services/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://vhavets.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=website",
+        "https://vhavets.com/contact/",
+        "https://vhavets.com/services/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Dundee Veterinary Clinic",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "522 Tecumseh St, Dundee, MI 48131, USA",
+    "phone_number": "(734) 529-2429",
+    "website_url": "http://dundeevetclinic.com/",
+    "google_maps_url": "https://maps.google.com/?cid=642558616932199568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 264,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://dundeevetclinic.com/",
+        "http://dundeevetclinic.com/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://dundeevetclinic.com/",
+        "http://dundeevetclinic.com/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Parkside Veterinary Group, Barnhill Branch",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "58 Dalhousie Rd, Broughty Ferry, Dundee DD5 2UB, UK",
+    "phone_number": "01382 739634",
+    "website_url": "https://www.parksidevets.com/pets/",
+    "google_maps_url": "https://maps.google.com/?cid=621314871309774510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 140,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.parksidevets.com/pets/",
+        "https://www.parksidevets.com/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.parksidevets.com/pets/",
+        "https://www.parksidevets.com/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Pets at Home Dundee",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "2, Kingsway Retail Park, Longtown Rd, Dundee DD4 8JT, UK",
+    "phone_number": "0345 600 2412",
+    "website_url": "https://www.petsathome.com/find-us/locations/pet-care-centre/dundee?y_source=1_MTU2Njc5MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "google_maps_url": "https://maps.google.com/?cid=14015010285397541839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 1240,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.petsathome.com/find-us/locations/pet-care-centre/dundee?y_source=1_MTU2Njc5MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.petsathome.com/find-us/locations/pet-care-centre/dundee?y_source=1_MTU2Njc5MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Wilson & Partners",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "33 Argyle St, St Andrews KY16 9BX, UK",
+    "phone_number": "01334 479279",
+    "website_url": "http://www.wilsonandpartners.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=1567912644888045375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 89,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.wilsonandpartners.co.uk/",
+        "http://www.wilsonandpartners.co.uk/book/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 370.7,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.wilsonandpartners.co.uk/",
+        "http://www.wilsonandpartners.co.uk/book/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Heritage Animal Hospital",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "150 Waterstradt Commerce Dr, Dundee, MI 48131, USA",
+    "phone_number": "(734) 529-9177",
+    "website_url": "http://www.hahvet.com/",
+    "google_maps_url": "https://maps.google.com/?cid=13483437157819956855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 843,
+    "pixel_audit": {
+      "tracking_score": 30,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.hahvet.com/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 350.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.hahvet.com/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Eye Right Referrals",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "5 King's Cross Rd, Dundee DD2 3PT, UK",
+    "phone_number": "01383 344088",
+    "website_url": "https://eyerightreferrals.co.uk/clinics/parkside-veterinary-group/",
+    "google_maps_url": "https://maps.google.com/?cid=10581912252521723951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 22,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://eyerightreferrals.co.uk/clinics/parkside-veterinary-group/",
+        "https://eyerightreferrals.co.uk/contact/",
+        "https://eyerightreferrals.co.uk/services/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 93.5,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://eyerightreferrals.co.uk/clinics/parkside-veterinary-group/",
+        "https://eyerightreferrals.co.uk/contact/",
+        "https://eyerightreferrals.co.uk/services/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "The Golf Veterinary Centre",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "6 Dundee St, Carnoustie DD7 7PD, UK",
+    "phone_number": "01241 854772",
+    "website_url": "http://www.golfvets.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=10974092537281278855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 12,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.golfvets.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 57.6,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.golfvets.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Vets4Pets - Dundee",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "Kingsway East Retail Park, Longtown Rd, Dundee DD4 8JT, UK",
+    "phone_number": "01382 519200",
+    "website_url": "https://www.vets4pets.com/practices/vets-near-east-lothian/vets4pets-dundee/?y_source=1_MjkyNTE2NjMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "google_maps_url": "https://maps.google.com/?cid=16868626308247848614&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "review_count": 123,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": true,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.vets4pets.com/practices/vets-near-east-lothian/vets4pets-dundee/?y_source=1_MjkyNTE2NjMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "https://www.vets4pets.com/about-us/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": true,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.vets4pets.com/practices/vets-near-east-lothian/vets4pets-dundee/?y_source=1_MjkyNTE2NjMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "https://www.vets4pets.com/about-us/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Dundee Animal Hospital",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "199 Penny Ave, East Dundee, IL 60118, USA",
+    "phone_number": "(847) 428-6114",
+    "website_url": "https://www.dundeeanimalhospital.com/locations/dundee/?utm_source=GMB&utm_medium=local&utm_campaign=dundee",
+    "google_maps_url": "https://maps.google.com/?cid=1142253384547554882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "review_count": 475,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.dundeeanimalhospital.com/locations/dundee/?utm_source=GMB&utm_medium=local&utm_campaign=dundee",
+        "https://www.dundeeanimalhospital.com/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.dundeeanimalhospital.com/locations/dundee/?utm_source=GMB&utm_medium=local&utm_campaign=dundee",
+        "https://www.dundeeanimalhospital.com/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Dundee Animal Hospital of Elgin",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "11N250 Gale St, Elgin, IL 60123, USA",
+    "phone_number": "(847) 888-3933",
+    "website_url": "https://dundeeanimalhospital.com/locations/elgin/?utm_source=GMB&utm_medium=local&utm_campaign=elgin",
+    "google_maps_url": "https://maps.google.com/?cid=11610979555362205173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 219,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://dundeeanimalhospital.com/locations/elgin/?utm_source=GMB&utm_medium=local&utm_campaign=elgin",
+        "https://dundeeanimalhospital.com/services/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://dundeeanimalhospital.com/locations/elgin/?utm_source=GMB&utm_medium=local&utm_campaign=elgin",
+        "https://dundeeanimalhospital.com/services/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Blackness Veterinary Surgery",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "63 Brown St, Dundee DD1 5AQ, UK",
+    "phone_number": "01382 225422",
+    "website_url": "https://www.blackness-vet.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "google_maps_url": "https://maps.google.com/?cid=11483657037088152335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 643,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.blackness-vet.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+        "https://www.blackness-vet.co.uk/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.blackness-vet.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+        "https://www.blackness-vet.co.uk/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Abbey Veterinary Clinic, Arbroath",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "9 Lindsay St, Arbroath DD11 1RP, UK",
+    "phone_number": "01241 873100",
+    "website_url": "https://www.abbeyvetclinics.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "google_maps_url": "https://maps.google.com/?cid=13630844418406815961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "review_count": 219,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.abbeyvetclinics.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+        "https://www.abbeyvetclinics.co.uk/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.abbeyvetclinics.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+        "https://www.abbeyvetclinics.co.uk/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Dundee PDSA Pet Hospital",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "211 Hawkhill, Dundee DD1 5LA, UK",
+    "phone_number": "01382 660356",
+    "website_url": "http://www.pdsa.org.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=15577664020056265109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "review_count": 67,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": true,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.pdsa.org.uk/",
+        "http://www.pdsa.org.uk/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 239.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": true,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "http://www.pdsa.org.uk/",
+        "http://www.pdsa.org.uk/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Vets Now Dundee",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "5 King's Cross Rd, Dundee DD2 3PT, UK",
+    "phone_number": "01382 690884",
+    "website_url": "https://www.vets-now.com/find-an-emergency-vet/dundee/?utm_source=google&utm_medium=organic&utm_campaign=GMB",
+    "google_maps_url": "https://maps.google.com/?cid=10049605702358932699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "review_count": 286,
+    "pixel_audit": {
+      "tracking_score": 55,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-945400872",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": true,
+      "linkedin_insight": true,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.vets-now.com/find-an-emergency-vet/dundee/?utm_source=google&utm_medium=organic&utm_campaign=GMB"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 225.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": true,
+      "tiktok_pixel": true,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.vets-now.com/find-an-emergency-vet/dundee/?utm_source=google&utm_medium=organic&utm_campaign=GMB"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Provost Vets, Newport",
+    "business_category": "vet",
+    "city": "dundee",
+    "address": "30 High St, Newport-on-Tay DD6 8AD, UK",
+    "phone_number": "01382 543487",
+    "website_url": "https://www.provostvet.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "google_maps_url": "https://maps.google.com/?cid=14557666934962894997&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 52,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.provostvet.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+        "https://www.provostvet.co.uk/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 149.8,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.provostvet.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+        "https://www.provostvet.co.uk/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  }
+]

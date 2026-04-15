@@ -1,0 +1,656 @@
+[
+  {
+    "business_name": "Dundee Motorcycle Training",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "Kinnoull Rd, Dundee DD2 3PZ, UK",
+    "phone_number": "07720 876713",
+    "website_url": "http://www.dundeemotorcycletraining.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=13493135015383111187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 727,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.dundeemotorcycletraining.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.dundeemotorcycletraining.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Claypotts & Dryburgh Driving School",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "Nursery Rd, Broughty Ferry, Dundee DD5 3JA, UK",
+    "phone_number": "01382 738326",
+    "website_url": "http://www.claypottsdrivingschool.com/",
+    "google_maps_url": "https://maps.google.com/?cid=6237944276612716611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 193,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.claypottsdrivingschool.com/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.claypottsdrivingschool.com/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Drivology Driving School",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "13G N Ellen St, Dundee DD3 7DF, UK",
+    "phone_number": "07780 020832",
+    "website_url": "http://www.drivo-logy.com/",
+    "google_maps_url": "https://maps.google.com/?cid=11970170481408801421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 45,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.drivo-logy.com/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 187.4,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.drivo-logy.com/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Safe Tay Driving School (Automatic)",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "William Fitzgerald Way, Dundee DD4 9FB, UK",
+    "phone_number": "",
+    "website_url": "http://www.safetay.com/",
+    "google_maps_url": "https://maps.google.com/?cid=12145355818926231778&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 38,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.safetay.com/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 186.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.safetay.com/"
+      ],
+      "errors": [
+        "http://www.safetay.com/contact-us: captcha_required"
+      ],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Working Way Driving School",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "James St, Newport-on-Tay DD6 8BH, UK",
+    "phone_number": "07913 806559",
+    "website_url": "http://www.workingwayds.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=9341794855043858512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 36,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.workingwayds.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 153.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.workingwayds.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Tayride Motorcycle Training Ltd",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "Michelin Innovation Parc, Baldovie Rd, Dundee DD4 8UQ, UK",
+    "phone_number": "07542 482094",
+    "website_url": "https://www.tayride.com/",
+    "google_maps_url": "https://maps.google.com/?cid=13525107717480403607&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 14,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "all \u2014 page not fetched"
+      ],
+      "found": [],
+      "audit_gap": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.tayride.com/\nCall log:\n  - navigating to \"https://www.tayride.com/\", waiting until \"domcontentloaded\"\n"
+    },
+    "fetch_status": "network_error",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 70.0,
+    "pixels_v2": {
+      "status": "error",
+      "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.tayride.com/\nCall log:\n  - navigating to \"https://www.tayride.com/\", waiting until \"domcontentloaded\"\n",
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [],
+      "errors": [
+        "home: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.tayride.com/\nCall log:\n  - navigating to \"https://www.tayride.com/\", waiting until \"domcontentloaded\"\n"
+      ],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "error"
+  },
+  {
+    "business_name": "Ancrum School of Motoring",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "4 Vorlich Dr, Dundee DD5 3UL, UK",
+    "phone_number": "07976 382350",
+    "website_url": "http://www.ancrumschoolofmotoring.com/",
+    "google_maps_url": "https://maps.google.com/?cid=2666516054906942079&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.3,
+    "review_count": 11,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.ancrumschoolofmotoring.com/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 47.3,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.ancrumschoolofmotoring.com/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Tayview Driving School",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "7 Riverside Gardens, Wormit, Newport-on-Tay DD6 8NQ, UK",
+    "phone_number": "07985 721113",
+    "website_url": "https://www.tayviewdrivingschool.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=321135685006667111&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 12,
+    "pixel_audit": {
+      "tracking_score": 25,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.tayviewdrivingschool.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 45.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.tayviewdrivingschool.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Frankie's Driving School",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "Hawick Dr, Dundee DD4 0TD, UK",
+    "phone_number": "07450 518046",
+    "website_url": "https://www.facebook.com/frankiesdrivingschool",
+    "google_maps_url": "https://maps.google.com/?cid=8028303832743666140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 2,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "audit_gap": "non_website_url:www.facebook.com"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 10.0,
+    "pixels_v2": {
+      "status": "skipped",
+      "error": "non_website_url:www.facebook.com",
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "skipped"
+  },
+  {
+    "business_name": "Learn to Pass (Driving Lessons",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "Tayside, 22 St Ninian Terrace, Dundee DD3 9LX, UK",
+    "phone_number": "07846 819882",
+    "website_url": "http://www.learn-to-pass.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=16885849660474303988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 1,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.learn-to-pass.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 4.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.learn-to-pass.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "1st Time Driving School",
+    "business_category": "driving school",
+    "city": "dundee",
+    "address": "19 Gagie Holding, Dundee DD5 3PD, UK",
+    "phone_number": "07885 629042",
+    "website_url": "http://www.1sttimedriving.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=4966549389269160656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 0,
+    "review_count": 0,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.1sttimedriving.co.uk/",
+        "http://www.1sttimedriving.co.uk/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 0.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.1sttimedriving.co.uk/",
+        "http://www.1sttimedriving.co.uk/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  }
+]

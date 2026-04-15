@@ -1,0 +1,905 @@
+[
+  {
+    "business_name": "Accountants Plus",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "Floor 2, Airbles House, 270 Airbles Rd, Motherwell ML1 3AT, UK",
+    "phone_number": "01698 281554",
+    "website_url": "https://www.accountantsplus.net/",
+    "google_maps_url": "https://maps.google.com/?cid=9181979681458388349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 31,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.accountantsplus.net/",
+        "https://www.accountantsplus.net/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 145.7,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.accountantsplus.net/",
+        "https://www.accountantsplus.net/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Signature Accountants",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "Oakfield House, 378 Brandon St, Motherwell ML1 1XA, UK",
+    "phone_number": "01698 523772",
+    "website_url": "https://www.signature-accountants.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=12012143325388398754&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 29,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.signature-accountants.co.uk/",
+        "https://www.signature-accountants.co.uk/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 123.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.signature-accountants.co.uk/",
+        "https://www.signature-accountants.co.uk/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Dash Accounting Services Ltd",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "Suite 11, Calder House, 8 S Caldeen Rd, Coatbridge ML5 4EG, UK",
+    "phone_number": "07359 487827",
+    "website_url": "https://dashaccountingservices.com/",
+    "google_maps_url": "https://maps.google.com/?cid=4046243325438804512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 17,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://dashaccountingservices.com/",
+        "https://dashaccountingservices.com/contact/",
+        "https://dashaccountingservices.com/services/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 69.4,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://dashaccountingservices.com/",
+        "https://dashaccountingservices.com/contact/",
+        "https://dashaccountingservices.com/services/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Cadzow Chartered Accountants",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "194 Quarry St, Hamilton ML3 6QR, UK",
+    "phone_number": "07717 425430",
+    "website_url": "https://www.cadzow-ca.com/",
+    "google_maps_url": "https://maps.google.com/?cid=2232830798514601944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 5,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.cadzow-ca.com/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 25.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.cadzow-ca.com/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "McDaid & Partners",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "69-71 Hamilton Rd, Motherwell ML1 3DG, UK",
+    "phone_number": "01698 259623",
+    "website_url": "https://www.mcdaidandpartners.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=18143974235971551336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 3,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.mcdaidandpartners.co.uk/",
+        "https://www.mcdaidandpartners.co.uk/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 15.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.mcdaidandpartners.co.uk/",
+        "https://www.mcdaidandpartners.co.uk/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Feely and Company",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "165 Main St, Wishaw ML2 7AU, UK",
+    "phone_number": "01698 373200",
+    "website_url": "http://www.feelyaccountants.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=5398509280212225280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 3,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.feelyaccountants.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 12.8,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.feelyaccountants.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "J M Simpson & Co",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "1 Orchard St, Motherwell ML1 3JE, UK",
+    "phone_number": "0141 763 1209",
+    "website_url": "http://www.jm-simpsonandco.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=8420452106279101562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3,
+    "review_count": 4,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.jm-simpsonandco.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 10.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.jm-simpsonandco.co.uk/"
+      ],
+      "errors": [
+        "http://www.jm-simpsonandco.co.uk/contact: captcha_required"
+      ],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Genius Outlander Ltd",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "16 Jerviston Ct, Motherwell ML1 4BS, UK",
+    "phone_number": "07598 833970",
+    "website_url": "https://gformations.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=4911861469582997445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 2,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "all \u2014 page not fetched"
+      ],
+      "found": [],
+      "audit_gap": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://gformations.uk/\", waiting until \"domcontentloaded\"\n"
+    },
+    "fetch_status": "network_error",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 10.0,
+    "pixels_v2": {
+      "status": "error",
+      "error": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://gformations.uk/\", waiting until \"domcontentloaded\"\n",
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [],
+      "errors": [
+        "home: TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://gformations.uk/\", waiting until \"domcontentloaded\"\n"
+      ],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "error"
+  },
+  {
+    "business_name": "Rosehall Payroll & Accounting Services Ltd",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "Enterprise House, Dalziel St, Motherwell ML1 1PJ, UK",
+    "phone_number": "01698 337242",
+    "website_url": "https://www.lanarkshirebookkeeper.co.uk/bookkeeper-in-motherwell/",
+    "google_maps_url": "https://maps.google.com/?cid=10368376208125571620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 1,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "all \u2014 page not fetched"
+      ],
+      "found": [],
+      "audit_gap": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lanarkshirebookkeeper.co.uk/bookkeeper-in-motherwell/\nCall log:\n  - navigating to \"https://www.lanarkshireb"
+    },
+    "fetch_status": "network_error",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 5.0,
+    "pixels_v2": {
+      "status": "error",
+      "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lanarkshirebookkeeper.co.uk/bookkeeper-in-motherwell/\nCall log:\n  - navigating to \"https://www.lanarkshireb",
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [],
+      "errors": [
+        "home: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lanarkshirebookkeeper.co.uk/bookkeeper-in-motherwell/\nCall log:\n  - navigating to \"https://www.lanarkshireb"
+      ],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "error"
+  },
+  {
+    "business_name": "Turner Accountancy Ltd.",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "101 Park St, Motherwell ML1 1PF, UK",
+    "phone_number": "01698 253070",
+    "website_url": "https://www.turneraccountancyltd.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=17102595665629621751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 1,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.turneraccountancyltd.co.uk/",
+        "https://www.turneraccountancyltd.co.uk/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 4.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.turneraccountancyltd.co.uk/",
+        "https://www.turneraccountancyltd.co.uk/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "WDM Chartered Accountants",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "378 Brandon St, Motherwell ML1 1XA, UK",
+    "phone_number": "01698 250251",
+    "website_url": "http://www.wdmca.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing",
+    "google_maps_url": "https://maps.google.com/?cid=3702687253298017520&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 0,
+    "review_count": 0,
+    "pixel_audit": {
+      "tracking_score": 30,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.wdmca.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 0.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.wdmca.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Acrio Accountants",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "32 Carroll Cres, Newarthill, Carfin, Motherwell ML1 5AT, UK",
+    "phone_number": "01698 265099",
+    "website_url": "http://www.acrio.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=15821505648104688332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 0,
+    "review_count": 0,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.acrio.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 0.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.acrio.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Clydevalley Financial Solution Ltd",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "25-29 Stewarton St, Wishaw ML2 8AA, UK",
+    "phone_number": "01698 373619",
+    "website_url": "http://www.clydevalleyfs.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=567799225153314523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 0,
+    "review_count": 0,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.clydevalleyfs.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 0.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.clydevalleyfs.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Benson Wood",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "2nd Floor East, Rosehall Rd, Bellshill ML4 3NR, UK",
+    "phone_number": "01236 756161",
+    "website_url": "https://www.benson-wood.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=476354517894804839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 52,
+    "pixel_audit": {
+      "tracking_score": 55,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": true,
+      "pages_scanned": [
+        "https://www.benson-wood.co.uk/",
+        "https://www.benson-wood.co.uk/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 114.7,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": true,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.benson-wood.co.uk/",
+        "https://www.benson-wood.co.uk/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "AIMS Accountants For Business - Graham Lithgow",
+    "business_category": "accountant",
+    "city": "wishaw",
+    "address": "Ardnish, 12 Ravenshall, Cleland, Motherwell ML1 5HT, UK",
+    "phone_number": "0330 223 0531",
+    "website_url": "https://www.aims.co.uk/accountants/graham-lithgow",
+    "google_maps_url": "https://maps.google.com/?cid=17664524392427597937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 0,
+    "review_count": 0,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "all \u2014 page not fetched"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.aims.co.uk/accountants/graham-lithgow",
+        "https://www.aims.co.uk/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "http_404",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 0.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.aims.co.uk/accountants/graham-lithgow",
+        "https://www.aims.co.uk/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  }
+]

@@ -1,0 +1,866 @@
+[
+  {
+    "business_name": "W Wilson Millar Ltd - Friendly Accountants in Prestwick",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "32 Moorfield Rd, Ayrshire, Prestwick KA9 2HW, UK",
+    "phone_number": "01292 738381",
+    "website_url": "https://www.accountant-prestwick.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=9337561872017584657&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 7,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.accountant-prestwick.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 35.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.accountant-prestwick.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "ammu chartered accountants ayr",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "8 Miller Rd, Ayr KA7 2AY, UK",
+    "phone_number": "01292 388031",
+    "website_url": "https://www.ammu.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=4899786336191815443&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 5,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.ammu.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 21.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.ammu.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Stewart Gilmour & Co",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "24 Beresford Terrace, Ayr KA7 2EG, UK",
+    "phone_number": "01292 266768",
+    "website_url": "http://www.stewartgilmour.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=2615946455719268506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.2,
+    "review_count": 5,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.stewartgilmour.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 21.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.stewartgilmour.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "McMorland & Co",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "24 York St, Ayr KA8 8AZ, UK",
+    "phone_number": "01292 263167",
+    "website_url": "http://www.mcmorlandaccountants.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=12305498175712038081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 4,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.mcmorlandaccountants.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 20.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.mcmorlandaccountants.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Calder Accounting",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "Office 22, Citadel House, 6 Citadel Pl, Ayr KA7 1JN, UK",
+    "phone_number": "07805 161105",
+    "website_url": "https://www.calderaccounting.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=5574349545457426831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 4,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "all \u2014 page not fetched"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.calderaccounting.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "network_error",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 20.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.calderaccounting.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Accelerate Accounting - Chartered Accountants",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "Hartfield House, 1 Racecourse View, Ayr KA7 2TS, UK",
+    "phone_number": "01292 836008",
+    "website_url": "https://www.accelerateaccounting.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=48478592976962926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 3,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.accelerateaccounting.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 15.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.accelerateaccounting.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Mcknight Accountancy & Tax Ltd",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "18 Taylor St, Ayr KA8 8AU, UK",
+    "phone_number": "",
+    "website_url": "https://mcknighttax.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=4992164381868738809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 2,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://mcknighttax.co.uk/",
+        "https://mcknighttax.co.uk/contact-us/",
+        "https://mcknighttax.co.uk/services/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 10.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://mcknighttax.co.uk/",
+        "https://mcknighttax.co.uk/contact-us/",
+        "https://mcknighttax.co.uk/services/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "James Bell & Co",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "20 Wellington Square, Ayr KA7 1EZ, UK",
+    "phone_number": "01292 288531",
+    "website_url": "http://www.jamesbellca.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=12181256036127775148&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 2,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.jamesbellca.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 8.5,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.jamesbellca.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "KFMCO Ltd",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "52 Main St, Ayr KA8 8EF, UK",
+    "phone_number": "01292 266496",
+    "website_url": "http://www.kfmco.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=2327175855717744476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 1,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.kfmco.co.uk/",
+        "http://www.kfmco.co.uk/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 4.2,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.kfmco.co.uk/",
+        "http://www.kfmco.co.uk/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "K M Stewart & Co",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "6 Miller Rd, Ayr KA7 2AY, UK",
+    "phone_number": "01292 285460",
+    "website_url": "https://www.kmstewart.com/",
+    "google_maps_url": "https://maps.google.com/?cid=5231426483900121434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 0,
+    "review_count": 0,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.kmstewart.com/",
+        "https://www.kmstewart.com/contact-us",
+        "https://www.kmstewart.com/inbound/contact",
+        "https://www.kmstewart.com/services"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 0.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://www.kmstewart.com/",
+        "https://www.kmstewart.com/contact-us",
+        "https://www.kmstewart.com/inbound/contact",
+        "https://www.kmstewart.com/services"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Paterson & Co, Chartered Accountants",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "223 Ayr Rd, Newton Mearns, Glasgow G77 6AH, UK",
+    "phone_number": "0141 616 3456",
+    "website_url": "http://www.patersonandco.com/",
+    "google_maps_url": "https://maps.google.com/?cid=14208145724772916447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 0,
+    "review_count": 0,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "http://www.patersonandco.com/",
+        "http://www.patersonandco.com/Contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 0.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "http://www.patersonandco.com/",
+        "http://www.patersonandco.com/Contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "TaxAssist Accountants",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "31 Burns Statue Square, Ayr KA7 1SU, UK",
+    "phone_number": "01292 619933",
+    "website_url": "https://www.taxassist.co.uk/accountants/ayr/?utm_source=google&utm_medium=google_my_business&utm_campaign=local",
+    "google_maps_url": "https://maps.google.com/?cid=8951834246690654662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 8,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": true,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.taxassist.co.uk/accountants/ayr/?utm_source=google&utm_medium=google_my_business&utm_campaign=local",
+        "https://www.taxassist.co.uk/accountants/ayr/contact"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 29.9,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": true,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.taxassist.co.uk/accountants/ayr/?utm_source=google&utm_medium=google_my_business&utm_campaign=local",
+        "https://www.taxassist.co.uk/accountants/ayr/contact"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Dains Ayr Office",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "Ellersley House, 30 Miller Rd, Ayr KA7 2AY, UK",
+    "phone_number": "01292 265071",
+    "website_url": "https://www.dains.com/?utm_source=GMB&utm_medium=GMB&utm_id=Google",
+    "google_maps_url": "https://maps.google.com/?cid=2531013220740198787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 7,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": true,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.dains.com/?utm_source=GMB&utm_medium=GMB&utm_id=Google",
+        "https://www.dains.com/contact",
+        "https://www.dains.com/services"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 28.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": true,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.dains.com/?utm_source=GMB&utm_medium=GMB&utm_id=Google",
+        "https://www.dains.com/contact",
+        "https://www.dains.com/services"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Azets - Accountants & Business Advisors",
+    "business_category": "accountant",
+    "city": "ayr",
+    "address": "3 Wellington Square, Ayr KA7 1EN, UK",
+    "phone_number": "01292 288999",
+    "website_url": "https://www.azets.com/en-uk/about-us/our-locations/ayr",
+    "google_maps_url": "https://maps.google.com/?cid=8074855003276342822&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "review_count": 4,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": true,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": true,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.azets.com/en-uk/about-us/our-locations/ayr",
+        "https://www.azets.com/en-uk/contact-us",
+        "https://www.azets.com/en-uk/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 16.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "linkedin_insight": true,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.azets.com/en-uk/about-us/our-locations/ayr",
+        "https://www.azets.com/en-uk/contact-us",
+        "https://www.azets.com/en-uk/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  }
+]

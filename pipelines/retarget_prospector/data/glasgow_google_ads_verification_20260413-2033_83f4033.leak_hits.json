@@ -1,0 +1,884 @@
+[
+  {
+    "business_name": "Luxe Skin Aesthetic Clinic by Dr Q",
+    "business_category": "aesthetic clinic",
+    "city": "glasgow",
+    "address": "227 Ingram St, Glasgow G1 1DA, UK",
+    "phone_number": "0141 573 1473",
+    "website_url": "https://luxeskin.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=18152078252504808353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 61,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://luxeskin.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 243.7,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://luxeskin.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok",
+    "gatc_domain": "luxeskin.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=luxeskin.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "Quvent Limited",
+      "Quvent Limited",
+      "Quvent Limited",
+      "Quvent Limited"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:34:53.201859+00:00"
+  },
+  {
+    "business_name": "Glasgow Cleaning Specialists",
+    "business_category": "cleaner",
+    "city": "Glasgow",
+    "address": "355 Lincoln Ave, Glasgow G13 3LR, UK",
+    "phone_number": "07543 203536",
+    "website_url": "https://www.glasgowcleaningspecialists.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=6707187793749766616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 116,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0,
+    "gatc_domain": "glasgowcleaningspecialists.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=glasgowcleaningspecialists.co.uk",
+    "gatc_ad_count": 2,
+    "gatc_sample_headlines": [
+      "Glasgow Cleaning Specialists",
+      "Glasgow Cleaning Specialists"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:36:17.169989+00:00"
+  },
+  {
+    "business_name": "Urban Carpet Cleaning",
+    "business_category": "cleaner",
+    "city": "Glasgow",
+    "address": "9 Blackie St, Glasgow G3 8TN, UK",
+    "phone_number": "07914 152037",
+    "website_url": "http://www.urbancleaningcompany.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=17670188495329567789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 188,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 500.0,
+    "gatc_domain": "urbancleaningcompany.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=urbancleaningcompany.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "videocam",
+      "Urban Carpet Cleaning",
+      "Urban Carpet Cleaning",
+      "Urban Carpet Cleaning"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:36:24.480919+00:00"
+  },
+  {
+    "business_name": "Sparkle Sparkle",
+    "business_category": "cleaner",
+    "city": "Glasgow",
+    "address": "Clyde Offices, 48 W George St, Glasgow G2 1BP, UK",
+    "phone_number": "07523 689180",
+    "website_url": "https://sparklesparkle.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=16705254587904168761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 3.6,
+    "review_count": 231,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "gatc_domain": "sparklesparkle.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=sparklesparkle.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "Sparkle Sparkle ltd",
+      "Sparkle Sparkle ltd",
+      "Sparkle Sparkle ltd",
+      "Sparkle Sparkle ltd"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:36:28.134412+00:00"
+  },
+  {
+    "business_name": "The Home Maid",
+    "business_category": "cleaner",
+    "city": "Glasgow",
+    "address": "1054 Argyle St, Finnieston, Glasgow G3 8LY, UK",
+    "phone_number": "0141 374 2833",
+    "website_url": "https://www.thehomemaid.co.uk/glasgow",
+    "google_maps_url": "https://maps.google.com/?cid=5987167039388789925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 21,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 100.8,
+    "gatc_domain": "thehomemaid.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=thehomemaid.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "Matthew Duffy",
+      "Joanna Kolcz",
+      "Joanna Kolcz",
+      "Joanna Kolcz"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:36:39.224020+00:00"
+  },
+  {
+    "business_name": "Dentistry @ Jordanhill",
+    "business_category": "dentist",
+    "city": "Glasgow",
+    "address": "454 Crow Rd, Glasgow G11 7DR, UK",
+    "phone_number": "0141 334 2550",
+    "website_url": "https://www.dentistryatjordanhill.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=11002187502604844058&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 449,
+    "pixel_audit": {
+      "tracking_score": 30,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics",
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 350.0,
+    "gatc_domain": "dentistryatjordanhill.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=dentistryatjordanhill.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "CIAO PAOLO LIMITED",
+      "CIAO PAOLO LIMITED",
+      "CIAO PAOLO LIMITED",
+      "CIAO PAOLO LIMITED"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:37:40.289687+00:00"
+  },
+  {
+    "business_name": "Jorges landscaping and gardening services",
+    "business_category": "landscaper",
+    "city": "Glasgow",
+    "address": "1722 Paisley Rd W, Cardonald, Glasgow G52 3TP, UK",
+    "phone_number": "07596 032247",
+    "website_url": "https://jorgeslandscapeandgardeningservices.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=17071955779549612889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 98,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 480.2,
+    "gatc_domain": "jorgeslandscapeandgardeningservices.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=jorgeslandscapeandgardeningservices.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "Jorge Mitchell",
+      "Jorge Mitchell",
+      "videocam",
+      "Jorge Mitchell"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:42:08.446840+00:00"
+  },
+  {
+    "business_name": "Caledonian Lock & Safe",
+    "business_category": "locksmith",
+    "city": "Glasgow",
+    "address": "1020 Pollokshaws Rd, Glasgow G41 2HG, UK",
+    "phone_number": "0141 846 1817",
+    "website_url": "https://www.caledonianlock-safe.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=5451494518409394460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "review_count": 107,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 418.4,
+    "gatc_domain": "caledonianlock-safe.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=caledonianlock-safe.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "Yell Ltd",
+      "Yell Ltd",
+      "Yell Ltd",
+      "Yell Ltd"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:42:51.275108+00:00"
+  },
+  {
+    "business_name": "Ace & Tate",
+    "business_category": "optician",
+    "city": "Glasgow",
+    "address": "221 Byres Rd, Glasgow G12 8UD, UK",
+    "phone_number": "0141 846 0681",
+    "website_url": "https://www.aceandtate.com/gb/stores/united-kingdom/glasgow/byres-road-221?y_source=1_MTIwNjQ3NjYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "google_maps_url": "https://maps.google.com/?cid=16331515269181602752&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 54,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 215.7,
+    "gatc_domain": "aceandtate.com",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=aceandtate.com",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "Ace and Tate Holding B.V.",
+      "Ace and Tate Holding B.V.",
+      "Ace and Tate Holding B.V.",
+      "Ace and Tate Holding B.V."
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:44:21.183194+00:00"
+  },
+  {
+    "business_name": "JSL Plumbing",
+    "business_category": "plumber",
+    "city": "Glasgow",
+    "address": "25 Lubnaig Gardens, Bearsden, Glasgow G61 4QX, UK",
+    "phone_number": "0141 406 1658",
+    "website_url": "https://jsl-glasgow.com/",
+    "google_maps_url": "https://maps.google.com/?cid=238227057574535646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 66,
+    "pixel_audit": {
+      "tracking_score": 0,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": []
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 323.4,
+    "gatc_domain": "jsl-glasgow.com",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=jsl-glasgow.com",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "JSL Plumbing Services Limited",
+      "JSL Plumbing Services Limited",
+      "JSL Plumbing Services Limited",
+      "JSL Plumbing Services Limited"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:45:11.609628+00:00"
+  },
+  {
+    "business_name": "J.Shearer Roofing Ltd",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "315 Clarkston Rd, Muirend, Glasgow G44 3EJ, UK",
+    "phone_number": "0141 638 6613",
+    "website_url": "http://www.jshearer-roofing.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=8650595969728673325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.9,
+    "review_count": 134,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 425.0,
+    "gatc_domain": "jshearer-roofing.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=jshearer-roofing.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "videocam",
+      "videocam",
+      "hide_image",
+      "J.Shearer Roofing Ltd"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:45:40.267038+00:00"
+  },
+  {
+    "business_name": "Strathclyde Domestic Roofing",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "4/1, 91 Mitchell St, Glasgow G1 3LN, UK",
+    "phone_number": "0141 255 2448",
+    "website_url": "https://www.strathclydedomesticroofing.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=7983441503189675487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 79,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 335.8,
+    "gatc_domain": "strathclydedomesticroofing.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=strathclydedomesticroofing.co.uk",
+    "gatc_ad_count": 3,
+    "gatc_sample_headlines": [
+      "Strathclyde Home Improvements",
+      "Strathclyde Home Improvements",
+      "Strathclyde Home Improvements"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:45:50.964828+00:00"
+  },
+  {
+    "business_name": "Ross Clark Roofing Glasgow",
+    "business_category": "roofer",
+    "city": "Glasgow",
+    "address": "126 W Regent St, Glasgow G2 2RQ, UK",
+    "phone_number": "0141 374 0655",
+    "website_url": "https://rossclarkroofingayr.co.uk/roofing-glasgow/",
+    "google_maps_url": "https://maps.google.com/?cid=16471145869814279143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 5,
+    "review_count": 10,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": false,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ]
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 42.5,
+    "gatc_domain": "rossclarkroofingayr.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=rossclarkroofingayr.co.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "Ross Clark Roofing Ltd",
+      "Ross Clark Roofing Ltd",
+      "Ross Clark Roofing Ltd",
+      "Ross Clark Roofing Ltd"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:46:01.592178+00:00"
+  },
+  {
+    "business_name": "The Veterinary Centre",
+    "business_category": "veterinary clinic",
+    "city": "glasgow",
+    "address": "431 Crow Rd, Glasgow G11 7DZ, UK",
+    "phone_number": "0141 339 1228",
+    "website_url": "https://www.vetcentre.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+    "google_maps_url": "https://maps.google.com/?cid=6481543022678802186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 320,
+    "pixel_audit": {
+      "tracking_score": 40,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.vetcentre.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+        "https://www.vetcentre.co.uk/contact-us"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 300.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.vetcentre.co.uk/?utm_source=gmb&utm_medium=organic&utm_campaign=attribute",
+        "https://www.vetcentre.co.uk/contact-us"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok",
+    "gatc_domain": "vetcentre.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=vetcentre.co.uk",
+    "gatc_ad_count": 1,
+    "gatc_sample_headlines": [
+      "Independent Vet Care Ltd"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:47:41.487297+00:00"
+  },
+  {
+    "business_name": "Queens Crescent Veterinary Clinic",
+    "business_category": "veterinary clinic",
+    "city": "glasgow",
+    "address": "13 Queen's Cres, Glasgow G4 9BL, UK",
+    "phone_number": "0141 332 1934",
+    "website_url": "https://www.qcvc.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=17705460016362463131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.4,
+    "review_count": 131,
+    "pixel_audit": {
+      "tracking_score": 55,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "1185354629135576",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "google_ads_remarketing",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_analytics",
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.qcvc.co.uk/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 225.0,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.qcvc.co.uk/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok",
+    "gatc_domain": "qcvc.co.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=qcvc.co.uk",
+    "gatc_ad_count": 1,
+    "gatc_sample_headlines": [
+      "QCVC LTD"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:47:48.740425+00:00"
+  },
+  {
+    "business_name": "Box Hub",
+    "business_category": "wedding venue",
+    "city": "glasgow",
+    "address": "50 Washington St, Glasgow G3 8AZ, UK",
+    "phone_number": "0141 266 0664",
+    "website_url": "https://boxhub.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=13297382920495407076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.8,
+    "review_count": 98,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://boxhub.uk/",
+        "https://boxhub.uk/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 399.8,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://boxhub.uk/",
+        "https://boxhub.uk/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok",
+    "gatc_domain": "boxhub.uk",
+    "gatc_url": "https://adstransparency.google.com/?region=GB&domain=boxhub.uk",
+    "gatc_ad_count": 4,
+    "gatc_sample_headlines": [
+      "Creative Events Glasgow ltd",
+      "Creative Events Glasgow ltd",
+      "Creative Events Glasgow ltd",
+      "Creative Events Glasgow ltd"
+    ],
+    "gatc_has_ads": true,
+    "gatc_error": null,
+    "gatc_checked_at": "2026-04-13T20:48:10.034191+00:00"
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "business_name": "Anderson Legal Ltd - Solicitors & Notary Public",
+    "business_category": "solicitor",
+    "city": "bishopbriggs",
+    "address": "1/1, 171 Kirkintilloch Rd, Bishopbriggs, Glasgow G64 2LS, UK",
+    "phone_number": "0141 775 4235",
+    "website_url": "https://andersonlegal.scot/",
+    "google_maps_url": "https://maps.google.com/?cid=16684363674087087672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4,
+    "review_count": 4,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": false,
+      "facebook_pixel": false,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": false,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_tag_manager",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_analytics"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://andersonlegal.scot/",
+        "https://andersonlegal.scot/contact-us/",
+        "https://andersonlegal.scot/services/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 13.6,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": false,
+      "google_ads_remarketing": false,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": false,
+      "pages_scanned": [
+        "https://andersonlegal.scot/",
+        "https://andersonlegal.scot/contact-us/",
+        "https://andersonlegal.scot/services/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Drummond Miller LLP (Incorporating Paterson Holms)",
+    "business_category": "solicitor",
+    "city": "bishopbriggs",
+    "address": "3 Springfield Rd, Bishopbriggs, Glasgow G64 1PD, UK",
+    "phone_number": "0141 772 0074",
+    "website_url": "https://www.drummondmiller.co.uk/",
+    "google_maps_url": "https://maps.google.com/?cid=4930981000644569324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.6,
+    "review_count": 12,
+    "pixel_audit": {
+      "tracking_score": 15,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "",
+      "google_ads_remarketing": true,
+      "google_ads_id": "",
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "tiktok_pixel": false,
+      "linkedin_insight": false,
+      "hotjar": false,
+      "any_tag_manager": true,
+      "missing": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "tiktok_pixel",
+        "linkedin_insight"
+      ],
+      "found": [
+        "google_tag_manager"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.drummondmiller.co.uk/",
+        "https://www.drummondmiller.co.uk/contact-us/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 46.9,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": true,
+      "linkedin_insight": false,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.drummondmiller.co.uk/",
+        "https://www.drummondmiller.co.uk/contact-us/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  },
+  {
+    "business_name": "Oracle Law",
+    "business_category": "solicitor",
+    "city": "bishopbriggs",
+    "address": "8 Kenmure Dr, Bishopbriggs, Glasgow G64 2RQ, UK",
+    "phone_number": "0141 762 4040",
+    "website_url": "https://www.oraclelaw.com/contact",
+    "google_maps_url": "https://maps.google.com/?cid=9818669557314105240&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "rating": 4.7,
+    "review_count": 15,
+    "pixel_audit": {
+      "tracking_score": 70,
+      "any_retargeting": true,
+      "facebook_pixel": true,
+      "facebook_pixel_id": "1735568180197246",
+      "google_ads_remarketing": true,
+      "google_ads_id": "AW-11117648699",
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "tiktok_pixel": false,
+      "linkedin_insight": true,
+      "hotjar": false,
+      "any_tag_manager": false,
+      "missing": [
+        "google_tag_manager",
+        "tiktok_pixel"
+      ],
+      "found": [
+        "facebook_pixel",
+        "google_ads_remarketing",
+        "google_analytics",
+        "linkedin_insight"
+      ],
+      "google_ads_conversion": false,
+      "pages_scanned": [
+        "https://www.oraclelaw.com/contact",
+        "https://www.oraclelaw.com/contact/"
+      ],
+      "source": "playwright_v2"
+    },
+    "fetch_status": "ok",
+    "_source": "google_maps_pixel_audit",
+    "opportunity_score": 21.1,
+    "pixels_v2": {
+      "status": "ok",
+      "error": null,
+      "facebook_pixel": true,
+      "google_ads_remarketing": true,
+      "google_ads_conversion": false,
+      "google_analytics": true,
+      "google_tag_manager": false,
+      "linkedin_insight": true,
+      "tiktok_pixel": false,
+      "any_retargeting": true,
+      "pages_scanned": [
+        "https://www.oraclelaw.com/contact",
+        "https://www.oraclelaw.com/contact/"
+      ],
+      "errors": [],
+      "source": "playwright_v2"
+    },
+    "pixel_audit_status": "ok"
+  }
+]

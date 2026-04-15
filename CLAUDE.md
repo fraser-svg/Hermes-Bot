@@ -11,6 +11,29 @@
 |------|----------|------|------|
 | 2026-04-13 | 초기 구성 | 전체 | Improve website quality via frontend-design skill integration |
 
+## 하네스: Ultimate Local Service Template
+
+**목표:** Maintain a master `DESIGN.md` + `COPY.md` + `templates/ULTIMATE_TEMPLATE.html` via a 5-agent team (web-design experts + copywriters). Output feeds `prompts/website_builder.md` so every per-business Hermes build inherits the template.
+
+**트리거:** Requests to build/redesign/improve/iterate the master template, design system, copy framework, `DESIGN.md`, `COPY.md`, or preview catalog → use `ultimate-template-builder` skill. Follow-ups: "tighten hero copy", "redo the palette", "update the template", "rebuild master template". Per-business builds still route to `hermes-design-harness`, not here.
+
+**변경 이력:**
+| 날짜 | 변경 내용 | 대상 | 사유 |
+|------|----------|------|------|
+| 2026-04-13 | 초기 구성 | agents/market-researcher, design-system-architect, conversion-copywriter, template-engineer, template-critic; skills/ultimate-template-builder, design-md-research, design-md-authoring, copy-md-framework, template-synthesis, template-critique; templates/ (planned output: DESIGN.md, COPY.md, preview.html, preview-dark.html, templates/ULTIMATE_TEMPLATE.html) | Adopt Google Stitch DESIGN.md standard (per VoltAgent/awesome-design-md, 66 curated exemplars) + companion COPY.md for dedicated copywriting layer. Produces reusable master template feeding hermes-design-harness. |
+
+## 하네스: No-Website Prospector
+
+**목표:** Find UK local-service businesses without a website (or with broken/placeholder websites), auto-generate a professional site via the Hermes pipeline, deploy to Cloudflare Pages, and append each prospect to an outreach CSV with name, location, phone, email, and live site URL.
+
+**트리거:** Any request to find/qualify/build/outreach businesses with no website → use `no-website-prospector` skill. Follow-ups: "more no-website leads", "rerun no-website", "redo outreach for {slug}", "build site for {business}", "find companies with no website". Distinct from retarget-prospector (which requires active paid ads).
+
+**변경 이력:**
+| 날짜 | 변경 내용 | 대상 | 사유 |
+|------|----------|------|------|
+| 2026-04-14 | 초기 구성 | agents/no-website-qualifier; skills/no-website-prospector (+ references/qualification-gates.md); run_nowebsite_pipeline.py, emit_nowebsite_outreach.py | Extend harness to cover no-website cohort. Reuses prospect.py (Places filter), generate.py (build), deploy.py (Cloudflare), hermes-design-harness (per-site quality loop). New gates lower floors vs retarget (rating ≥3.8, reviews ≥10, phone required) since no-website businesses rarely invest in digital reputation. Cohorts A_greenfield > B_broken > C_placeholder by priority. |
+| 2026-04-14 | build step swap → Claude-Code template fill | skills/template-site-builder (+ references/slot-map.md, copy-instructions.md, vertical-defaults.json, evals/evals.json); fill_template.py, validate_filled_html.py; emit_nowebsite_outreach.py (+current_website_url, +cohort columns) | OpenRouter 402 blocked generate.py (Gemini). New template-site-builder skill orchestrates fill_template.py (data+derived slots) then Claude Code itself authors 21 copy slots via COPY.md + frontend-design skill, validates, deploys, CSVs. Zero OpenRouter spend. Smoke test: stirling-burt-heating live at h-stirling-burt-heating-1c0f57.pages.dev, validator 15/15. All 3 cohorts (A_greenfield/B_broken/C_placeholder) are in scope — the built site is the outreach deliverable for all of them. |
+
 ## 하네스: Retarget Prospector
 
 **목표:** Find local businesses actively running paid ads (Meta/Google/LinkedIn) but missing retargeting pixels, qualify by leak severity, and auto-send personalized cold outreach.
@@ -24,6 +47,7 @@
 | 2026-04-13 | validation harness + gates | validation/ground_truth.json, validation/preflight.py, validation/eval_detectors.py, validation/smoke_test_results.md; skills/ad-verification (confidence calc: unknown ≠ false); agents/retarget-qualifier (scoring only counts confirmed_platforms, audit_gaps blocks auto-send); skills/retarget-prospector (Phase 0a preflight, Phase 4b mandatory composer grounding gate, dry-run default); agents/outreach-composer (grounding enforcement note) | Pre-production validation: kill silent scraper failures, block false positives from unknown collapse, enforce composer hallucination guard, make dry-run the default |
 | 2026-04-13 | swap static pixel audit → rendered playwright v2 | prospect_no_pixel.py (_rendered_pixel_override, --static-only flag); validation/eval_detectors.py (audit_pixels_v2 integration with shared browser context cache) | Eval caught static regex recall = 0.00 on known retargeters (Stripe/HubSpot/Shopify) because GTM-injected pixels are invisible to urllib. Rendered v2 achieves 100% recall + 100% precision on ground truth. Production path now runs rendered audit by default; static only via --static-only debug flag. |
 | 2026-04-13 | Meta Ad Library token-free scraper path | prospect_no_pixel.py (check_meta_ads → check_meta_ads_scrape fallback when no token); validation/preflight.py (scraper probe against Monzo); .claude/skills/ad-verification/scripts/check_meta_ad_library.py (DOM-free body-text parser, strict page-name filter requiring Page name + "Sponsored" line); validation/eval_detectors.py (playwright sync context teardown between detector groups) | User cannot wait 2 days for Meta ID verification. Swapped in public Meta Ad Library scraper that needs no token. Discovered stale div[role="article"] selector (Meta DOM changed), rewrote card parser to split body text on "Library ID:" markers. Discovered keyword-search false positives (Wikipedia keyword = ads mentioning Wikipedia, not Wikipedia's own ads) — added strict page-name filter requiring the business name appear as a Page-name line followed by "Sponsored". Also discovered Wikipedia genuinely runs Meta ads (Wikimedia Foundation), relabelled ground truth. Final meta_library detector: precision 1.00, recall 1.00, FP rate 0.00 on 5 labelled entries (Monzo, Wikipedia true; example.com, python.org, gnu.org false). |
+| 2026-04-13 | ICP rewrite: Google-Ads-required + Meta cohort segmentation | skills/retarget-prospector/references/icp.md (new — 7 hard gates: geo/category/google_ads/website/trust/size/meta_cohort with whitelist/blacklist + verdict map); skills/retarget-prospector/SKILL.md (ICP summary block, Phase 1 whitelist precheck + UK city enforcement, Phase 4 qualifier reads icp.md and emits cohort A/B/C); agents/retarget-qualifier.md (description rewrite, gate-ordered scoring algorithm, cohort assignment replacing leak_surface scoring, new verdict enum, expanded `_qualified.json` schema with `cohort` + `icp_gates` + `meta_status` + `google_ads_evidence`); agents/ad-intel-scout.md (added `meta_creative_count` requirement, GATC-or-site-tag fallback note for Gate 3) | Pivot from "any platform leak" to "UK Google-Ads spenders with Meta retargeting gap" — considered-purchase verticals only (dentists/clinics/solicitors/accountants/etc), Google Ads is the hard gate (GATC OR site Conversion Tag), Meta status segments into Cohort A (dormant pixel) / B (greenfield) / C (active ads + infra gap, highest priority). Trust + size + website are hard rejects, not bonuses. Order of evaluation: cheap rejects first (geo→category→google_ads→web→trust→size), cohort assignment last. |
 
 ## Communication Mode
 
@@ -37,19 +61,19 @@ Hermes builds high-converting, single-page websites for local service businesses
 
 When asked to build, create, generate, or make a website:
 
-1. **NEVER hand-write HTML/CSS.** Always use `generate.py` which calls Gemini with the full design system prompt.
-2. **NEVER skip the design system.** The prompt at `prompts/website_builder.md` contains the entire design methodology: personas, golden rules, readability checks, stock photos, typography, color rhythm. It is the result of extensive research into what makes real premium service sites convert. Do not bypass it.
-3. **NEVER use the old `main.py` or `website_generator.py`.** Those are legacy. `generate.py` is the current system.
+1. **NEVER hand-write HTML/CSS.** Always use `core/generate.py` which calls Gemini with the full design system prompt.
+2. **NEVER skip the design system.** The prompt at `core/prompts/website_builder.md` contains the entire design methodology: personas, golden rules, readability checks, stock photos, typography, color rhythm. It is the result of extensive research into what makes real premium service sites convert. Do not bypass it.
+3. **NEVER use the old `main.py` or `website_generator.py`.** Those are legacy (now under `legacy/`). `core/generate.py` is the current system.
 
 ### How to Build a Website
 
 ```bash
-python3 generate.py
+python3 -m core.generate
 ```
 
 That's it. The script:
-- Reads business data from `references/business_details.json`
-- Loads the design system prompt from `prompts/website_builder.md`
+- Reads business data from `core/references/business_details.json`
+- Loads the design system prompt from `core/prompts/website_builder.md`
 - Auto-selects a design persona (Bright & Bold / Copper & Cream / Safety First)
 - Calls Gemini via OpenRouter
 - Outputs a complete single-file HTML website with real Unsplash photos
@@ -58,7 +82,7 @@ That's it. The script:
 
 ### Before Building
 
-Update `references/business_details.json` with the client's info. Required fields:
+Update `core/references/business_details.json` with the client's info. Required fields:
 
 ```json
 {
@@ -84,7 +108,7 @@ Optional fields: `address`, `years_experience`, `license_number`, `persona` (ove
 
 ## Design System Overview
 
-The design prompt (`prompts/website_builder.md`) enforces:
+The design prompt (`core/prompts/website_builder.md`) enforces:
 
 - **3 personas:** Bright & Bold (modern), Copper & Cream (premium traditional), Safety First (corporate clean)
 - **Dark photo hero** with gradient overlay + bold white text (like Benjamin Franklin Plumbing, Genz-Ryan, Smock HVAC)
@@ -102,9 +126,9 @@ The design prompt (`prompts/website_builder.md`) enforces:
 After building, run the AI-powered critical reviewer:
 
 ```bash
-python3 review.py output/some-business.html  # review specific file
-python3 review.py                             # review latest (index.html)
-python3 review.py --cheap                     # use Gemini Flash (cheaper)
+python3 -m core.review pipelines/design_harness/output/some-business.html  # review specific file
+python3 -m core.review                                                      # review latest (index.html)
+python3 -m core.review --cheap                                              # use Gemini Flash (cheaper)
 ```
 
 Grades 4 dimensions (1-10): Design, UX, Content, Flow. Uses Playwright CLI for desktop + mobile screenshots, sends to Claude Sonnet via OpenRouter for vision-based review. Returns actionable fixes for anything scoring below 7. Report saves to `review_report.json`.
@@ -114,18 +138,21 @@ First run: requires `npx playwright install chromium` (auto-prompted).
 ## File Structure
 
 ```
-generate.py              - Main build script (USE THIS)
-review.py                - AI-powered critical website reviewer
-prompts/website_builder.md - Gemini system prompt (design system)
-references/business_details.json - Client data input
-output/                  - Generated websites
-index.html               - Latest build preview
-build_report.json        - Latest build validation report
-review_report.json       - Latest review grade card
-LOCAL_SERVICE_WEBSITE_BLUEPRINT.md - Reference documentation
+core/generate.py                 - Main build script (USE THIS)
+core/review.py                   - AI-powered critical website reviewer
+core/deploy.py                   - Cloudflare Pages deploy
+core/fill_template.py            - Template slot fill (no-website pipeline)
+core/prompts/website_builder.md  - Gemini system prompt (design system)
+core/references/business_details.json - Client data input
+core/templates/ULTIMATE_TEMPLATE.html  - Master template
+pipelines/design_harness/output/ - Per-business Gemini builds
+pipelines/no_website_prospector/output/ - Template-filled builds
+pipelines/retarget_prospector/output/ - Retarget reports
+index.html                       - Latest build preview
+build_report.json                - Latest build validation report
+review_report.json               - Latest review grade card
 
-main.py                  - LEGACY, do not use
-website_generator.py     - LEGACY, do not use
+legacy/                          - Quarantined (main.py, hermes.py, v1-frozen/, etc)
 ```
 
 ## Deployment
@@ -133,12 +160,12 @@ website_generator.py     - LEGACY, do not use
 Sites deploy to **Cloudflare Pages** (free, unlimited bandwidth). Auth via `npx wrangler login` (OAuth, no API token).
 
 ```bash
-python3 deploy.py                          # deploy all un-deployed sites
-python3 deploy.py output/some-business.html  # deploy one site
-python3 deploy.py --list                   # list all deployed sites
+python3 -m core.deploy                                                 # deploy all un-deployed sites
+python3 -m core.deploy pipelines/design_harness/output/some-business.html  # deploy one site
+python3 -m core.deploy --list                                          # list all deployed sites
 ```
 
-Sites go live at `h-{slug}-{hash}.pages.dev`. Deploy log: `prospects/deploys.json`.
+Sites go live at `h-{slug}-{hash}.pages.dev`. Deploy log: `core/deploys.json`.
 
 ## API Keys
 
@@ -150,5 +177,5 @@ Model: `google/gemini-2.5-pro` (update to `google/gemini-3.1-pro` when available
 - Every website must pass 15/15 validation AND 0 readability warnings before delivery
 - Never deliver a site with unreadable text
 - Never use placeholder gray boxes instead of real photos
-- Never hand-code websites outside the generate.py pipeline
+- Never hand-code websites outside the core/generate.py pipeline
 - If a client needs something the system can't handle, update the prompt - don't work around it

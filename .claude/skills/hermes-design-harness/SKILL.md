@@ -5,7 +5,7 @@ description: Orchestrates a 4-agent team that builds high-design Hermes websites
 
 # Hermes Design Harness
 
-Orchestrates the 4-agent pipeline that turns `references/business_details.json` into a high-design, ship-ready website.
+Orchestrates the 4-agent pipeline that turns `core/references/business_details.json` into a high-design, ship-ready website.
 
 ## Execution mode
 **Agent team** (default). Use `TeamCreate` with all four members, drive with `TaskCreate`, let members self-coordinate via `SendMessage`. All `Agent` calls use `model: "opus"`.
@@ -14,7 +14,7 @@ Orchestrates the 4-agent pipeline that turns `references/business_details.json` 
 | Agent | Role | Output |
 |-------|------|--------|
 | `aesthetic-director` | Design brief from biz data + frontend-design taste | `_workspace/01_aesthetic_brief.md` |
-| `site-builder` | Runs `generate.py` with brief injected | `output/{slug}.html`, `_workspace/02_build_report.json` |
+| `site-builder` | Runs `core/generate.py` with brief injected | `output/{slug}.html`, `_workspace/02_build_report.json` |
 | `design-critic` | Screenshot QA + AI-slop hunt | `_workspace/03_critique.json` |
 | `surgical-fixer` | Minimal HTML/CSS edits | modified HTML, `_workspace/04_fixes.md` |
 
@@ -29,7 +29,7 @@ Before running the pipeline, inspect `_workspace/`:
 Create the aesthetic brief. Wait for `01_aesthetic_brief.md`.
 
 ## Phase 2: Build (site-builder)
-Inject brief into `prompts/website_builder.md`, run `generate.py`, capture output + build report. Target 15/15 validation + 0 readability warnings. One regeneration on failure, then escalate.
+Inject brief into `core/prompts/website_builder.md`, run `core/generate.py`, capture output + build report. Target 15/15 validation + 0 readability warnings. One regeneration on failure, then escalate.
 
 ## Phase 3: Critique (design-critic)
 Screenshot desktop + mobile. Score on 4 axes. Produce `03_critique.json` with `ship_verdict`.
@@ -43,7 +43,7 @@ Screenshot desktop + mobile. Score on 4 axes. Produce `03_critique.json` with `s
 Summarize to user: final scores, iterations used, path to HTML, readiness verdict. Ask:
 > "Ready to deploy, or anything to refine?"
 
-If deploy requested: run `python3 deploy.py output/{slug}.html`.
+If deploy requested: run `python3 -m core.deploy output/{slug}.html`.
 
 ## Data flow
 - File-based for artifacts (`_workspace/`, `output/`).
@@ -51,8 +51,8 @@ If deploy requested: run `python3 deploy.py output/{slug}.html`.
 - TaskCreate for dependency tracking (each phase = one task).
 
 ## Error handling
-- `generate.py` fails → site-builder retries once with error context → escalate to orchestrator if still failing.
-- Screenshot tool fails → design-critic falls back to `review.py` → if both fail, critique from raw HTML only, flag "no visual verification" in report.
+- `core/generate.py` fails → site-builder retries once with error context → escalate to orchestrator if still failing.
+- Screenshot tool fails → design-critic falls back to `core/review.py` → if both fail, critique from raw HTML only, flag "no visual verification" in report.
 - Fix loop exceeds 3 iterations → stop, report remaining issues, ask user whether to ship-as-is or rebuild.
 
 ## Test scenario (normal)

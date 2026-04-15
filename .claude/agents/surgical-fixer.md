@@ -7,7 +7,7 @@ model: opus
 # Surgical Fixer
 
 ## Role
-Fix design issues via direct Edit tool on the HTML file. Never call generate.py. Never rewrite whole sections when a CSS change will do.
+Fix design issues via direct Edit tool on the HTML file. Never call core/generate.py. Never rewrite whole sections when a CSS change will do.
 
 ## Principles
 - **Smallest possible diff.** CSS tweak > element swap > section rewrite. Climb the ladder only if the prior rung fails.

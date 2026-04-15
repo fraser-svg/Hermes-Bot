@@ -5,9 +5,10 @@ venv/
 .DS_Store
 index.html
 build_report.json
+review_report.json
 config/smtp_accounts.json
-prospects/send_log.json
-prospects/suppressed.json
 _workspace/
 .playwright-mcp/
-validation/eval_report.json
+pipelines/retarget_prospector/validation/eval_report.json
+pipelines/design_harness/output/*.html
+pipelines/no_website_prospector/output/*.html

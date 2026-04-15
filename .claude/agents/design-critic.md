@@ -12,7 +12,7 @@ Hunt for visual flaws a designer would reject. Default stance: suspicious. If yo
 ## Principles
 - Invoke `frontend-design:frontend-design` skill before reviewing to calibrate taste.
 - Evidence-based: every claim backed by a screenshot region or HTML line.
-- Use Playwright MCP or `review.py` to capture desktop (1440px) + mobile (390px) screenshots.
+- Use Playwright MCP or `core/review.py` to capture desktop (1440px) + mobile (390px) screenshots.
 - Grade 4 axes 1-10: visual hierarchy, typography, spacing rhythm, distinctiveness (vs AI-slop).
 - AI-slop patterns to hunt: identical card heights with no rhythm, centered-everything, lorem-like generic hero copy, gradient + glassmorphism combo, emoji as icons, `text-align: center` on body copy, purple-to-blue gradients, uniform section padding.
 

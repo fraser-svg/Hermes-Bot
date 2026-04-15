@@ -3,7 +3,7 @@
    compliance enrichment → email discovery → tiered report.
 
 Pipeline:
-1. For each (city, category) pair, run prospect_no_pixel.py to discover
+1. For each (city, category) pair, run pipelines/retarget_prospector/prospect_no_pixel.py to discover
    businesses with websites and 5+ reviews
 2. Dedupe across categories/cities (by business_name + phone)
 3. Run audit_pixels_v2.py to multi-page pixel-audit each survivor
@@ -27,7 +27,7 @@ import time
 from pathlib import Path
 from typing import Any
 
-BASE_DIR = Path(__file__).resolve().parents[3]
+BASE_DIR = Path(__file__).resolve().parents[4]
 SCRIPTS = BASE_DIR / ".claude" / "skills" / "ad-verification" / "scripts"
 WORKSPACE = BASE_DIR / "_workspace" / "retarget_scotland"
 OUTPUT = BASE_DIR / "output"
@@ -64,7 +64,7 @@ def run_cmd(cmd: list[str], desc: str) -> int:
 
 
 def phase_1_discovery(cities: list[str], categories: list[str], limit: int) -> Path:
-    """Run prospect_no_pixel.py across all city × category pairs and merge."""
+    """Run pipelines/retarget_prospector/prospect_no_pixel.py across all city × category pairs and merge."""
     WORKSPACE.mkdir(parents=True, exist_ok=True)
     candidates_path = WORKSPACE / "candidates.json"
 
@@ -80,7 +80,7 @@ def phase_1_discovery(cities: list[str], categories: list[str], limit: int) -> P
             print(f"\n--- {category} / {city} ---")
             try:
                 subprocess.call(
-                    ["python3", str(BASE_DIR / "prospect_no_pixel.py"), category, city, "--limit", str(limit)],
+                    ["python3", str(BASE_DIR / "pipelines/retarget_prospector/prospect_no_pixel.py"), category, city, "--limit", str(limit)],
                     cwd=str(BASE_DIR),
                     timeout=600,
                 )
@@ -88,7 +88,7 @@ def phase_1_discovery(cities: list[str], categories: list[str], limit: int) -> P
                 print(f"  timeout on {category}/{city}, skipping")
                 continue
             # Read the produced file
-            slug = f"{category.lower().replace(' ', '-')}-{city.lower().replace(' ', '-')}-no-pixel.json"
+            slug = f"{category.lower()}-{city.lower().replace(' ', '-')}-no-pixel.json"
             f = BASE_DIR / "prospects" / slug
             if not f.exists():
                 continue

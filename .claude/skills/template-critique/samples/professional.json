@@ -1,0 +1,28 @@
+{
+  "business_name": "Castlerock Chartered Accountants",
+  "business_category": "accountant",
+  "city": "Edinburgh",
+  "address": "48 Queen St, Edinburgh EH2 3NR, UK",
+  "phone_number": "0131 555 2049",
+  "years_experience": 15,
+  "license_number": "ICAEW C004218",
+  "services_offered": [
+    "Self-assessment tax returns",
+    "Limited company accounts",
+    "VAT registration and returns",
+    "Payroll and CIS",
+    "Management accounts",
+    "Tax planning for owner-managers",
+    "HMRC enquiry support",
+    "Xero and bookkeeping setup"
+  ],
+  "google_reviews": [
+    {"rating": 5, "text": "Castlerock took over our limited company accounts last year. Turnaround on our year-end was 10 days, they spotted two R&D reliefs our previous accountant missed, and the fee was fixed before they started."},
+    {"rating": 5, "text": "Filed my self-assessment the day before the deadline after my previous accountant ghosted me. They were calm, organised, and saved me a late-filing penalty. Will use them from now on."},
+    {"rating": 5, "text": "Clear, patient advice on switching from sole trader to limited. They walked through the numbers, the admin, and the tax implications with no jargon. Fees are transparent and published."},
+    {"rating": 5, "text": "HMRC opened an enquiry on a VAT return and Castlerock handled the entire correspondence. Responses were prompt and the enquiry was closed with no adjustment. Worth every penny."},
+    {"rating": 5, "text": "Moved our payroll and CIS work to Castlerock eighteen months ago. Monthly reports land on the same day every month, HMRC filings are always on time, and queries are answered within the hour."}
+  ],
+  "rating": 5.0,
+  "review_count": 42
+}

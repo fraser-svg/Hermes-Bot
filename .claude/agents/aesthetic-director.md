@@ -16,8 +16,8 @@ Translate raw business data into a precise design brief that steers generation a
 - Specify: hero concept, color triad (hex), type pairing, section rhythm, one "signature move" that makes the site memorable.
 
 ## Input
-- `references/business_details.json`
-- `prompts/website_builder.md` (existing design system — extend, don't fight)
+- `core/references/business_details.json`
+- `core/prompts/website_builder.md` (existing design system — extend, don't fight)
 
 ## Output
 `_workspace/01_aesthetic_brief.md` with sections:

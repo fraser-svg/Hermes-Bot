@@ -1,0 +1,40 @@
+{
+  "skill_name": "template-site-builder",
+  "evals": [
+    {
+      "id": 1,
+      "name": "A_greenfield_stirling_electrician",
+      "prompt": "Build a website for the prospect slug 'stirling-burt-heating' using the template. It has no existing site. Deploy it and update the outreach CSV.",
+      "expected_output": "output/stirling-burt-heating.html exists, core/validate_filled_html.py exits 0 (no sentinels, no banned words, score ≥8), deploys.json contains a pages.dev URL for that slug, nowebsite_outreach.csv has one row for the slug with website_url = the pages.dev URL.",
+      "assertions": [
+        {"text": "output/stirling-burt-heating.html exists"},
+        {"text": "no [[WRITE_ sentinels remain in the HTML"},
+        {"text": "core/validate_filled_html.py exits 0"},
+        {"text": "website_url column in nowebsite_outreach.csv starts with https:// and ends with .pages.dev"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "B_broken_aberdeen_kelgas",
+      "prompt": "Build a replacement site for 'aberdeen-kelgas-uk-limited' — their existing URL is dead. Use the template. Deploy and update CSV. Make sure current_website_url is preserved in the CSV for outreach reference.",
+      "expected_output": "Same as above, plus the CSV row has current_website_url pointing at the original broken URL from candidates.json.",
+      "assertions": [
+        {"text": "output/aberdeen-kelgas-uk-limited.html exists"},
+        {"text": "CSV row has non-empty current_website_url"},
+        {"text": "CSV row has new website_url on .pages.dev"},
+        {"text": "cohort column = B_broken"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "C_placeholder_rewrite_faqs",
+      "prompt": "The FAQ answers on output/stirling-burt-heating.html feel generic — rewrite only the five FAQ answers to be more specific to a Stirling heating engineer, then re-validate and re-deploy.",
+      "expected_output": "Only the faq_{1..5} answers change. Hero, service, review content untouched. Validator still passes.",
+      "assertions": [
+        {"text": "every faq_*_answer text is different from the prior version"},
+        {"text": "hero h1 text unchanged"},
+        {"text": "validator passes"}
+      ]
+    }
+  ]
+}

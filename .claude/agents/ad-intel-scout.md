@@ -54,10 +54,12 @@ Write to `_workspace/retarget/{slug}_ads.json`:
 
 ## 작업 절차
 
-1. **Meta Ad Library** — call existing `prospect_no_pixel.check_meta_ads(business_name, country)`. Parse response for active ads. If results found, set `has_meta_ads: true` and capture top 3 creatives.
-2. **Google Ads Transparency** — run `python3 .claude/skills/ad-verification/scripts/check_google_ads_transparency.py "{domain}"`. Script outputs JSON. On success set `has_google_ads: true/false`. On non-zero exit set `has_google_ads: unknown` and append to `errors`.
+1. **Meta Ad Library** — call existing `prospect_no_pixel.check_meta_ads(business_name, country)`. Parse response for active ads. If results found, set `has_meta_ads: true`, capture top 3 creatives, and set `meta_creative_count` to the active-ad count seen in the last 90 days.
+2. **Google Ads Transparency (GATC)** — run `python3 .claude/skills/ad-verification/scripts/check_google_ads_transparency.py "{domain}"`. Script outputs JSON. On success set `has_google_ads: true/false` and capture creative count + sample headlines. On non-zero exit set `has_google_ads: unknown` and append to `errors`. **GATC is the primary Google Ads signal but not the only one** — the rendered pixel auditor independently looks for a Google Ads Conversion Tag (`AW-...`) on the live site, which the qualifier accepts as a fallback. If GATC says unknown but the site tag is present, downstream still passes Gate 3.
 3. **LinkedIn Ads** — only if `linkedin_url` present. Run `python3 .claude/skills/ad-verification/scripts/check_linkedin_ads.py "{linkedin_url}"`. Same fail-soft pattern.
 4. **Confidence** — `0.9` if 2+ sources confirmed, `0.7` if 1 confirmed + 0 errors, `0.5` if 1 confirmed + errors elsewhere, `0.0` if zero confirmed.
+
+The `_ads.json` payload **must always include** `meta_creative_count` (int, default 0) and the `has_google_ads` value as one of `true | false | "unknown"` so the qualifier's Gate 3 + cohort logic works without inference.
 
 ## 에러 핸들링
 - Network timeout → retry once with 30s timeout, then mark `unknown`.

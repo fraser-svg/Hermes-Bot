@@ -1,0 +1,371 @@
+{
+  "_comment": "Per-vertical defaults for slot-fill. credential_human is shown in hero ribbon chip. credential_marker is shown in footer metadata. credential_subtext labels the fourth metric card. response_window fills the second metric card. service_radius_hint is the city postcode hint. persona drives voice (cold=trades, warm=professional).",
+  "electrician": {
+    "credential_human": "NICEIC Approved",
+    "credential_marker": "NICEIC Approved Contractor",
+    "credential_subtext": "Approved contractor",
+    "response_window": "90 min",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "plumber": {
+    "credential_human": "Gas Safe Registered",
+    "credential_marker": "Gas Safe Registered",
+    "credential_subtext": "Registered engineer",
+    "response_window": "60 min",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "roofer": {
+    "credential_human": "NFRC Member",
+    "credential_marker": "NFRC Member",
+    "credential_subtext": "NFRC member",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "hvac": {
+    "credential_human": "Gas Safe + REFCOM",
+    "credential_marker": "Gas Safe · REFCOM registered",
+    "credential_subtext": "Registered engineer",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "cleaner": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured, DBS checked",
+    "credential_subtext": "Insured · DBS checked",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "locksmith": {
+    "credential_human": "MLA Approved",
+    "credential_marker": "MLA Approved · DBS checked",
+    "credential_subtext": "MLA member",
+    "response_window": "30 min",
+    "service_radius_hint": "{city} 24/7",
+    "persona": "cold"
+  },
+  "painter": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured decorator",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "builder": {
+    "credential_human": "FMB Member",
+    "credential_marker": "FMB Member",
+    "credential_subtext": "FMB member",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "carpenter": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured joiner",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "tiler": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured tiler",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "plasterer": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured plasterer",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "glazier": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured glazier",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "landscaper": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured landscaper",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "pest control": {
+    "credential_human": "BPCA Member",
+    "credential_marker": "BPCA Member",
+    "credential_subtext": "BPCA member",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "mover": {
+    "credential_human": "BAR Member",
+    "credential_marker": "BAR Member",
+    "credential_subtext": "BAR member",
+    "response_window": "48 hr",
+    "service_radius_hint": "Nationwide from {city}",
+    "persona": "cold"
+  },
+  "garage door": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured installer",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding postcodes",
+    "persona": "cold"
+  },
+  "solicitor": {
+    "credential_human": "SRA Regulated",
+    "credential_marker": "SRA Regulated",
+    "credential_subtext": "SRA regulated",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "lawyer": {
+    "credential_human": "SRA Regulated",
+    "credential_marker": "SRA Regulated",
+    "credential_subtext": "SRA regulated",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "accountant": {
+    "credential_human": "ICAEW Chartered",
+    "credential_marker": "ICAEW chartered",
+    "credential_subtext": "ICAEW chartered",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "financial advisor": {
+    "credential_human": "FCA Authorised",
+    "credential_marker": "FCA Authorised",
+    "credential_subtext": "FCA authorised",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "insurance broker": {
+    "credential_human": "FCA Authorised",
+    "credential_marker": "FCA Authorised",
+    "credential_subtext": "FCA authorised",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "architect": {
+    "credential_human": "ARB Registered",
+    "credential_marker": "ARB Registered · RIBA Chartered",
+    "credential_subtext": "ARB registered",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "surveyor": {
+    "credential_human": "RICS Regulated",
+    "credential_marker": "RICS Regulated",
+    "credential_subtext": "RICS regulated",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "estate agent": {
+    "credential_human": "NAEA Registered",
+    "credential_marker": "NAEA Registered",
+    "credential_subtext": "NAEA registered",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "dentist": {
+    "credential_human": "GDC Registered",
+    "credential_marker": "GDC Registered · CQC Regulated",
+    "credential_subtext": "GDC registered",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "physiotherapist": {
+    "credential_human": "HCPC Registered",
+    "credential_marker": "HCPC Registered · CSP Member",
+    "credential_subtext": "HCPC registered",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "chiropractor": {
+    "credential_human": "GCC Registered",
+    "credential_marker": "GCC Registered",
+    "credential_subtext": "GCC registered",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "optician": {
+    "credential_human": "GOC Registered",
+    "credential_marker": "GOC Registered",
+    "credential_subtext": "GOC registered",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "vet": {
+    "credential_human": "RCVS Registered",
+    "credential_marker": "RCVS Registered",
+    "credential_subtext": "RCVS registered",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "veterinarian": {
+    "credential_human": "RCVS Registered",
+    "credential_marker": "RCVS Registered",
+    "credential_subtext": "RCVS registered",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "tutor": {
+    "credential_human": "DBS Checked",
+    "credential_marker": "DBS Checked",
+    "credential_subtext": "DBS checked",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and online",
+    "persona": "warm"
+  },
+  "driving instructor": {
+    "credential_human": "DVSA Approved",
+    "credential_marker": "DVSA Approved · ADI Registered",
+    "credential_subtext": "DVSA approved",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "photographer": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured · Pro PI",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and nationwide",
+    "persona": "warm"
+  },
+  "personal trainer": {
+    "credential_human": "REPs Registered",
+    "credential_marker": "REPs Level 3 · Insured",
+    "credential_subtext": "REPs registered",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "beauty salon": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured salon",
+    "response_window": "Same week",
+    "service_radius_hint": "{city}",
+    "persona": "warm"
+  },
+  "hairdresser": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured stylist",
+    "response_window": "Same week",
+    "service_radius_hint": "{city}",
+    "persona": "warm"
+  },
+  "barber": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured barber",
+    "response_window": "Walk-ins",
+    "service_radius_hint": "{city}",
+    "persona": "warm"
+  },
+  "dog groomer": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured groomer",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "caterer": {
+    "credential_human": "Food hygiene 5",
+    "credential_marker": "Food Hygiene Rating 5",
+    "credential_subtext": "Food hygiene 5",
+    "response_window": "Same week",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "florist": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured florist",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "warm"
+  },
+  "mechanic": {
+    "credential_human": "IMI Registered",
+    "credential_marker": "IMI Registered",
+    "credential_subtext": "IMI registered",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "cold"
+  },
+  "tailor": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured tailor",
+    "response_window": "Same week",
+    "service_radius_hint": "{city}",
+    "persona": "warm"
+  },
+  "it support": {
+    "credential_human": "Cyber Essentials",
+    "credential_marker": "Cyber Essentials certified",
+    "credential_subtext": "Cyber Essentials",
+    "response_window": "Same day",
+    "service_radius_hint": "{city} and remote nationwide",
+    "persona": "cold"
+  },
+  "web designer": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured studio",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and remote nationwide",
+    "persona": "warm"
+  },
+  "marketing agency": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured agency",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and remote nationwide",
+    "persona": "warm"
+  },
+  "printing": {
+    "credential_human": "Fully insured",
+    "credential_marker": "Fully insured",
+    "credential_subtext": "Insured printer",
+    "response_window": "48 hr",
+    "service_radius_hint": "{city} and surrounding areas",
+    "persona": "cold"
+  }
+}

@@ -5,7 +5,22 @@ description: Find local businesses actively running paid ads (Meta, Google, Link
 
 # Retarget Prospector — Orchestrator
 
-End-to-end pipeline: discover → verify ads → audit pixels → qualify → compose outreach → auto-send (gated). Wraps existing `prospect_no_pixel.py`, `cold_email.py`, and a 4-agent team.
+End-to-end pipeline: discover → verify ads → audit pixels → qualify → compose outreach → auto-send (gated). Wraps existing `pipelines/retarget_prospector/prospect_no_pixel.py`, `pipelines/retarget_prospector/cold_email.py`, and a 4-agent team.
+
+## ICP (authoritative)
+
+The full target definition lives in `references/icp.md` — **read it before every run**. Summary:
+
+> Considered-purchase **UK** local service businesses, currently **spending on Google Ads**, with missing or underused **Meta** remarketing infrastructure.
+
+Hard gates (in eval order): geography (UK only) → category (whitelist + blacklist) → **active Google Ads (GATC or site Conversion Tag) — REQUIRED** → website → trust → size → Meta cohort.
+
+Meta status segments qualified prospects into cohorts (not a rejection):
+- **Cohort A** — Meta pixel installed, no active Meta ads (`meta_dormant_pixel`)
+- **Cohort B** — no pixel, no active Meta ads (`meta_greenfield`)
+- **Cohort C** — active Meta ads (3+ creatives) with missing pixel or infra gap (`meta_infra_gap`) — highest priority
+
+Anything passing Gate 3 (Google Ads) but with a complete Meta setup and no leak is `rejected_no_leak`. Phase 1 must only crawl whitelist categories in single UK cities.
 
 ## 트리거 키워드
 초기 실행 + 후속 작업 모두 지원해야 함:
@@ -48,14 +63,18 @@ python3 validation/eval_detectors.py
 
 ## Phase 1: 후보 발견
 
+**ICP precheck.** Before crawling, validate the user's request against `references/icp.md`:
+- City must be UK (London, Manchester, Edinburgh, Birmingham, Leeds, Glasgow, Bristol, Cardiff, Liverpool, etc.). Reject "UK" as a single input — crawl one city at a time.
+- Category must be in the ICP whitelist. Reject blacklist categories (emergency trades, restaurants, retail, NHS) immediately and ask the user to choose a whitelist category.
+
 ```bash
 cd "/Users/foxy/Hermes Bot"
-python3 prospect_no_pixel.py "{category}" "{city}" --limit {limit} --meta-ads
+python3 -m pipelines.retarget_prospector.prospect_no_pixel "{whitelist_category}" "{uk_city}" --limit {limit} --meta-ads --country GB
 ```
 
 출력은 `prospects/{category}-{city}-poor-pixels.json` 이미 생성됨. 이를 `_workspace/retarget/candidates.json` 으로 복사.
 
-각 후보의 minimal fields: `slug`, `business_name`, `website`, `phone`, `email`(있으면), `rating`, `review_count`, `facebook_page`(있으면), `linkedin_url`(있으면).
+각 후보의 minimal fields: `slug`, `business_name`, `category`, `country`, `address`, `website`, `phone`, `email`(있으면), `rating`, `review_count`, `team_size`, `services`, `last_modified`, `accreditations`, `companies_house`, `linkedin_employees`, `facebook_page`(있으면), `linkedin_url`(있으면). 누락된 트러스트/사이즈 필드는 빈 값으로 두고 qualifier 가 게이트에서 처리한다.
 
 **사용자가 candidates 검토를 원하면 여기서 일시정지.** 기본은 자동 진행.
 
@@ -89,11 +108,11 @@ python3 prospect_no_pixel.py "{category}" "{city}" --limit {limit} --meta-ads
 - 리더: orchestrator (메인 세션)
 
 각 후보에 대해:
-1. `TaskCreate` — qualifier 에게 `_ads.json` + `_pixels.json` 읽고 `_qualified.json` 작성 요청
-2. qualifier 가 `verdict: rejected_*` 출력 시 composer 호출 생략
-3. `verdict: qualified` 면 `TaskCreate` — composer 에게 `_outreach.json` + `_outreach.md` 작성 요청
+1. `TaskCreate` — qualifier 에게 `references/icp.md` + `_ads.json` + `_pixels.json` + 원본 `candidates.json` 레코드 읽고 `_qualified.json` 작성 요청. qualifier 는 7개 게이트(geo, category, google_ads, website, trust, size, meta_cohort)를 순서대로 평가하고 verdict + cohort A/B/C 출력.
+2. qualifier 가 `verdict: rejected_*` 출력 시 composer 호출 생략. 거절 사유는 `icp_gates` 에 게이트별로 기록.
+3. `verdict: qualified` 면 `TaskCreate` — composer 에게 `_outreach.json` + `_outreach.md` 작성 요청. composer 는 `cohort` 로 템플릿 선택 (A=`meta_dormant_pixel`, B=`meta_greenfield`, C=`meta_infra_gap`).
 
-팀 통신: qualifier → composer 핸드오프는 `SendMessage` 로 priority 와 pitch_angle 만 전달, 상세는 파일에서 읽음.
+팀 통신: qualifier → composer 핸드오프는 `SendMessage` 로 cohort + pitch_angle + priority 만 전달, 상세는 파일에서 읽음.
 
 ### Phase 4b: Composer Grounding Gate (필수)
 
@@ -177,7 +196,7 @@ WhatsApp 메시지: v1 은 발송 안 함. `_workspace/retarget/whatsapp_queue.m
 ## 데이터 흐름
 
 ```
-prospect_no_pixel.py → _workspace/retarget/candidates.json
+pipelines/retarget_prospector/prospect_no_pixel.py → _workspace/retarget/candidates.json
                     ↓
         ┌───────────┴───────────┐
         ▼                       ▼
@@ -214,7 +233,7 @@ ad-intel-scout × N      pixel-auditor × N
 
 **정상 흐름:** 사용자 "find 5 electricians in Edinburgh running ads without retargeting"
 1. Phase 0: 신규 실행 분류
-2. Phase 1: `prospect_no_pixel.py electrician Edinburgh --limit 5 --meta-ads` 실행, 5 후보
+2. Phase 1: `pipelines/retarget_prospector/prospect_no_pixel.py electrician Edinburgh --limit 5 --meta-ads` 실행, 5 후보
 3. Phase 2-3: 5개 ad-intel + 5개 pixel-auditor 병렬
 4. Phase 4: qualifier 가 3개 qualified, 2개 reject
 5. Phase 5: dry-run (첫 실행), 발송 안 함, draft 만 출력

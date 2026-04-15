@@ -1,0 +1,28 @@
+{
+  "business_name": "Clyde Strength Studio",
+  "business_category": "personal trainer",
+  "city": "Glasgow",
+  "address": "3 Hope St, Glasgow G2 6AB, UK",
+  "phone_number": "0141 555 7366",
+  "years_experience": 5,
+  "license_number": "REPs L3 Personal Trainer",
+  "services_offered": [
+    "1-to-1 strength coaching",
+    "Beginner barbell programmes",
+    "Postnatal rehab training",
+    "Small group training (2-4)",
+    "Nutrition and habit coaching",
+    "5k and 10k run prep",
+    "Online programming",
+    "Body composition assessments"
+  ],
+  "google_reviews": [
+    {"rating": 5, "text": "Started with Clyde Strength as a total beginner who had never touched a barbell. Six months in and I can deadlift my own bodyweight. Patient coaching, never rushed, never judgemental."},
+    {"rating": 5, "text": "Booked postnatal sessions eight weeks after my second was born. They took the rehab work seriously, progressed me slowly, and I am stronger now than I was pre-pregnancy."},
+    {"rating": 5, "text": "Trained for my first 10k with their run prep plan. Hit my goal time with room to spare and my knees survived the whole programme. Worth the investment."},
+    {"rating": 5, "text": "The small-group format is brilliant. Cheaper than 1-to-1 but still proper coaching and attention. I have been going twice a week for nearly a year."},
+    {"rating": 5, "text": "Nutrition and habit coaching alongside the sessions made the real difference. Sustainable changes, no extreme diets, steady progress every single month."}
+  ],
+  "rating": 4.8,
+  "review_count": 64
+}

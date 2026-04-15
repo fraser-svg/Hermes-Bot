@@ -12,7 +12,7 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
-import hero_images
+from core import hero_images
 
 BASE_DIR = Path(__file__).resolve().parent
 DETAILS_PATH = BASE_DIR / "references" / "business_details.json"

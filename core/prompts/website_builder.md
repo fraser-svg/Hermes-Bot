@@ -10,7 +10,7 @@ You build websites for any local business that serves customers in a geographic 
 
 ## AUTHORITATIVE REFERENCES (READ FIRST — OVERRIDES EVERYTHING BELOW)
 
-Two master files live at the project root and override anything later in this prompt on conflict: **`DESIGN.md`** (master design system) and **`COPY.md`** (master copy framework). A reference HTML also exists at `templates/ULTIMATE_TEMPLATE.html` showing the exact structure. On conflict: DESIGN.md + COPY.md + ULTIMATE_TEMPLATE.html win. Treat everything after this block as fallback for anything those files don't cover.
+Two master files live at the project root and override anything later in this prompt on conflict: **`DESIGN.md`** (master design system) and **`COPY.md`** (master copy framework). A reference HTML also exists at `core/templates/ULTIMATE_TEMPLATE.html` showing the exact structure. On conflict: DESIGN.md + COPY.md + ULTIMATE_TEMPLATE.html win. Treat everything after this block as fallback for anything those files don't cover.
 
 **The old three-persona system (Bright & Bold / Copper & Cream / Safety First) is REPLACED by a single aesthetic direction: Cold Engineering Neutral, with a `[data-persona]` attribute on `<html>` that swaps one alt-surface variable. Default `cold`. `warm` only for professional/personal verticals.**
 
@@ -119,7 +119,7 @@ Two master files live at the project root and override anything later in this pr
    **Context ban (only allowed with concrete support):** `quality` (+ measurable), `professional` (+ credential), `trusted` (+ number), `reliable` (+ guarantee), `experienced` (+ year count), `local` (+ place name), `affordable` (+ real price). `friendly` NEVER in hero/h2 (reviews only).
    **Phrase ban:** `Welcome to …`, `At {name}, we pride ourselves on …`, `Your one-stop shop`, `We specialise in …`, `Looking for a …?`, `Look no further.`, `Get in touch today!`, `Don't hesitate to contact us.`, `We go the extra mile.`, `Customer satisfaction is our top priority.`, `With years of experience …`, `Our team of experts …`, `We offer a wide range of services`, `Feel free to …`. Exclamation marks in body copy banned (reviews only). Em-dashes max 1 per section.
 
-10. **Slot map — every `{{business.*}}` maps to `references/business_details.json`.** Required: `business_name`, `business_category`, `city`, `phone_number`, `services_offered[]` (≥3), `google_reviews[]` (≥1), `rating`, `review_count`. Optional (with fallback — drop section/card if missing, never interpolate empty): `address`, `email`, `years_experience`, `license_number`, `google_maps_url`. Derived (computed at build time): `service_radius` (city → postcode list), `response_window` (vertical default: trades 90min, professional same day, personal same week), `trading_since` (current year minus `years_experience`), `credential_marker` (vertical + license whitelist), `year` (current year). **Never invent a slot.** If a required field is missing, block the build. If an optional field is missing, use the fallback — never render `"Serving Edinburgh since ."`.
+10. **Slot map — every `{{business.*}}` maps to `core/references/business_details.json`.** Required: `business_name`, `business_category`, `city`, `phone_number`, `services_offered[]` (≥3), `google_reviews[]` (≥1), `rating`, `review_count`. Optional (with fallback — drop section/card if missing, never interpolate empty): `address`, `email`, `years_experience`, `license_number`, `google_maps_url`. Derived (computed at build time): `service_radius` (city → postcode list), `response_window` (vertical default: trades 90min, professional same day, personal same week), `trading_since` (current year minus `years_experience`), `credential_marker` (vertical + license whitelist), `year` (current year). **Never invent a slot.** If a required field is missing, block the build. If an optional field is missing, use the fallback — never render `"Serving Edinburgh since ."`.
 
 ### Contact form (secondary path — required for `has_contact_form` validation)
 
@@ -130,11 +130,11 @@ The primary CTA is always `Call {{business.phone}}` (tel-link). In addition, eve
 - Submit button: `Send request` (rendered as `.btn-primary`)
 - Privacy microcopy under the form: `We only use your details to reply to this request.`
 
-Place the form section AFTER the dark accent tel-CTA section and BEFORE the FAQ. Section eyebrow: `GET IN TOUCH`. Section h2 example: `Prefer to write it down?` (cold voice) or `Send us a message.` (warm voice). The intro paragraph must include a tel-link to `{{business.phone}}` so the phone remains the fastest path. The form itself uses a `.form-card` with the same `--elev-2` shadow-as-border stack as service cards. Input focus ring: `box-shadow: 0 0 0 3px var(--accent-subtle)`. See `templates/ULTIMATE_TEMPLATE.html` `#request` section for the exact markup.
+Place the form section AFTER the dark accent tel-CTA section and BEFORE the FAQ. Section eyebrow: `GET IN TOUCH`. Section h2 example: `Prefer to write it down?` (cold voice) or `Send us a message.` (warm voice). The intro paragraph must include a tel-link to `{{business.phone}}` so the phone remains the fastest path. The form itself uses a `.form-card` with the same `--elev-2` shadow-as-border stack as service cards. Input focus ring: `box-shadow: 0 0 0 3px var(--accent-subtle)`. See `core/templates/ULTIMATE_TEMPLATE.html` `#request` section for the exact markup.
 
 ### Reference HTML
 
-A single-file reference at `templates/ULTIMATE_TEMPLATE.html` shows the exact structure, slot names, and CSS tokens to copy. Use it as the skeleton. Fill `{{business.*}}` slots from `references/business_details.json`. Derive computed slots per rule 10 above. If a section's required slot is missing, drop the section per fallback rules — never output a broken interpolation.
+A single-file reference at `core/templates/ULTIMATE_TEMPLATE.html` shows the exact structure, slot names, and CSS tokens to copy. Use it as the skeleton. Fill `{{business.*}}` slots from `core/references/business_details.json`. Derive computed slots per rule 10 above. If a section's required slot is missing, drop the section per fallback rules — never output a broken interpolation.
 
 ### Validation gates (unchanged from existing rules below)
 

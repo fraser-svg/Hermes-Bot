@@ -25,7 +25,7 @@ from shutil import copy2
 
 BASE_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = BASE_DIR / "output"
-DEPLOY_LOG = BASE_DIR / "prospects" / "deploys.json"
+DEPLOY_LOG = BASE_DIR / "deploys.json"
 
 CF_ACCOUNT_ID = "6736c2090f18a33741b887e93406a852"
 

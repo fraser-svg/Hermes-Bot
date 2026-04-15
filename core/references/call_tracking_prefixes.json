@@ -1,0 +1,48 @@
+{
+  "_description": "Maps call-tracking number prefixes to providers. Lean heuristic — UK prefixes only. Unknown = 'unknown'. Non-tracking = 'direct'.",
+  "providers": {
+    "CallRail": {
+      "prefixes": ["+12022", "+13122", "+14047", "+14157", "+16502"],
+      "dns_cnames": ["callrail.com"],
+      "script_hosts": ["cdn.callrail.com", "callrail.com"]
+    },
+    "ResponseTap": {
+      "prefixes": [],
+      "dns_cnames": ["responsetap.com"],
+      "script_hosts": ["cdn.responsetap.com", "responsetap.com"]
+    },
+    "Infinity": {
+      "prefixes": [],
+      "dns_cnames": ["infinity.co", "infinitycloud.com"],
+      "script_hosts": ["ict.infinity-tracking.net", "infinity-tracking.net"]
+    },
+    "Mediahawk": {
+      "prefixes": [],
+      "dns_cnames": ["mediahawk.co.uk"],
+      "script_hosts": ["js.mediahawk.co.uk", "mediahawk.co.uk"]
+    },
+    "WhatConverts": {
+      "prefixes": [],
+      "dns_cnames": ["whatconverts.com"],
+      "script_hosts": ["cdn.whatconverts.com", "whatconverts.com"]
+    },
+    "CallTrackingMetrics": {
+      "prefixes": [],
+      "dns_cnames": ["calltrackingmetrics.com"],
+      "script_hosts": ["ctmsdk.com", "calltrackingmetrics.com"]
+    },
+    "Marchex": {
+      "prefixes": [],
+      "dns_cnames": ["marchex.com"],
+      "script_hosts": ["marchex.io", "marchex.com"]
+    },
+    "Invoca": {
+      "prefixes": [],
+      "dns_cnames": ["invoca.net"],
+      "script_hosts": ["solutions.invocacdn.com", "invoca.net"]
+    }
+  },
+  "uk_mobile_prefixes": ["+447", "07"],
+  "uk_geographic_prefixes": ["+441", "+442", "01", "02"],
+  "uk_nongeographic_prefixes": ["+443", "+448", "+449", "03", "08", "09"]
+}

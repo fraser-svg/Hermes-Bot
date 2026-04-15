@@ -143,22 +143,16 @@
   /* nav */
   .nav {
     position: sticky; top: 0; z-index: 50;
-    background: rgba(255,255,255,0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--border-hairline);
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(18px) saturate(1.4);
+    -webkit-backdrop-filter: blur(18px) saturate(1.4);
+    border-bottom: 1px solid rgba(255,255,255,0.35);
+    box-shadow: 0 1px 0 rgba(15,23,42,0.04);
   }
-  .nav__inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-  .nav__logo { font-weight: 700; font-size: 16px; color: var(--ink-strong); text-decoration: none; white-space: nowrap; max-width: 40vw; overflow: hidden; text-overflow: ellipsis; display: inline-flex; align-items: center; gap: 10px; }
-  .nav__logo img { height: 32px; width: auto; max-width: 180px; object-fit: contain; display: block; }
-  @media (max-width: 767px) { .nav__logo img { height: 26px; max-width: 140px; } }
-  .nav__links { display: flex; gap: 32px; }
-  .nav__links a { font-size: 14px; font-weight: 500; color: var(--ink-muted); text-decoration: none; }
-  .nav__links a:hover { color: var(--ink-strong); }
+  .nav__inner { display: flex; align-items: center; justify-content: flex-end; height: 64px; }
   .nav__cta { padding: 10px 18px; min-height: 40px; }
   @media (max-width: 767px) {
     .nav__inner { height: 56px; }
-    .nav__links { display: none; }
   }
 
   /* hero — full-bleed image */
@@ -566,13 +560,6 @@
 <!-- NAV -->
 <nav class="nav">
   <div class="container nav__inner">
-    <a class="nav__logo" href="#" aria-label="{{business.name}}">{{logo_html}}</a>
-    <div class="nav__links">
-      <a href="#services">Services</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#areas">Areas</a>
-      <a href="#contact">Contact</a>
-    </div>
     <a class="btn-primary nav__cta" href="tel:{{business.phone_tel}}">Call <span class="mono-phone">{{business.phone}}</span></a>
   </div>
 </nav>

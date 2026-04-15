@@ -16,7 +16,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
-from prospect import BASE_DIR, PROSPECTS_DIR, get_google_key, search_places
+from core.prospect import BASE_DIR, PROSPECTS_DIR, get_google_key, search_places
 
 
 def fetch_html(url: str, timeout: int = 12) -> tuple[str, str]:

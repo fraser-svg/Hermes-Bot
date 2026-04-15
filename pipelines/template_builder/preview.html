@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Design System — Light Preview</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<style>
+:root {
+  --surface-canvas: #FFFFFF;
+  --surface-alt: #F9FAFB;
+  --surface-sunken: #F3F4F6;
+  --surface-inverse: #0A0F1A;
+  --border-hairline: #E5E7EB;
+  --border-strong: #D1D5DB;
+  --ink-strong: #0A0F1A;
+  --ink-body: #1F2937;
+  --ink-muted: #4B5563;
+  --ink-subtle: #6B7280;
+  --ink-disabled: #9CA3AF;
+  --ink-on-inverse: #F9FAFB;
+  --accent-primary: #0A0F1A;
+  --accent-primary-hover: #1F2937;
+  --accent-primary-active: #000000;
+  --accent-ink: #FFFFFF;
+  --accent-vertical: #2563EB;
+  --accent-vertical-hover: #1D4ED8;
+  --accent-subtle: #EFF6FF;
+  --signal-success: #047857;
+  --signal-urgent: #B91C1C;
+  --radius-sm: 6px; --radius-md: 8px; --radius-lg: 16px;
+  --elev-1: 0 1px 2px rgba(10,15,26,0.08);
+  --elev-2:
+    0 0 0 1px rgba(10,15,26,0.06),
+    0 2px 4px rgba(10,15,26,0.04),
+    0 8px 16px -4px rgba(10,15,26,0.08);
+  --elev-3:
+    0 0 0 1px rgba(10,15,26,0.08),
+    0 4px 8px rgba(10,15,26,0.05),
+    0 16px 24px -4px rgba(10,15,26,0.10);
+}
+html[data-persona="warm"] { --surface-alt: #F6F5F4; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "Inter Variable", "Inter", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-feature-settings: "cv11", "ss01";
+  background: var(--surface-canvas);
+  color: var(--ink-body);
+  font-size: 16px;
+  line-height: 1.65;
+}
+.wrap { max-width: 1200px; margin: 0 auto; padding: 64px 32px; }
+h1, h2, h3, h4 { color: var(--ink-strong); margin: 0; }
+h1 { font-size: clamp(2rem, 6vw, 4.25rem); font-weight: 700; letter-spacing: -0.04em; line-height: 1.05; }
+h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 600; letter-spacing: -0.03em; line-height: 1.1; margin-top: 64px; padding-bottom: 16px; border-bottom: 1px solid rgba(10,15,26,0.06); }
+h3 { font-size: 1.375rem; font-weight: 600; letter-spacing: -0.02em; margin: 32px 0 16px; }
+h4 { font-size: 1rem; font-weight: 600; letter-spacing: -0.01em; }
+p { max-width: 650px; color: var(--ink-muted); margin: 12px 0; }
+.eyebrow { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 8px; display: block; }
+
+/* swatches */
+.swatch-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; margin-top: 24px; }
+.swatch { background: var(--surface-canvas); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--elev-2); }
+.swatch-chip { height: 88px; }
+.swatch-meta { padding: 16px; }
+.swatch-meta .tok { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12px; color: var(--ink-strong); font-weight: 500; }
+.swatch-meta .hex { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12px; color: var(--ink-subtle); margin-top: 4px; }
+.swatch-meta .role { font-size: 13px; color: var(--ink-muted); margin-top: 6px; }
+
+/* type scale */
+.type-row { padding: 20px 0; border-bottom: 1px solid var(--border-hairline); display: grid; grid-template-columns: 160px 1fr; gap: 32px; align-items: baseline; }
+.type-row .label { font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12px; color: var(--ink-subtle); }
+.type-h1 { font-size: clamp(2rem, 6vw, 4.25rem); font-weight: 700; letter-spacing: -0.04em; line-height: 1.05; color: var(--ink-strong); }
+.type-h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 600; letter-spacing: -0.03em; line-height: 1.1; color: var(--ink-strong); }
+.type-h3 { font-size: 1.375rem; font-weight: 600; letter-spacing: -0.02em; color: var(--ink-strong); }
+.type-h4 { font-size: 1rem; font-weight: 600; letter-spacing: -0.01em; color: var(--ink-strong); }
+.type-lead { font-size: 1.125rem; font-weight: 400; line-height: 1.55; color: var(--ink-muted); max-width: 650px; }
+.type-body { font-size: 1rem; font-weight: 400; line-height: 1.65; color: var(--ink-muted); max-width: 650px; }
+.type-small { font-size: 0.875rem; font-weight: 400; color: var(--ink-muted); }
+.type-micro { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.02em; color: var(--ink-subtle); }
+
+/* buttons */
+.btn-row { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 24px; font: 600 15px/1 inherit; letter-spacing: -0.005em; border-radius: var(--radius-md); border: none; cursor: pointer; transition: all 120ms; text-decoration: none; }
+.btn-primary { color: var(--accent-ink); background: var(--accent-primary); box-shadow: var(--elev-1); }
+.btn-primary:hover { background: var(--accent-primary-hover); transform: translateY(-1px) scale(1.01); box-shadow: var(--elev-3); }
+.btn-primary:active { background: var(--accent-primary-active); transform: translateY(0) scale(0.98); }
+.btn-primary:focus-visible { outline: 2px solid var(--accent-primary); outline-offset: 2px; }
+.btn-vertical { color: #fff; background: var(--accent-vertical); box-shadow: var(--elev-1); }
+.btn-vertical:hover { background: var(--accent-vertical-hover); transform: translateY(-1px) scale(1.01); box-shadow: var(--elev-3); }
+.btn-secondary { background: transparent; color: var(--ink-strong); border: 1px solid rgba(10,15,26,0.10); }
+.btn-secondary:hover { background: var(--surface-alt); border-color: rgba(10,15,26,0.15); }
+.btn-urgent { background: var(--signal-urgent); color: #fff; box-shadow: var(--elev-1); }
+.btn-disabled { background: var(--ink-disabled); color: #fff; cursor: not-allowed; }
+
+/* cards */
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 24px; }
+.card { background: var(--surface-canvas); border-radius: var(--radius-lg); padding: 32px; box-shadow: var(--elev-2); transition: all 160ms; }
+.card:hover { box-shadow: var(--elev-3); transform: translateY(-2px); }
+.card h4 { margin-bottom: 12px; }
+.card p { margin: 0; font-size: 0.9375rem; }
+.stat { font-size: 3rem; font-weight: 700; letter-spacing: -0.04em; color: var(--ink-strong); font-variant-numeric: tabular-nums; line-height: 1; }
+.stat-label { font-size: 0.875rem; color: var(--ink-muted); margin-top: 8px; }
+
+/* form */
+.form { max-width: 440px; margin-top: 24px; }
+.field { margin-bottom: 20px; }
+.field label { display: block; font-size: 14px; font-weight: 600; color: var(--ink-strong); margin-bottom: 6px; }
+.field input, .field textarea { width: 100%; background: var(--surface-canvas); border: 1px solid #E5E7EB; border-radius: var(--radius-md); padding: 12px 16px; font: 400 16px/1.5 inherit; color: var(--ink-body); }
+.field input::placeholder { color: var(--ink-subtle); }
+.field input:focus { outline: none; border-color: var(--accent-primary); box-shadow: 0 0 0 3px var(--accent-subtle); }
+
+/* badges */
+.badge-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+.badge { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; background: var(--surface-alt); border: 1px solid rgba(10,15,26,0.08); border-radius: var(--radius-sm); font-size: 12px; font-weight: 600; color: var(--ink-strong); }
+.eyebrow-mono { display: inline-block; font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-muted); }
+.badge-success { color: var(--signal-success); border-color: var(--signal-success); background: transparent; }
+
+/* sample paragraph */
+.sample { background: var(--surface-alt); border-radius: var(--radius-lg); padding: 48px; margin-top: 24px; box-shadow: 0 0 0 1px rgba(10,15,26,0.06); }
+.sample h3 { margin-top: 0; }
+.theme-toggle { position: fixed; top: 16px; right: 16px; font-family: "JetBrains Mono", monospace; font-size: 12px; color: var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="theme-toggle">LIGHT · <a href="preview-dark.html" style="color: var(--accent-primary);">switch to dark →</a></div>
+<div class="wrap">
+  <span class="eyebrow-mono">Hermes design system · v2</span>
+  <h1 style="margin-top:8px;">Cold Engineering Neutral.</h1>
+  <p class="type-lead">Research-integrated. Single aesthetic direction for every local-service site. Inter Variable 400/500/600/700, warm-near-black primary CTA, layered micro-elevation via shadow-as-border, persona-locked alt-surface, zero AI slop.</p>
+
+  <h2>Color Palette</h2>
+  <div class="swatch-grid">
+    <div class="swatch"><div class="swatch-chip" style="background:#FFFFFF;border-bottom:1px solid var(--border-hairline);"></div><div class="swatch-meta"><div class="tok">--surface-canvas</div><div class="hex">#FFFFFF</div><div class="role">Primary page background</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#F9FAFB;"></div><div class="swatch-meta"><div class="tok">--surface-alt</div><div class="hex">#F9FAFB</div><div class="role">Alternating sections</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#F3F4F6;"></div><div class="swatch-meta"><div class="tok">--surface-sunken</div><div class="hex">#F3F4F6</div><div class="role">Input fill, sunken band</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#0A0F1A;"></div><div class="swatch-meta"><div class="tok">--surface-inverse</div><div class="hex">#0A0F1A</div><div class="role">Hero, footer, accent section</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#E5E7EB;"></div><div class="swatch-meta"><div class="tok">--border-hairline</div><div class="hex">#E5E7EB</div><div class="role">1px dividers, card borders</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#0A0F1A;"></div><div class="swatch-meta"><div class="tok">--ink-strong</div><div class="hex">#0A0F1A</div><div class="role">Headings · 18.1:1 ✓</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#1F2937;"></div><div class="swatch-meta"><div class="tok">--ink-body</div><div class="hex">#1F2937</div><div class="role">Long prose · 14.7:1 ✓</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#4B5563;"></div><div class="swatch-meta"><div class="tok">--ink-muted</div><div class="hex">#4B5563</div><div class="role">Body, subheads · 8.6:1 ✓</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#6B7280;"></div><div class="swatch-meta"><div class="tok">--ink-subtle</div><div class="hex">#6B7280</div><div class="role">Meta, placeholder · 5.7:1 ✓</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#0A0F1A;"></div><div class="swatch-meta"><div class="tok">--accent-primary</div><div class="hex">#0A0F1A</div><div class="role">Default CTA (dark solid) · 18.1:1 ✓</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#2563EB;"></div><div class="swatch-meta"><div class="tok">--accent-vertical</div><div class="hex">#2563EB</div><div class="role">Optional trades override · 5.2:1 ✓</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#F6F5F4;border:1px solid rgba(10,15,26,0.06);"></div><div class="swatch-meta"><div class="tok">--surface-alt (warm)</div><div class="hex">#F6F5F4</div><div class="role">data-persona="warm" toggle</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#047857;"></div><div class="swatch-meta"><div class="tok">--signal-success</div><div class="hex">#047857</div><div class="role">Verified badges · 6.6:1 ✓</div></div></div>
+    <div class="swatch"><div class="swatch-chip" style="background:#B91C1C;"></div><div class="swatch-meta"><div class="tok">--signal-urgent</div><div class="hex">#B91C1C</div><div class="role">Emergency CTA · 7.4:1 ✓</div></div></div>
+  </div>
+
+  <h2>Typography Scale</h2>
+  <div class="type-row"><div class="label">h1 / 800 / -0.04em</div><div class="type-h1">Emergency plumber Dunfermline.</div></div>
+  <div class="type-row"><div class="label">h2 / 700 / -0.03em</div><div class="type-h2">Same-day callouts. Fixed prices.</div></div>
+  <div class="type-row"><div class="label">h3 / 600 / -0.02em</div><div class="type-h3">Boilers, leaks, bathrooms.</div></div>
+  <div class="type-row"><div class="label">h4 / 600 / -0.01em</div><div class="type-h4">Emergency callouts</div></div>
+  <div class="type-row"><div class="label">eyebrow / 600 / 0.08em</div><div><span class="eyebrow">Services we offer</span></div></div>
+  <div class="type-row"><div class="label">lead / 400 / 18px</div><div class="type-lead">58 five-star reviews. 45-minute response time across central Fife. No call-out charge.</div></div>
+  <div class="type-row"><div class="label">body / 400 / 16px</div><div class="type-body">We arrive within two hours, diagnose the fault, and give you a fixed price before we start any work. If we can't fix it, you don't pay.</div></div>
+  <div class="type-row"><div class="label">small / 400 / 14px</div><div class="type-small">Gas Safe registered · Est. 2008 · Covering KY11, KY12, KY15</div></div>
+  <div class="type-row"><div class="label">micro / 500 / 12px</div><div class="type-micro">UPDATED 2026-04-13</div></div>
+
+  <h2>Buttons &amp; States</h2>
+  <div class="btn-row">
+    <button class="btn btn-primary">Get a quote</button>
+    <button class="btn btn-primary" style="background:var(--accent-primary-hover);transform:translateY(-1px) scale(1.01);box-shadow:var(--elev-3);">Hover state</button>
+    <button class="btn btn-primary" style="background:var(--accent-primary-active);transform:scale(0.98);">Active state</button>
+    <button class="btn btn-vertical">Trades override</button>
+    <button class="btn btn-secondary">Call us now</button>
+    <button class="btn btn-urgent">Emergency line</button>
+    <button class="btn btn-disabled">Disabled</button>
+  </div>
+
+  <h2>Cards</h2>
+  <div class="card-grid">
+    <article class="card">
+      <h4>Emergency callouts</h4>
+      <p>We arrive within 2 hours, diagnose the fault, and give you a fixed price before we start.</p>
+    </article>
+    <article class="card">
+      <h4>Boiler installations</h4>
+      <p>Worcester, Vaillant, Ideal — 10-year warranty, finance available, fitted in one day.</p>
+    </article>
+    <article class="card" style="text-align:left;">
+      <div class="stat">2,847</div>
+      <div class="stat-label">Callouts completed since 2018</div>
+    </article>
+    <article class="card">
+      <p style="font-style:italic;color:var(--ink-body);font-size:1.125rem;">"Arrived within 40 minutes, diagnosed the leak, fixed it for the quoted price. No upsell."</p>
+      <p style="font-size:0.875rem;color:var(--ink-muted);margin-top:12px;">— Sarah M., Rosyth · 5★ on Google</p>
+    </article>
+  </div>
+
+  <h2>Form Controls</h2>
+  <div class="form">
+    <div class="field"><label for="n">Your name</label><input id="n" type="text" placeholder="e.g. Sarah Murray"></div>
+    <div class="field"><label for="p">Phone</label><input id="p" type="tel" placeholder="07700 900 000"></div>
+    <div class="field"><label for="m">What do you need?</label><input id="m" type="text" placeholder="e.g. boiler not firing"></div>
+    <button class="btn btn-primary" style="width:100%;">Request callback</button>
+  </div>
+
+  <h2>Badges</h2>
+  <div class="badge-row">
+    <span class="badge">Gas Safe registered</span>
+    <span class="badge">Est. 2008</span>
+    <span class="badge">58 five-star reviews</span>
+    <span class="badge badge-success">✓ DBS checked</span>
+  </div>
+
+  <h2>Sample section</h2>
+  <div class="sample">
+    <span class="eyebrow">About us</span>
+    <h3>Two engineers. One van. Fife since 2008.</h3>
+    <p>Family-run. No call centres, no sub-contracts. Paul answers the phone, Paul shows up, Paul fixes it. If we can't fix it the same day, we'll tell you within 20 minutes of arrival.</p>
+  </div>
+</div>
+</body>
+</html>

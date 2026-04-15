@@ -1,0 +1,28 @@
+{
+  "business_name": "Fife Current Electrical",
+  "business_category": "electrician",
+  "city": "Dunfermline",
+  "address": "14 Bruce St, Dunfermline KY12 7AG, UK",
+  "phone_number": "01383 555 181",
+  "years_experience": 12,
+  "license_number": "NICEIC 62841",
+  "services_offered": [
+    "Domestic electrical installations",
+    "Full and partial rewires",
+    "Fuse board replacements",
+    "EICR landlord testing",
+    "EV charger installation",
+    "Lighting design and installation",
+    "Emergency fault finding",
+    "Smart home systems"
+  ],
+  "google_reviews": [
+    {"rating": 5, "text": "Called Fife Current at 8am after my fuse board tripped overnight. They were on site by 10am, diagnosed a failing RCD, replaced it the same morning, and left everything spotless. Certificate emailed before they left the driveway."},
+    {"rating": 5, "text": "Had a full rewire done on our 1930s semi. Detailed quote, fixed price before they started, zero mess at the end of each day. Chris and the apprentice were polite and explained every change. Highly recommended."},
+    {"rating": 5, "text": "Booked them for an EICR for a rental flat in Dunfermline. Turnaround was under 48 hours, the report was clear, and they sorted two small remedials on the spot. Easy to deal with."},
+    {"rating": 5, "text": "Fitted a 7kW EV charger on our driveway. Tidy cable run, clean consumer unit connection, and they walked me through the app. Price matched the quote to the penny."},
+    {"rating": 5, "text": "Lights kept flickering in the kitchen. They found a loose neutral in an old junction box within 20 minutes and had it sorted the same visit. Proper electricians."}
+  ],
+  "rating": 4.9,
+  "review_count": 86
+}

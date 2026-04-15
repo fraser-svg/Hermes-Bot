@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en" data-persona="cold">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrician in Dunfermline | Fife Current Electrical - NICEIC Certified</title>
+    <meta name="description" content="Fife Current Electrical provides professional electrician services in Dunfermline and surrounding areas. NICEIC certified, 4.9-star rated. Call 01383 555 181 for a free quote.">
+    <meta property="og:title" content="Electrician in Dunfermline | Fife Current Electrical">
+    <meta property="og:description" content="Professional electrician in Dunfermline. NICEIC certified & insured. Free quotes.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --surface-canvas: #FFFFFF;
+            --surface-alt: #F9FAFB;
+            --surface-sunken: #F3F4F6;
+            --surface-inverse: #0A0F1A;
+            --border-hairline: rgba(10,15,26,0.06);
+            --border-hairline-strong: rgba(10,15,26,0.10);
+            --ink-strong: #0A0F1A;
+            --ink-body: #1F2937;
+            --ink-muted: #4B5563;
+            --ink-subtle: #6B7280;
+            --ink-tertiary: #9CA3AF;
+            --accent-primary: #2563EB;
+            --accent-primary-hover: #1D4ED8;
+            --accent-ink: #FFFFFF;
+            --accent-vertical: #2563EB;
+            --signal-success: #047857;
+            --signal-urgent: #B91C1C;
+
+            --space-xs: 0.5rem;
+            --space-sm: 1rem;
+            --space-md: 2rem;
+            --space-lg: 4rem;
+            --space-xl: 6rem;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.65;
+            color: var(--ink-body);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-feature-settings: "cv11", "ss01";
+        }
+
+        body {
+            margin: 0;
+            background-color: var(--surface-canvas);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Inter', sans-serif;
+            color: var(--ink-strong);
+            line-height: 1.1;
+            margin-top: 0;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 4.25rem);
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            line-height: 1.05;
+            max-width: 14ch;
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            font-weight: 600;
+            letter-spacing: -0.03em;
+            line-height: 1.1;
+            max-width: 18ch;
+        }
+
+        h3 {
+            font-size: 1.375rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            max-width: 650px;
+        }
+
+        a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent-primary-hover);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 20px;
+            }
+            h1 {
+                font-size: clamp(2rem, 8vw, 3rem);
+            }
+            h2 {
+                font-size: clamp(1.5rem, 6vw, 2rem);
+            }
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            text-transform: none; /* Sentence case */
+            letter-spacing: -0.005em;
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-primary);
+            color: var(--accent-ink);
+            border: 1px solid var(--accent-primary);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-primary-hover);
+            border-color: var(--accent-primary-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--ink-strong);
+            border: 1px solid var(--border-hairline-strong);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--surface-sunken);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .btn-urgent {
+            background-color: var(--signal-urgent);
+            color: var(--accent-ink);
+            border: 1px solid var(--signal-urgent);
+        }
+
+        .btn-urgent:hover {
+            background-color: #A01B1B;
+            border-color: #A01B1B;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .btn {
+                padding: 14px 20px;
+                min-height: 48px;
+            }
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--surface-canvas);
+            border-bottom: 1px solid var(--border-hairline);
+            padding: 16px 0;
+            z-index: 1000;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .navbar.scrolled {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .navbar-logo {
+            font-size: clamp(0.85rem, 2.5vw, 1.05rem);
+            font-weight: 600;
+            color: var(--ink-strong);
+            text-decoration: none;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 40%;
+        }
+
+        .navbar-contact {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .navbar-phone-icon {
+            display: none; /* Hidden by default on desktop */
+            width: 24px;
+            height: 24px;
+            color: var(--ink-strong);
+        }
+
+        .navbar-phone-text {
+            font-family: 'JetBrains Mono', monospace;
+            font-variant-numeric: tabular-nums;
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--ink-strong);
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 8px 0;
+                min-height: 56px;
+            }
+            .navbar-phone-icon {
+                display: block; /* Show icon on mobile */
+            }
+            .navbar-phone-text {
+                display: none; /* Hide text on mobile */
+            }
+            .navbar-logo {
+                max-width: 50%;
+            }
+            .navbar .btn {
+                font-size: 0.85rem;
+                padding: 8px 16px;
+            }
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            color: var(--accent-ink);
+            background-color: var(--surface-inverse); /* Fallback */
+            background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&h=800&fit=crop&auto=format&q=80');
+            background-size: cover;
+            background-position: center;
+            padding-top: 96px; /* Offset for fixed nav */
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(270deg, transparent 20%, rgba(0,0,0,0.75) 100%);
+            z-index: 1;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 2;
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+
+        .hero h1 {
+            color: var(--accent-ink);
+            text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            max-width: 14ch;
+        }
+
+        .hero p {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.125rem;
+            max-width: 600px;
+            margin-bottom: 32px;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .hero-trust {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        .hero-trust-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background-color: rgba(255,255,255,0.15);
+            border-radius: 9999px;
+            color: var(--accent-ink);
+            font-size: 0.875rem;
+            font-weight: 500;
+            backdrop-filter: blur(8px);
+            text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+
+        .hero-trust-item svg {
+            width: 16px;
+            height: 16px;
+            color: var(--accent-vertical);
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                min-height: 500px;
+                padding-top: 56px;
+            }
+            .hero::before {
+                background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+            }
+            .hero .container {
+                padding-top: 48px;
+                padding-bottom: 48px;
+            }
+            .hero-actions {
+                flex-direction: column;
+                gap: 12px;
+            }
+            .hero-actions .btn {
+                width: 100%;
+            }
+            .hero-trust {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+
+        /* Section styles */
+        .section {
+            padding: 96px 0;
+        }
+
+        .section-alt {
+            background-color: var(--surface-alt);
+        }
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .section-heading h2 {
+            margin: 0 auto 16px auto;
+            max-width: 600px;
+        }
+
+        .section-heading p {
+            font-size: 1.125rem;
+            color: var(--ink-muted);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                padding: 64px 0;
+            }
+            .section-heading {
+                margin-bottom: 48px;
+            }
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .service-card {
+            background-color: var(--surface-canvas);
+            border-radius: 16px;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 8px 20px rgba(0,0,0,0.04);
+            transition: all 0.2s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 12px 32px rgba(0,0,0,0.08);
+        }
+
+        .service-icon-wrapper {
+            width: 64px;
+            height: 64px;
+            border-radius: 12px;
+            background-color: rgba(37, 99, 235, 0.15); /* Accent at 15% opacity */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+
+        .service-icon {
+            width: 28px;
+            height: 28px;
+            color: var(--accent-primary);
+        }
+
+        .service-card h3 {
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .service-card p {
+            font-size: 0.9375rem;
+            color: var(--ink-muted);
+            margin-bottom: 16px;
+            flex-grow: 1;
+        }
+
+        .service-card a {
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            color: var(--accent-primary);
+        }
+
+        .service-card a svg {
+            width: 16px;
+            height: 16px;
+            transition: transform 0.2s ease;
+        }
+
+        .service-card a:hover svg {
+            transform: translateX(4px);
+        }
+
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Social Proof */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            margin-bottom: 64px;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--ink-strong);
+            margin-bottom: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .stat-item p {
+            font-size: 1rem;
+            color: var(--ink-muted);
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .stat-item h3 {
+                font-size: 2.5rem;
+            }
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+        }
+
+        .review-card {
+            background-color: var(--surface-canvas);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 8px 20px rgba(0,0,0,0.04);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .review-stars {
+            color: var(--ink-strong); /* Stars are ink-strong, not accent */
+            margin-bottom: 16px;
+            font-size: 1.25rem;
+        }
+
+        .review-card p {
+            font-style: italic;
+            color: var(--ink-body);
+            margin-bottom: 16px;
+            flex-grow: 1;
+            font-size: 1rem;
+        }
+
+        .review-author {
+            font-weight: 500;
+            color: var(--ink-strong);
+            font-size: 0.9375rem;
+        }
+
+        @media (max-width: 1024px) {
+            .reviews-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .reviews-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+        }
+
+        /* About Section */
+        .about-content {
+            display: flex;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .about-image {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            display: block;
+        }
+
+        .about-text {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .about-text h2 {
+            text-align: left;
+            margin-bottom: 24px;
+            max-width: none;
+        }
+
+        .about-text p {
+            color: var(--ink-body);
+            margin-bottom: 24px;
+            max-width: none;
+        }
+
+        .about-features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 32px 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .about-features li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+            color: var(--ink-strong);
+        }
+
+        .about-features li svg {
+            width: 20px;
+            height: 20px;
+            color: var(--signal-success);
+        }
+
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+                gap: 48px;
+            }
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Service Area */
+        .area-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 32px;
+        }
+
+        .area-tag {
+            background-color: var(--surface-canvas);
+            border: 1px solid var(--border-hairline);
+            border-radius: 9999px;
+            padding: 8px 16px;
+            font-size: 0.9375rem;
+            color: var(--ink-body);
+            font-weight: 500;
+        }
+
+        /* Contact Section */
+        .contact-content {
+            display: flex;
+            gap: 64px;
+        }
+
+        .contact-form-wrapper {
+            flex: 2;
+            background-color: var(--surface-canvas);
+            border-radius: 16px;
+            padding: 48px;
+            box-shadow: 0 8px 35px rgba(0,0,0,0.08);
+        }
+
+        .contact-form-wrapper h2 {
+            text-align: left;
+            margin-bottom: 16px;
+            max-width: none;
+        }
+
+        .contact-form-wrapper p {
+            color: var(--ink-muted);
+            margin-bottom: 32px;
+            max-width: none;
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 24px;
+        }
+
+        .form-row > div {
+            flex: 1;
+        }
+
+        label {
+            display: block;
+            font-weight: 500;
+            color: var(--ink-strong);
+            margin-bottom: 8px;
+            font-size: 0.9375rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--border-hairline-strong);
+            border-radius: 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            color: var(--ink-body);
+            background-color: var(--surface-canvas);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+            box-sizing: border-box;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="tel"]:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2); /* Accent at 20% opacity */
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        ::placeholder {
+            color: var(--ink-tertiary);
+            opacity: 1;
+        }
+
+        .privacy-note {
+            font-size: 0.875rem;
+            color: var(--ink-muted);
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .privacy-note svg {
+            width: 16px;
+            height: 16px;
+            color: var(--ink-subtle);
+        }
+
+        .contact-info-sidebar {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .contact-info-card {
+            background-color: var(--surface-alt);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 32px;
+        }
+
+        .contact-info-card h3 {
+            margin-bottom: 24px;
+            font-size: 1.25rem;
+        }
+
+        .contact-detail {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .contact-detail:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-detail svg {
+            width: 24px;
+            height: 24px;
+            color: var(--accent-primary);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .contact-detail p {
+            margin: 0;
+            color: var(--ink-body);
+            max-width: none;
+        }
+
+        .contact-detail a {
+            font-weight: 500;
+            color: var(--ink-strong);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .contact-detail .hours-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contact-detail .hours-list li {
+            margin-bottom: 4px;
+            font-size: 0.9375rem;
+        }
+
+        .contact-detail .hours-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .contact-content {
+                flex-direction: column;
+                gap: 48px;
+            }
+            .contact-form-wrapper {
+                padding: 32px;
+            }
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+            .form-row > div {
+                margin-bottom: 24px;
+            }
+            .form-row > div:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--surface-inverse);
+            color: rgba(255,255,255,0.7);
+            padding: 64px 0 32px 0;
+            font-size: 0.9375rem;
+        }
+
+        .footer .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+
+        .footer-brand {
+            font-weight: 600;
+            color: var(--accent-ink);
+            font-size: 1.125rem;
+            text-decoration: none;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-ink);
+        }
+
+        .footer-legal {
+            text-align: right;
+        }
+
+        .footer-legal p {
+            margin: 0;
+            max-width: none;
+        }
+
+        @media (max-width: 768px) {
+            .footer .container {
+                flex-direction: column;
+                text-align: center;
+                gap: 24px;
+            }
+            .footer-links {
+                flex-direction: column;
+                gap: 12px;
+            }
+            .footer-legal {
+                text-align: center;
+            }
+        }
+
+        /* Mobile Sticky CTA */
+        .mobile-sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(to top, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
+            padding: 16px 20px 0 20px;
+            box-sizing: border-box;
+            z-index: 990;
+            display: none; /* Hidden by default */
+        }
+
+        .mobile-sticky-cta .btn {
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .mobile-sticky-cta {
+                display: block; /* Show on mobile */
+            }
+            .contact-section {
+                padding-bottom: 120px; /* Make space for sticky CTA */
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Fife Current Electrical",
+      "description": "Fife Current Electrical provides professional electrician services in Dunfermline and surrounding areas. NICEIC certified, 4.9-star rated. Call 01383 555 181 for a free quote.",
+      "telephone": "+441383555181",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Bruce St",
+        "addressLocality": "Dunfermline",
+        "addressRegion": "Scotland",
+        "postalCode": "KY12 7AG",
+        "addressCountry": "GB"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Dunfermline"
+        },
+        {
+          "@type": "City",
+          "name": "Kirkcaldy"
+        },
+        {
+          "@type": "City",
+          "name": "Glenrothes"
+        },
+        {
+          "@type": "City",
+          "name": "Cowdenbeath"
+        },
+        {
+          "@type": "City",
+          "name": "Rosyth"
+        },
+        {
+          "@type": "City",
+          "name": "Dalgety Bay"
+        },
+        {
+          "@type": "City",
+          "name": "Inverkeithing"
+        },
+        {
+          "@type": "City",
+          "name": "Kinross"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "86"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "13:00"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="navbar-logo">Fife Current Electrical</a>
+            <div class="navbar-contact">
+                <a href="tel:+441383555181" class="navbar-phone-icon" aria-label="Call Fife Current Electrical">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.18.44l-1.417 1.914a4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535 4.995 4.995 0 01-1.706-0.535

@@ -1,0 +1,95 @@
+{
+  "ship_verdict": "fix_then_ship",
+  "timestamp": "2026-04-13",
+  "schema_check": {
+    "design_md": {
+      "passed": true,
+      "missing_sections": [],
+      "sections_found": [
+        "1. Visual Theme & Atmosphere",
+        "2. Color Palette & Roles",
+        "3. Typography Rules",
+        "4. Component Stylings",
+        "5. Layout Principles",
+        "6. Depth & Elevation",
+        "7. Do's and Don'ts",
+        "8. Responsive Behavior",
+        "9. Agent Prompt Guide"
+      ]
+    },
+    "copy_md": {
+      "passed": true,
+      "missing_sections": [],
+      "sections_found": [
+        "1. Voice & Tone",
+        "2. Headline Formulas (Hero)",
+        "3. Subheadline Patterns",
+        "4. CTA Vocabulary",
+        "5. Trust Block Patterns",
+        "6. Service Block Copy",
+        "7. FAQ Templates",
+        "8. Microcopy",
+        "9. Banned Vocabulary",
+        "10. Slot Map"
+      ],
+      "slot_map_matches_json": true,
+      "banned_vocab_non_trivial": true
+    }
+  },
+  "slop_findings": [
+    {
+      "severity": "med",
+      "location": "templates/ULTIMATE_TEMPLATE.html (whole file) + COPY.md §8 Microcopy (form labels)",
+      "rule": "consistency — COPY.md §8 defines complete form-label bank (`Your name`, `Email`, `Phone`, `What do you need?`, `Send request`, privacy + error + success copy) but ULTIMATE_TEMPLATE.html ships form-less, so every generated build fails build_report.json `has_contact_form` check (14/15 on both smoke-test samples that reached Gemini)",
+      "fix": "Either (a) add a minimal contact form section to ULTIMATE_TEMPLATE.html using the §8 form-label copy and keep tel-CTA as primary, OR (b) remove `has_contact_form` from generate.py's validation checklist and delete §8 form-label bank from COPY.md. Recommend (a): keeps the 15/15 gate intact and honours the existing COPY.md microcopy spec."
+    },
+    {
+      "severity": "low",
+      "location": "prompts/website_builder.md line ~46 (legacy DESIGN PHILOSOPHY block still present below the AUTHORITATIVE REFERENCES override)",
+      "rule": "contradiction — legacy block says h1 weight 800, new block + DESIGN.md §3 cap weights at 700. Override header explicitly claims precedence so models should resolve correctly, but the contradiction is a latent footgun if a future edit reorders the blocks.",
+      "fix": "Next patch pass: delete the contradicted lines in the legacy block (h1 weight, persona matrix, wavy dividers) rather than relying solely on the override header."
+    },
+    {
+      "severity": "low",
+      "location": "templates/ULTIMATE_TEMPLATE.html line ~167",
+      "rule": "gradient rule — hero uses radial-gradient blue glow (`rgba(37,99,235,0.18)`) over near-black. DESIGN.md §6/§7 warns against CTA glows but allows subtle hero atmosphere. Acceptable here but borderline — one shade darker would be safer.",
+      "fix": "No action required; flag only."
+    }
+  ],
+  "smoke_test": {
+    "trades_sample": {
+      "business": "Fife Current Electrical (electrician, Dunfermline)",
+      "validation": "14/15",
+      "passed_checks": 14,
+      "failed_checks": ["has_contact_form"],
+      "readability_warnings": 0,
+      "readability_pass": true,
+      "html_path": "_workspace/template/smoke_trades.html",
+      "model": "google/gemini-2.5-flash",
+      "cost_usd": 0.0038
+    },
+    "professional_sample": {
+      "business": "Castlerock Chartered Accountants (accountant, Edinburgh)",
+      "validation": "14/15",
+      "passed_checks": 14,
+      "failed_checks": ["has_contact_form"],
+      "readability_warnings": 0,
+      "readability_pass": true,
+      "html_path": "_workspace/template/smoke_professional.html",
+      "model": "google/gemini-2.5-flash",
+      "cost_usd": 0.0044
+    },
+    "personal_sample": {
+      "business": "Clyde Strength Studio (personal trainer, Glasgow)",
+      "validation": "infra_blocked",
+      "readability_warnings": null,
+      "readability_pass": null,
+      "html_path": null,
+      "error": "OpenRouter API error 402: credits exhausted — 'requested up to 16000 tokens, can only afford 15448'. Retried once, persistent. NOT a template regression; infra issue escalated to team-lead.",
+      "note": "Per template-critique skill §Failure recovery: infra/API errors unrelated to template are escalated, not masked as slop findings."
+    }
+  },
+  "generalization_score": 7,
+  "generalization_rationale": "Two clean samples (trades + professional) both hit readability pass with category-appropriate accent colors (trades: #2563EB blue, professional: implicit neutral) and produce distinct copy per vertical. Third sample infra-blocked so full 3-way generalization unverified. Conservative 7 = 'all three pass validation but feel like the same template'; upgrade to 8 if personal sample reruns cleanly after credits topped up.",
+  "notes": "Schema + structural checks PASS. Two of three smoke tests PASS readability + produce valid HTML. Both passing samples score 14/15 on validation because templates/ULTIMATE_TEMPLATE.html intentionally omits a contact form in favour of tel-CTA primacy — but generate.py still gates on `has_contact_form`. Systemic 14/15 on every build unless template adds a form OR validation drops the check. Third sample blocked by OpenRouter 402 credit exhaustion, not template. Verdict: fix_then_ship — engineer adds minimal contact form to ULTIMATE_TEMPLATE.html using COPY.md §8 microcopy bank, then re-run full smoke test (including rerun of personal sample after credits topped up) for ship verdict. Samples cached at .claude/skills/template-critique/samples/{trades,professional,personal}.json. Original business_details.json restored from _workspace/template/business_details_backup.json."
+}
